@@ -1,6 +1,28 @@
 # Snowflake: setup, authentication and verification
 
-## What the names mean
+## View loaded data
+
+In Snowflake's web interface (Snowsight), open a SQL worksheet and run:
+
+```sql
+USE ROLE INTERVIEW_ROLE;
+USE WAREHOUSE COMPUTE_WH;
+SELECT * FROM INTERVIEW_DB.RAW.SAMPLE_TABLE;
+SELECT * FROM INTERVIEW_DB.ANALYTICS.MY_FIRST_DBT_MODEL;
+SELECT * FROM INTERVIEW_DB.ANALYTICS.MY_SECOND_DBT_MODEL;
+```
+
+The Results grid shows the rows. `SAMPLE_TABLE` contains the two synthetic rows from `data/practice.csv`. `_DLT_*` tables and columns track ingestion; `RAW_STAGING` is dlt's merge workspace. The loaded source rows belong in `RAW`.
+
+To load actual oilfield data, run from `main/`:
+
+```bash
+python -m Ingestion.run Ingestion/volve_wireline_gr.example.yml
+```
+
+Then query `SELECT * FROM INTERVIEW_DB.RAW.VOLVE_WIRELINE_GR LIMIT 100;` in the worksheet. This loads the supplied 1,245-row wireline dataset into its own table. Preview commands alone do not load anything. Default dbt models still read `SAMPLE_TABLE`; adapting them to wireline data requires selecting that source and writing the intended transformations.
+
+## Connection settings
 
 | Setting | Purpose | Current value |
 |---|---|---|
@@ -10,7 +32,7 @@
 | Schema | Groups tables inside the database | `RAW` for ingestion; `ANALYTICS` for dbt |
 | Role | Permissions for the signed-in user | `INTERVIEW_ROLE`, created and assigned by setup |
 
-A profile selects these objects; it does not create them. Local scripts have been prepared, but cloud creation and login are not verified in this session: package downloads are blocked by DNS and the connector is absent.
+A profile selects these objects; it does not create them. The connector is installed. Successful cloud login and provisioning still require verification; having a populated profile alone does not establish either.
 
 ## Create the database and role once
 
@@ -22,6 +44,8 @@ Open [sql/000_bootstrap.sql](sql/000_bootstrap.sql) in a Snowsight SQL worksheet
 4. Switches to `INTERVIEW_ROLE`, disables secondary roles for the checks, and verifies temporary-table writes in RAW and ANALYTICS. The final row should contain `INTERVIEW_ROLE, 1, 1`.
 
 It reuses `COMPUTE_WH` and creates no warehouse or new user. It also checks the staging-schema permission needed by dlt. If your login lacks the admin roles, an account administrator must run the provisioning steps and grant `INTERVIEW_ROLE` to your actual login as well.
+
+If an earlier setup attempt reported `Unsupported feature 'assignment from non-constant source expression'`, rerun `python Snowflake/connection.py --setup` with the corrected script. Generated temporary-table names now use `SET ... = (SELECT ...)`, following [Snowflake's query-based variable assignment](https://docs.snowflake.com/en/sql-reference/session-variables). Earlier successful role/database grants remain in place after a later SQL failure. Repeating this setup preserves existing objects and uses new temporary test tables. A normal connection succeeding proves access, but the final `INTERVIEW_ROLE, 1, 1` result is still needed to verify both write checks.
 
 Your [RBAC lab](../snowflake_rbac_lab.sql) demonstrates the same object → privileges → user pattern. Its analyst role has read access; ingestion/dbt need permission to create and modify their own output tables. We do not run the lab's separate user creation as part of this setup. RBAC means **role-based access control**: authentication proves identity, while role grants control permitted actions.
 
@@ -53,6 +77,38 @@ python Snowflake/connection.py --dbt debug
 `--login-only` omits the interview database/role so it can test authentication before setup. `--setup` connects with your existing ACCOUNTADMIN access and runs the fixed setup SQL. With no options, the helper selects the working role/database/schema and prints the session context.
 
 `--dbt debug` loads `.env`, then launches `.venv/bin/dbt` against this workspace. Direct `dbt` commands do not automatically read `.env`; use this launcher for `build`, `test`, `parse` and other project commands too. Ingestion loads the same profile and environment itself.
+
+### If login says “Incorrect username or password”
+
+This is an authentication rejection. `--login-only` does not select the interview role, database, schema or warehouse, so creating those objects will not resolve this error. A configured password can still be the wrong credential for the selected account/user.
+
+Sign into the intended account in Snowsight. In a worksheet, run this statement on its own:
+
+```sql
+SELECT CURRENT_ORGANIZATION_NAME() || '-' || CURRENT_ACCOUNT_NAME() AS ACCOUNT_IDENTIFIER,
+       CURRENT_USER() AS USER_OBJECT_NAME;
+```
+
+Then highlight and run only this statement, and inspect its result grid directly:
+
+```sql
+SHOW USERS;
+```
+
+Find the row whose `name` matches `USER_OBJECT_NAME` above. Compare `ACCOUNT_IDENTIFIER` with the profile's `account` and that row's `login_name` with its `user`. A display name/email/user object name is not necessarily the login name. If `login_name` is NULL, the active role may lack permission to view it; use your existing account-administration role or ask the administrator to check. [Snowflake SHOW USERS reference](https://docs.snowflake.com/en/sql-reference/sql/show-users).
+
+Do not run the earlier `RESULT_SCAN(LAST_QUERY_ID())` filter: it depends on which query ran immediately before it. If it scans a different result, columns such as `"name"` may not exist and produce an invalid-identifier error.
+
+Verify the actual Snowflake password for that same account in a fresh browser sign-in; an existing browser session does not verify the current password. If you use SSO, an identity-provider password is not necessarily a Snowflake password: configure the supported SSO flow instead. Keep the credential only in `main/.env`, never in chat or a SQL worksheet. A quoted `.env` value protects spaces and `#`; quotes are parsed by python-dotenv.
+
+After correcting the local values, retry from `main/`:
+
+```bash
+unset SNOWFLAKE_PASSWORD
+python Snowflake/connection.py --login-only
+```
+
+`unset` clears only this shell's exported value, allowing the script to read the updated `.env`; it does not delete the file entry. Existing exported values otherwise take precedence. Complete the configured MFA step when requested. Proceed to the normal connection and dbt checks only after login succeeds.
 
 ## Unattended login for Airflow and streaming
 

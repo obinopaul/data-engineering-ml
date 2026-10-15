@@ -1,13 +1,29 @@
 # Airflow
 
+## Start and log in
+
 From `main/`, run:
 
 ```bash
 source .venv/bin/activate
-bash Airflow/start.sh
+AIRFLOW__API__PORT=8081 bash Airflow/start.sh
 ```
 
-Open the URL printed in the terminal and use the login information Airflow provides. Trigger a DAG manually:
+Keep this terminal running and wait for startup. Open **[http://localhost:8081](http://localhost:8081)** in your browser (including your Windows browser when running Airflow in WSL). Use HTTP, not HTTPS. If needed, try **[http://127.0.0.1:8081](http://127.0.0.1:8081)**. The printed `0.0.0.0` is a listening address, not the browser address.
+
+**Username: `admin`.** Airflow automatically generates the password on first startup and saves it for later runs. In a **second terminal**, from `main/`, retrieve it:
+
+```bash
+cat .cache/airflow/simple_auth_manager_passwords.json.generated
+```
+
+The output looks like `{"admin": "your-generated-password"}`. Enter the value beside `admin`, without quotes, as the password. You do not need to generate a new password each time. These are Airflow credentials, separate from your Snowflake login.
+
+Port **8081** worked on this machine; port 8080 showed another service or a Bad Request response. If Airflow is already running on 8080, stop that terminal with **Ctrl+C**, then restart using the command above. The port setting applies to that command only and still uses the same `.venv`. If the password file is missing, check that startup completed and inspect the terminal for errors or a different password-file path.
+
+## Run a DAG
+
+After logging in, trigger a DAG manually:
 
 - `interview_task_dependencies`: a small example of task ordering and parallel tasks.
 - `interview_dbt`: checks the dbt connection, then runs its models and tests. Complete [dbt setup](../dbt/README.md) first. Use key-pair authentication for unattended runs.
@@ -27,7 +43,7 @@ A **directed acyclic graph** describes tasks and dependencies. Its Python file l
 
 There are two different logins:
 
-1. **Airflow UI:** `start.sh` launches local standalone Airflow with its Simple auth manager. Use the URL and generated login shown by that process. `owner='interview'` is metadata, not a username/password. Simple auth is intended for development; production needs an appropriate auth manager and access controls.
+1. **Airflow UI:** `start.sh` launches local standalone Airflow with its Simple auth manager. Use `admin` and the saved password as described above. `owner='interview'` is metadata, not a username/password. Simple auth is intended for development; production needs an appropriate auth manager and access controls.
 2. **Task → Snowflake:** existing ingestion/dbt tasks call scripts that load `main/.env` and `dbt/profiles.yml` through `Snowflake/connection.py`. The worker needs access to those local files. This workspace does not additionally require an Airflow Connection for those Bash tasks. Use unattended key-pair authentication before scheduling them.
 
 For a native Snowflake operator/hook, create an Airflow Connection named `snowflake_interview` (type Snowflake) in the UI's Connections screen, or supply it through a supported secrets backend. Configure account, login, role, warehouse, database and private-key authentication there. A hook would then use `SnowflakeHook(snowflake_conn_id='snowflake_interview').get_first('SELECT CURRENT_ROLE()')` **inside a task**. The connection ID is a lookup name; it does not provision the role or grant database access. Do not place credentials directly in a DAG file. [Airflow connections](https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html), [Simple auth](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/auth-manager/simple/index.html).

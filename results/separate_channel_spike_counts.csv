@@ -1,0 +1,11 @@
+stage,channel,spike_episodes,downward_starts,upward_starts,stationary_starts,unclear_starts
+36,TVOLT,13,0,12,1,0
+36,TCURR,18,0,17,1,0
+37,TVOLT,13,0,12,1,0
+37,TCURR,13,0,12,1,0
+38,TVOLT,13,0,12,1,0
+38,TCURR,14,0,13,1,0
+39,TVOLT,12,0,11,1,0
+39,TCURR,12,0,11,1,0
+40,TVOLT,13,0,12,1,0
+40,TCURR,13,0,12,1,0

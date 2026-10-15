@@ -31,6 +31,8 @@ The demo uses tiny **synthetic seeds**, not the real oilfield datasets. It needs
 
 The existing ingestion/Airflow commands remain on the starter workload. A different profile schema prefixes the demo/events schemas. Your role needs permission to create these schemas; the existing bootstrap grants it. Do not run concurrent builds against the same workload/schema.
 
+Plain `python Snowflake/connection.py --dbt debug` needs no `--vars` flag. Project-level expressions explicitly default to `starter`, because this dbt version's debug loader renders them before the project's `vars:` defaults are available. Use `--vars '{workload: demo}'` or `--vars '{workload: events}'` to switch workloads; no new environment variable is required.
+
 For real data, first follow [INPUT_CONTRACT.md](INPUT_CONTRACT.md), then:
 
 ```bash

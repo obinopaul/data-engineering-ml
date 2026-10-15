@@ -8,6 +8,8 @@ Use `main/.venv` and `python Snowflake/connection.py --dbt ...` from `main/`. Pr
 
 `workload: starter` enables the original two models. `demo` enables synthetic seeds and the event pipeline; `events` uses configured RAW sources. Demo and real models use separate schemas derived from `target.schema`. Preserve these boundaries and do not start warehouse writes or schedules merely to validate a code change.
 
+Keep `var('workload', 'starter')` fallbacks in project-level expressions: the debug loader renders before project vars are available. Keep those fallbacks aligned with `vars.workload`; switch workloads using CLI `--vars`. Run `python -m unittest discover -s dbt -p 'test_*.py'` from `main/` to check the strict debug-loading path and resource/schema isolation without Snowflake.
+
 ## Model conventions
 
 Use `source()` for RAW inputs and `ref()` for dependencies. Staging normalizes types and field names; intermediate models deduplicate; dimensions define entity grain; facts merge by stable event ID; marts aggregate by entity/day/type. Every model should declare grain and test its keys. Keep real wireline depth frames distinct from timestamped telemetry.

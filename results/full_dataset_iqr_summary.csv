@@ -1,0 +1,11 @@
+stage,sensor,units,total_rows,valid_rows,missing_rows,zero_rows,mean,std,min,q1,median,q3,max,iqr,lower_fence,upper_fence,observed_inlier_min,observed_inlier_max,outlier_rows,outlier_percent,iqr_degenerate,scope,rule
+36,TVOLT,V,69995,69995,0,69856,0.28529894992499466,6.822545037640402,0.0,0.0,0.0,0.0,220.2,0.0,0.0,0.0,0.0,0.0,139,0.19858561325808988,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+36,TCURR,mA,69995,69995,0,69862,0.9367497678405601,29.87316480302879,0.0,0.0,0.0,0.0,1092.7,0.0,0.0,0.0,0.0,0.0,133,0.19001357239802844,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+37,TVOLT,V,45641,45641,0,45494,0.44487193532131203,8.409408573002478,0.0,0.0,0.0,0.0,221.6,0.0,0.0,0.0,0.0,0.0,147,0.32207883262855763,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+37,TCURR,mA,45641,45641,0,45495,1.630597489099713,39.80853595187901,0.0,0.0,0.0,0.0,1088.6,0.0,0.0,0.0,0.0,0.0,146,0.3198878201616967,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+38,TVOLT,V,52231,52231,0,52088,0.3833068484233501,7.780233420297146,0.0,0.0,0.0,0.0,211.1,0.0,0.0,0.0,0.0,0.0,143,0.2737837682602286,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+38,TCURR,mA,52231,52231,0,52090,1.2819819647335873,34.88046801137908,0.0,0.0,0.0,0.0,1112.8,0.0,0.0,0.0,0.0,0.0,141,0.2699546246481974,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+39,TVOLT,V,65076,65076,0,64888,0.44320025815969016,8.688141392858485,0.0,0.0,0.0,0.0,227.0,0.0,0.0,0.0,0.0,0.0,188,0.28889298666174934,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+39,TCURR,mA,65076,65076,0,64888,1.8454929620751122,42.22239153523676,0.0,0.0,0.0,0.0,1104.8,0.0,0.0,0.0,0.0,0.0,188,0.28889298666174934,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+40,TVOLT,V,71811,71811,0,71606,0.4355043099246634,8.62014894342732,0.0,0.0,0.0,0.0,254.0,0.0,0.0,0.0,0.0,0.0,205,0.28547158513319687,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR
+40,TCURR,mA,71811,71811,0,71609,1.680379050563284,40.09859889913033,0.0,0.0,0.0,0.0,1104.8,0.0,0.0,0.0,0.0,0.0,202,0.2812939521800281,True,"all stage rows, zeros included",value < Q1-1.5*IQR or value > Q3+1.5*IQR

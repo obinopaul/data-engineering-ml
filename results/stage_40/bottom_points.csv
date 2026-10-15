@@ -1,0 +1,4 @@
+time_utc,frame_seq,device_id,ADPTH,LTEN,LSPD,TVOLT,TCURR,CCL,source_row,depth_change_ft,depth_trend_ft,movement,travel_phase,TVOLT_active,TVOLT_departure_from_zero,TVOLT_threshold,TVOLT_change_from_previous,TVOLT_abs_change_from_previous,TCURR_active,TCURR_departure_from_zero,TCURR_threshold,TCURR_change_from_previous,TCURR_abs_change_from_previous,BOTH_active,ANY_active,TVOLT_episode,TCURR_episode,BOTH_episode,stage
+2025-09-09 18:18:54.689000+00:00,1,TRUCK-PC-01,12946.5,902,-0.3,0.0,0.0,-0.0,59568,0.1000000000003638,0.0,stationary,bottom_plateau,False,0.0,0.0,0.0,0.0,False,0.0,0.0,0.0,0.0,False,False,,,,40
+2025-09-09 18:18:54.798000+00:00,1,TRUCK-PC-01,12946.5,902,-0.3,0.0,0.0,0.0,59569,0.0,0.0,stationary,bottom_plateau,False,0.0,0.0,0.0,0.0,False,0.0,0.0,0.0,0.0,False,False,,,,40
+2025-09-09 18:18:54.909000+00:00,1,TRUCK-PC-01,12946.5,919,-0.3,0.0,0.0,0.0,59570,0.0,0.0,stationary,bottom_plateau,False,0.0,0.0,0.0,0.0,False,0.0,0.0,0.0,0.0,False,False,,,,40

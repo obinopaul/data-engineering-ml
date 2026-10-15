@@ -13,7 +13,7 @@ jupyter lab oilfield_ml_case_study.ipynb
 python Airflow/run_study.py
 ```
 
-Use the `main/.venv` kernel. The headless command writes `.cache/oilfield_ml/study.executed.ipynb`, plots, model files and prediction CSVs. [PowerBI/README.md](PowerBI/README.md) has three existing reports/templates and Snowflake connection steps. For orchestration, `bash Airflow/start.sh`, then manually trigger `interview_oilfield_ml`. [Airflow/README.md](Airflow/README.md) explains UI login versus Snowflake task credentials. Local study execution makes no cloud writes.
+Use the `main/.venv` kernel. The headless command writes `.cache/oilfield_ml/study.executed.ipynb`, plots, model files and prediction CSVs. [PowerBI/README.md](PowerBI/README.md) has three existing reports/templates and Snowflake connection steps. For orchestration, `AIRFLOW__API__PORT=8081 bash Airflow/start.sh`, then manually trigger `interview_oilfield_ml`. [Airflow/README.md](Airflow/README.md#start-and-log-in) gives the browser URL and login steps. Local study execution makes no cloud writes.
 
 ## Prepare once
 
@@ -61,6 +61,8 @@ python -m Ingestion.run Ingestion/pipeline.yml --preview 5
 python -m Ingestion.run Ingestion/pipeline.yml
 python Snowflake/connection.py --dbt build
 ```
+
+**See the rows:** in a Snowflake SQL worksheet, run `SELECT * FROM INTERVIEW_DB.RAW.SAMPLE_TABLE;`. Its two rows are synthetic practice data. `_DLT_*` tables track loads; `RAW_STAGING` is a merge workspace. To load actual wireline data, run `python -m Ingestion.run Ingestion/volve_wireline_gr.example.yml`, then query `SELECT * FROM INTERVIEW_DB.RAW.VOLVE_WIRELINE_GR LIMIT 100;`. Default dbt models still read `SAMPLE_TABLE`. [Viewing data and selecting a role/warehouse](Snowflake/README.md#view-loaded-data).
 
 For REST, copy `Ingestion/api.example.yml` to `Ingestion/api.yml`, set the endpoint, response selector and pagination, then substitute that filename in the commands above. **Examples contain placeholders.** [Ingestion guide](Ingestion/README.md) covers CSV, Excel, Parquet, JSONL, URLs, SQL/ODBC, authentication and a tiny practice file.
 
@@ -112,11 +114,13 @@ Activate `.venv` in each new terminal. No reinstall is needed after successful s
 | Tool | Command / next action |
 |---|---|
 | ML notebooks | `jupyter lab interview_starter.ipynb` |
-| Airflow | `bash Airflow/start.sh`, then open its printed URL/login |
+| Airflow | `AIRFLOW__API__PORT=8081 bash Airflow/start.sh`; open [http://localhost:8081](http://localhost:8081), username `admin` |
 | File/API ELT DAG | Trigger `interview_elt` after configuring `Ingestion/pipeline.yml` |
 | Streaming DAG | Trigger `interview_api_stream`; API → Kafka → Spark/load → dbt |
 | Spark shell | `pyspark --master 'local[2]'` |
 | File preview app | `streamlit run Streamlit/app.py` |
+
+**Airflow password:** generated automatically on first startup. In another terminal, from `main/`, run `cat .cache/airflow/simple_auth_manager_passwords.json.generated` and use the value beside `admin`. Keep the Airflow terminal running; stop with Ctrl+C. [Full startup/login steps](Airflow/README.md#start-and-log-in).
 
 DAGs start **manual** and use unattended Snowflake authentication. The streaming DAG runs a bounded cycle; change its schedule after a successful rehearsal. Do not run it alongside the continuous Spark consumer with the same checkpoint. ML prediction and Power BI remain assessment-specific additions, not automatic parts of this starter.
 

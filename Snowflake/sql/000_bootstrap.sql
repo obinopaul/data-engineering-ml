@@ -24,7 +24,7 @@ GRANT USAGE, CREATE TABLE, CREATE VIEW
     ON SCHEMA INTERVIEW_DB.ANALYTICS TO ROLE INTERVIEW_ROLE;
 
 -- Quote the current user's exact identifier, including mixed case if present.
-SET interview_user_identifier = '"' || REPLACE(CURRENT_USER(), '"', '""') || '"';
+SET interview_user_identifier = (SELECT '"' || REPLACE(CURRENT_USER(), '"', '""') || '"');
 GRANT ROLE INTERVIEW_ROLE TO USER IDENTIFIER($interview_user_identifier);
 
 -- Verify using only the intended working role, without inherited secondary roles.
@@ -37,8 +37,10 @@ USE SCHEMA ANALYTICS;
 -- dlt merge loads need a staging schema; exercise the CREATE SCHEMA grant.
 CREATE SCHEMA IF NOT EXISTS INTERVIEW_DB.RAW_STAGING;
 -- Temporary tables disappear when this session ends; no business table is replaced.
-SET raw_check = 'INTERVIEW_DB.RAW._SETUP_' || REPLACE(UUID_STRING(), '-', '_');
-SET analytics_check = 'INTERVIEW_DB.ANALYTICS._SETUP_' || REPLACE(UUID_STRING(), '-', '_');
+-- Evaluate generated values in a scalar query: direct SET expressions reject
+-- non-constant functions such as UUID_STRING(). Keep names unique on every run.
+SET raw_check = (SELECT 'INTERVIEW_DB.RAW._SETUP_' || REPLACE(UUID_STRING(), '-', '_'));
+SET analytics_check = (SELECT 'INTERVIEW_DB.ANALYTICS._SETUP_' || REPLACE(UUID_STRING(), '-', '_'));
 CREATE TEMPORARY TABLE IDENTIFIER($raw_check) (id INTEGER);
 CREATE TEMPORARY TABLE IDENTIFIER($analytics_check) (id INTEGER);
 INSERT INTO IDENTIFIER($raw_check) VALUES (1);

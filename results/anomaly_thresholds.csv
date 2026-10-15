@@ -1,0 +1,11 @@
+stage,sensor,units,baseline,actual_rule,actual_threshold,previous_reading_change_used,previous_reading_change_threshold,max_episode_gap_seconds,depth_cutoff_ft,bottom_depth_ft,rows,flagged_rows,q1,median,q3,iqr,iqr_lower_fence,iqr_upper_fence,iqr_degenerate,iqr_used_for_detection,iqr_outlier_rows_diagnostic_only,largest_abs_step
+36,TVOLT,V,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,10886.5,13886.5,9400,139,0.0,0.0,0.0,0.0,0.0,0.0,True,False,139,220.2
+36,TCURR,mA,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,10886.5,13886.5,9400,133,0.0,0.0,0.0,0.0,0.0,0.0,True,False,133,1092.7
+37,TVOLT,V,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,10644.2,13644.2,8296,147,0.0,0.0,0.0,0.0,0.0,0.0,True,False,147,221.6
+37,TCURR,mA,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,10644.2,13644.2,8296,146,0.0,0.0,0.0,0.0,0.0,0.0,True,False,146,1088.6
+38,TVOLT,V,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,10412.2,13412.2,8106,143,0.0,0.0,0.0,0.0,0.0,0.0,True,False,143,211.1
+38,TCURR,mA,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,10412.2,13412.2,8106,141,0.0,0.0,0.0,0.0,0.0,0.0,True,False,141,1096.7
+39,TVOLT,V,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,10183.0,13183.0,11301,188,0.0,0.0,0.0,0.0,0.0,0.0,True,False,188,227.0
+39,TCURR,mA,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,10183.0,13183.0,11301,188,0.0,0.0,0.0,0.0,0.0,0.0,True,False,188,1072.5
+40,TVOLT,V,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,9946.5,12946.5,7033,205,0.0,0.0,0.0,0.0,0.0,0.0,True,False,205,254.0
+40,TCURR,mA,0.0,abs(value - baseline) > threshold,0.0,False,,2.0,9946.5,12946.5,7033,202,0.0,0.0,0.0,0.0,0.0,0.0,True,False,202,1100.7

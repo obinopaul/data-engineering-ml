@@ -12,19 +12,20 @@ snapshot-paths: [snapshots]
 clean-targets: [target, dbt_packages]
 vars:
   # starter preserves existing commands; demo uses seeds; events reads RAW inputs.
+  # Keep the inline starter fallbacks below in sync with this default.
   workload: starter
   event_lookback_days: 3
 models:
   dbt_project:
     +persist_docs: {relation: true, columns: true}
     example:
-      +enabled: "{{ var('workload') == 'starter' }}"
+      +enabled: "{{ var('workload', 'starter') == 'starter' }}"
       +tags: [starter]
       +materialized: view
     events:
-      +enabled: "{{ var('workload') in ['demo', 'events'] }}"
+      +enabled: "{{ var('workload', 'starter') in ['demo', 'events'] }}"
       +tags: [events]
-      +schema: "{{ target.schema ~ '_' ~ var('workload') }}"
+      +schema: "{{ target.schema ~ '_' ~ var('workload', 'starter') }}"
       staging:
         +materialized: view
       intermediate:
@@ -35,25 +36,25 @@ models:
         +materialized: table
 seeds:
   dbt_project:
-    +schema: "{{ target.schema ~ '_' ~ var('workload') }}"
+    +schema: "{{ target.schema ~ '_' ~ var('workload', 'starter') }}"
     +quote_columns: false
     +tags: [events]
     demo:
-      +enabled: "{{ var('workload') == 'demo' }}"
+      +enabled: "{{ var('workload', 'starter') == 'demo' }}"
       +column_types:
         event_id: varchar
         entity_id: varchar
         event_at: varchar
         updated_at: varchar
     reference:
-      +enabled: "{{ var('workload') in ['demo', 'events'] }}"
+      +enabled: "{{ var('workload', 'starter') in ['demo', 'events'] }}"
 snapshots:
   dbt_project:
-    +enabled: "{{ var('workload') in ['demo', 'events'] }}"
-    +schema: "{{ target.schema ~ '_' ~ var('workload') }}"
+    +enabled: "{{ var('workload', 'starter') in ['demo', 'events'] }}"
+    +schema: "{{ target.schema ~ '_' ~ var('workload', 'starter') }}"
     +tags: [events, history]
 data_tests:
   dbt_project:
     events:
-      +enabled: "{{ var('workload') in ['demo', 'events'] }}"
+      +enabled: "{{ var('workload', 'starter') in ['demo', 'events'] }}"
       +tags: [events]
