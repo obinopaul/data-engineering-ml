@@ -1,0 +1,22 @@
+# Copy to api.yml. Replace the URL, path, selector and pagination contract.
+pipeline_name: interview_api
+dataset: raw
+table: sample_table
+primary_key: id
+write_disposition: merge
+stream:
+  broker: localhost:9092
+  topic: interview
+  schema_file: Spark/event_schema.example.json  # adapt to the supplied event fields
+source:
+  type: rest
+  base_url: https://api.example.com/
+  # token_env: SOURCE_API_TOKEN   # omit for a public API
+  endpoint:
+    path: records
+    data_selector: data          # {"data": [{"id": 1, ...}], "next": "..."}
+    paginator:
+      type: json_link
+      next_url_path: next        # replace with your API's actual contract
+    # For a single JSON array response: data_selector: '$', paginator: single_page
+    # params: {limit: 100}        # use only parameters supported by the API

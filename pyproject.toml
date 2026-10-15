@@ -1,0 +1,143 @@
+[project]
+name = "ThreeWToolkit"
+version = "3.2.1"
+description = "A modular and open-source AI toolkit for time-series processing, aimed at fault detection and classification in oil well operation"
+readme = { file = "ThreeWToolkit/README.md", content-type = "text/markdown" }
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Ricardo Emanuel Vaz Vargas", email = "ricardo.vargas@petrobras.com.br" },
+]
+requires-python = ">=3.10"
+keywords = [
+    "machine-learning",
+    "time-series",
+    "fault-detection",
+    "oil-wells",
+    "classification",
+    "petroleum",
+    "data-science",
+    "artificial-intelligence",
+]
+dependencies = [
+    "numpy>=1.26.4",
+    "scipy>=1.15.2",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "matplotlib>=3.10.1",
+    "seaborn>=0.13.2",
+    "plotly>=6.0.0",
+    "imbalanced-learn>=0.13.0",
+    "ipykernel>=6.29.5",
+    "ipywidgets==8.1.7",
+    "jupyter-client==8.6.3",
+    "jupyter-core==5.8.1",
+    "tornado>=6.5.5,<7",
+    "Pillow>=11.0.0",
+    "scikit-image>=0.25.2",
+    "torch>=2.7.0",
+    "torchvision>=0.22.0",
+    "torchmetrics>=1.6.2",
+    "timm>=1.0.15",
+    "tqdm>=4.67.1",
+    "pydantic>=2.11",
+    "PyWavelets>=1.8.0",
+    "pyarrow>=20.0.0",
+    "pylatex>=1.4.2",
+    "statsmodels>=0.14.5",
+    "requests>=2.31,<3",
+    "nbconvert",
+    "nbformat",
+    "dtaidistance>=2.3",
+    "joblib>=1.0",
+    # All interview tools share this project's .venv.
+    "jupyterlab>=4,<5",
+    "apache-airflow==3.3.2",
+    "apache-airflow-providers-standard",
+    "apache-airflow-providers-snowflake",
+    "apache-airflow-providers-postgres",
+    "dbt-core>=1.12,<2",
+    "dbt-snowflake>=1.11,<2",
+    "snowflake-connector-python[pandas]>=3.18,<5",
+    "snowflake-snowpark-python>=1.30,<2",
+    "pyspark==4.2.0",
+    "confluent-kafka>=2.6,<3",
+    "streamlit>=1.45,<2",
+    "PyYAML>=6,<7",
+    "python-dotenv>=1,<2",
+    # Existing dlt readers/loaders; adapters live in Ingestion/.
+    "dlt[snowflake,sql_database]==1.31.0",
+    "PyJWT[crypto]>=2.10,<3",
+    "openpyxl>=3.1.5,<4",
+    "pyodbc>=5.2,<6",
+]
+
+[project.urls]
+Homepage = "https://github.com/petrobras/3W"
+Repository = "https://github.com/petrobras/3W"
+Documentation = "https://github.com/petrobras/3W"
+"Bug Tracker" = "https://github.com/petrobras/3W/issues"
+"Source Code" = "https://github.com/petrobras/3W"
+Changelog = "https://github.com/petrobras/3W/releases"
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.19.1",
+    "ruff>=0.14.13,<0.16",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "jupyter",
+    "uv",
+    "types-requests>=2.32.4.20250611",
+    "coverage>=7.8.1",
+    "pytest-mock>=3.14.1",
+]
+docs = [
+    "mkdocs",
+    "mkdocstrings[python]",
+    "sphinx",
+]
+images = [
+    "geonamescache>=2.0.0",
+    "svgwrite>=1.4.3",
+    "openpyxl>=3.1.5",
+    "kaleido>=1.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ThreeWToolkit*"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["dataset/*"] 
+
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.run]
+source = ["ThreeWToolkit/"]
+branch = true
+omit = ["*/__init__.py"]
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.10"
+mypy_path = "ThreeWToolkit/"
+ignore_missing_imports = true
+
+# NumPy >=2.5 stubs use PEP 695 `type` statements; mypy rejects those when
+# python_version < 3.12. Skip numpy stubs so the 3.10 target stays intact.
+[[tool.mypy.overrides]]
+module = ["numpy", "numpy.*"]
+follow_imports = "skip"
+follow_imports_for_stubs = true

@@ -1,0 +1,10 @@
+pipeline_name: threew_real_events
+dataset: raw
+table: threew_real_events
+primary_key: id
+write_disposition: merge
+source:
+  type: files
+  location: data
+  glob: threew_real_events.parquet
+  format: parquet

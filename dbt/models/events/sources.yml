@@ -1,0 +1,18 @@
+version: 2
+sources:
+  - name: event_raw
+    description: "Normalized input contract; map vendor/file columns into these fields first."
+    database: "{{ var('source_database', target.database) }}"
+    schema: "{{ var('source_schema', 'RAW') }}"
+    config:
+      enabled: "{{ var('workload') == 'events' }}"
+    tables:
+      - name: events
+        identifier: "{{ var('events_table', 'EVENTS') }}"
+        description: "Event versions with a stable event_id and reliable updated_at."
+        config:
+          loaded_at_field: "{{ var('events_loaded_at_field', none) }}"
+          freshness: "{{ var('events_freshness', none) }}"
+      - name: entities
+        identifier: "{{ var('entities_table', 'ENTITIES') }}"
+        description: "Entity master records or retained versions, including status."

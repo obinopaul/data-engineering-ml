@@ -1,0 +1,10 @@
+pipeline_name: force2020_casing
+dataset: raw
+table: force2020_casing
+primary_key: id
+write_disposition: merge
+source:
+  type: files
+  location: data
+  glob: force2020_casing.csv
+  format: csv

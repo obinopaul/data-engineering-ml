@@ -1,0 +1,8 @@
+-- Adapted setup excerpt; see ../README.md. Review names/grants before executing.
+USE ROLE SYSADMIN;
+
+CREATE WAREHOUSE IF NOT EXISTS INTERVIEW_WH
+    WAREHOUSE_SIZE = 'XSMALL'
+    AUTO_SUSPEND = 60
+    AUTO_RESUME = TRUE
+    INITIALLY_SUSPENDED = TRUE;

@@ -1,0 +1,7 @@
+selectors:
+  - name: starter
+    description: Existing single-table ingestion smoke test.
+    definition: {method: tag, value: starter}
+  - name: events
+    description: Select event resources with workload demo or events enabled.
+    definition: {method: tag, value: events}

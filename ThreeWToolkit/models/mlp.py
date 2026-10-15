@@ -1,0 +1,91 @@
+import logging
+from typing import Sequence
+
+from pydantic import Field, PrivateAttr, field_validator, ConfigDict
+import torch
+import torch.nn as nn
+
+from ..core.base_models import ParamsT
+from .torch_models import TorchModels, TorchModelsConfig
+
+logger = logging.getLogger(__name__)
+
+
+class MLPConfig(TorchModelsConfig):
+    """MLP configuration. Use with TorchTrainer for training."""
+
+    model_type: type["MLP"] = Field(
+        default_factory=lambda: MLP, description="Type of model to use."
+    )
+    hidden_sizes: Sequence[int] = Field(
+        ..., min_length=1, description="Tuple of hidden layer sizes."
+    )
+    activation_function: nn.Module = Field(
+        default=nn.ReLU(),
+        description="PyTorch activation function module (e.g., ReLU, Tanh, Sigmoid) applied to hidden layers.",
+    )
+
+    input_size: int | None = Field(
+        default=None, description="Ignored. This module uses lazy-initialized modules."
+    )
+    model_config = ConfigDict(arbitrary_types_allowed=True)
+    _target: type = PrivateAttr(default_factory=lambda: MLP)
+
+    @field_validator("hidden_sizes")
+    @classmethod
+    def check_hidden_sizes(cls, hidden_sizes: Sequence[int]) -> list[int]:
+        hidden_sizes = list(hidden_sizes)  # convert to list for easier validation
+        if any(h <= 0 for h in hidden_sizes):
+            raise ValueError("All hidden layer sizes must be > 0")
+        return hidden_sizes
+
+
+class MLP(TorchModels):
+    """Multi-Layer Perceptron. Use TorchTrainer for training."""
+
+    def __init__(self, config: MLPConfig) -> None:
+        """Initializes the MLP model with the given configuration.
+
+        Args:
+            config (MLPConfig): Configuration for the MLP model.
+        """
+        super().__init__()
+        self.config: MLPConfig = config
+        self.activation_func = self.config.activation_function
+        self.model: nn.Sequential | None = None
+
+        self._build_layers()
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        """Forward pass through the MLP model.
+
+        Args:
+            x (torch.Tensor): Input tensor.
+
+        Returns:
+            torch.Tensor: Output tensor.
+        """
+        assert self.model is not None
+        return self.model(x)
+
+    def _build_layers(self) -> None:
+        """Builds the MLP layers based on the configuration.
+        Uses LazyLinear layers to allow for flexible input sizes."""
+        layers: list[nn.Module] = []
+
+        for h in self.config.hidden_sizes:
+            layers.append(nn.LazyLinear(h))
+            layers.append(self.activation_func)
+
+        layers.append(nn.LazyLinear(self.config.output_size))
+        self.model = nn.Sequential(*layers)
+
+    def get_params(self) -> ParamsT:
+        """Returns the parameters of the MLP model for optimization.
+        If the model is not yet built (e.g., due to lazy initialization), returns a dummy parameter to allow optimization to proceed without errors.
+        """
+        if self.model is None:
+            if not hasattr(self, "_dummy_param"):
+                self._dummy_param = nn.Parameter(torch.tensor(0.0, requires_grad=True))
+            return [self._dummy_param]
+        return self.model.parameters()

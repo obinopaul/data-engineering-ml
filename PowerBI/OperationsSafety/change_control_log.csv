@@ -1,0 +1,1001 @@
+Change ID,System,Data Domain,Type,Status,Date,Owner
+CNG-0000,PI Historian,Production,Bulk Load,In Review,2023-12-12,user_0
+CNG-0001,PowerBI,Production,New Integration,Executed,2022-07-18,user_1
+CNG-0002,PowerBI,Operations,New Integration,Executed,2022-12-07,user_2
+CNG-0003,PI Historian,Operations,Bulk Load,Executed,2023-08-21,user_3
+CNG-0004,SharePoint,Production,Migration,In Review,2022-12-09,user_4
+CNG-0005,PI Historian,Maintenance,Bulk Load,Executed,2022-08-30,user_5
+CNG-0006,Maximo,Maintenance,Update,In Review,2022-10-13,user_6
+CNG-0007,Maximo,Production,New Integration,Executed,2023-03-16,user_7
+CNG-0008,PI Historian,Operations,Bulk Load,In Review,2022-07-22,user_8
+CNG-0009,SharePoint,Operations,New Integration,Executed,2024-02-16,user_9
+CNG-0010,PowerBI,Maintenance,Migration,Executed,2023-05-11,user_10
+CNG-0011,Maximo,Safety,New Integration,In Review,2023-03-05,user_11
+CNG-0012,Maximo,Maintenance,Bulk Load,Executed,2023-10-19,user_12
+CNG-0013,SharePoint,Safety,Migration,Planned,2023-08-23,user_13
+CNG-0014,Maximo,Operations,Migration,In Review,2022-01-26,user_14
+CNG-0015,Maximo,Operations,Migration,Executed,2022-12-04,user_15
+CNG-0016,SharePoint,Production,Update,In Review,2023-12-21,user_16
+CNG-0017,PI Historian,Operations,Bulk Load,Executed,2023-04-20,user_17
+CNG-0018,PowerBI,Safety,Bulk Load,Planned,2024-02-14,user_18
+CNG-0019,PowerBI,Maintenance,Migration,Executed,2024-02-20,user_19
+CNG-0020,Maximo,Production,New Integration,Executed,2022-07-10,user_20
+CNG-0021,PowerBI,Safety,Migration,Planned,2022-09-28,user_21
+CNG-0022,PI Historian,Maintenance,Update,In Review,2024-02-25,user_22
+CNG-0023,Maximo,Maintenance,Migration,Executed,2023-11-02,user_23
+CNG-0024,PowerBI,Maintenance,Bulk Load,Executed,2022-11-28,user_24
+CNG-0025,SAP,Operations,Migration,Planned,2023-04-18,user_25
+CNG-0026,SAP,Maintenance,New Integration,In Review,2022-01-15,user_26
+CNG-0027,SAP,Operations,Bulk Load,In Review,2023-03-22,user_27
+CNG-0028,SAP,Maintenance,New Integration,Planned,2022-12-25,user_28
+CNG-0029,SAP,Maintenance,Migration,Planned,2023-02-23,user_29
+CNG-0030,Maximo,Operations,Bulk Load,Executed,2022-04-17,user_30
+CNG-0031,SharePoint,Operations,Update,Planned,2022-08-03,user_31
+CNG-0032,SharePoint,Safety,Bulk Load,Planned,2022-10-27,user_32
+CNG-0033,Maximo,Maintenance,New Integration,Planned,2022-01-26,user_33
+CNG-0034,Maximo,Operations,Bulk Load,In Review,2023-06-21,user_34
+CNG-0035,PI Historian,Safety,Update,Planned,2022-11-23,user_35
+CNG-0036,SharePoint,Safety,Update,Executed,2022-09-06,user_36
+CNG-0037,SAP,Operations,Update,Executed,2022-04-25,user_37
+CNG-0038,Maximo,Maintenance,Update,Executed,2024-01-28,user_38
+CNG-0039,SAP,Safety,New Integration,Planned,2022-08-01,user_39
+CNG-0040,SharePoint,Maintenance,Bulk Load,In Review,2022-02-15,user_40
+CNG-0041,PowerBI,Maintenance,Migration,Planned,2022-09-16,user_41
+CNG-0042,PowerBI,Safety,Update,Planned,2022-09-17,user_42
+CNG-0043,Maximo,Operations,Migration,Executed,2022-07-24,user_43
+CNG-0044,PI Historian,Maintenance,Migration,Planned,2022-02-03,user_44
+CNG-0045,SAP,Production,Bulk Load,In Review,2022-05-30,user_45
+CNG-0046,Maximo,Operations,Migration,Executed,2022-03-13,user_46
+CNG-0047,PI Historian,Safety,Migration,In Review,2022-03-20,user_47
+CNG-0048,SAP,Production,New Integration,In Review,2023-06-14,user_48
+CNG-0049,SharePoint,Maintenance,Migration,In Review,2022-02-19,user_49
+CNG-0050,PowerBI,Operations,Bulk Load,Planned,2023-04-05,user_50
+CNG-0051,PI Historian,Production,Migration,Planned,2022-02-09,user_51
+CNG-0052,SAP,Operations,Bulk Load,Planned,2023-09-03,user_52
+CNG-0053,Maximo,Maintenance,Update,Planned,2023-04-14,user_53
+CNG-0054,SAP,Operations,Migration,Executed,2023-07-25,user_54
+CNG-0055,Maximo,Production,Migration,Planned,2023-04-15,user_55
+CNG-0056,PowerBI,Operations,Migration,Executed,2022-12-17,user_56
+CNG-0057,PowerBI,Safety,Update,In Review,2022-05-25,user_57
+CNG-0058,SAP,Safety,New Integration,Executed,2022-02-13,user_58
+CNG-0059,SAP,Production,Migration,Planned,2023-05-19,user_59
+CNG-0060,Maximo,Operations,Bulk Load,Executed,2023-01-25,user_60
+CNG-0061,Maximo,Production,New Integration,Planned,2024-01-17,user_61
+CNG-0062,PI Historian,Operations,New Integration,Planned,2024-01-09,user_62
+CNG-0063,PI Historian,Maintenance,New Integration,Executed,2022-05-02,user_63
+CNG-0064,PI Historian,Safety,Migration,Executed,2022-03-05,user_64
+CNG-0065,SAP,Maintenance,Update,In Review,2022-01-19,user_65
+CNG-0066,PI Historian,Operations,Update,In Review,2023-07-15,user_66
+CNG-0067,SAP,Maintenance,Migration,In Review,2022-01-31,user_67
+CNG-0068,PowerBI,Production,Bulk Load,In Review,2022-05-18,user_68
+CNG-0069,SharePoint,Production,Bulk Load,In Review,2024-01-29,user_69
+CNG-0070,PowerBI,Operations,Bulk Load,Executed,2023-05-27,user_70
+CNG-0071,SAP,Safety,Migration,In Review,2023-10-28,user_71
+CNG-0072,SAP,Production,Update,Executed,2022-10-16,user_72
+CNG-0073,SharePoint,Safety,Migration,In Review,2022-04-01,user_73
+CNG-0074,Maximo,Operations,Update,Planned,2022-04-27,user_74
+CNG-0075,Maximo,Safety,New Integration,In Review,2022-04-05,user_75
+CNG-0076,Maximo,Operations,Migration,Planned,2022-11-17,user_76
+CNG-0077,PI Historian,Maintenance,Update,Executed,2022-03-29,user_77
+CNG-0078,Maximo,Operations,New Integration,In Review,2022-01-13,user_78
+CNG-0079,PI Historian,Maintenance,New Integration,Executed,2023-09-29,user_79
+CNG-0080,PI Historian,Operations,Migration,In Review,2022-05-28,user_80
+CNG-0081,Maximo,Production,Update,Executed,2022-09-04,user_81
+CNG-0082,Maximo,Production,New Integration,In Review,2023-12-21,user_82
+CNG-0083,SharePoint,Safety,Migration,In Review,2023-05-30,user_83
+CNG-0084,SharePoint,Operations,New Integration,Planned,2024-02-21,user_84
+CNG-0085,PI Historian,Operations,Bulk Load,Executed,2022-08-11,user_85
+CNG-0086,SharePoint,Operations,Migration,Executed,2022-08-24,user_86
+CNG-0087,PI Historian,Safety,New Integration,Executed,2022-05-13,user_87
+CNG-0088,SAP,Production,Migration,Executed,2024-02-23,user_88
+CNG-0089,PI Historian,Operations,Migration,Executed,2024-01-11,user_89
+CNG-0090,PI Historian,Safety,Update,Planned,2023-06-17,user_90
+CNG-0091,SharePoint,Operations,Update,In Review,2023-12-22,user_91
+CNG-0092,SAP,Maintenance,New Integration,Planned,2023-11-07,user_92
+CNG-0093,PowerBI,Operations,Migration,Executed,2022-08-09,user_93
+CNG-0094,PowerBI,Maintenance,Migration,Executed,2023-12-08,user_94
+CNG-0095,PowerBI,Safety,Bulk Load,In Review,2024-02-28,user_95
+CNG-0096,SAP,Safety,Migration,Planned,2023-11-12,user_96
+CNG-0097,Maximo,Production,Update,In Review,2022-04-28,user_97
+CNG-0098,SAP,Operations,Migration,In Review,2022-03-19,user_98
+CNG-0099,SharePoint,Safety,Update,Planned,2024-02-17,user_99
+CNG-0100,PI Historian,Production,Bulk Load,In Review,2023-05-26,user_100
+CNG-0101,PI Historian,Operations,New Integration,Planned,2022-01-20,user_101
+CNG-0102,SharePoint,Safety,Update,Planned,2023-08-12,user_102
+CNG-0103,SharePoint,Maintenance,New Integration,Executed,2023-07-06,user_103
+CNG-0104,PI Historian,Safety,New Integration,In Review,2022-02-05,user_104
+CNG-0105,Maximo,Maintenance,New Integration,Executed,2023-05-23,user_105
+CNG-0106,Maximo,Production,New Integration,In Review,2022-05-04,user_106
+CNG-0107,Maximo,Production,Update,In Review,2023-09-14,user_107
+CNG-0108,SharePoint,Operations,Bulk Load,Executed,2023-10-15,user_108
+CNG-0109,PI Historian,Operations,Migration,Executed,2023-04-25,user_109
+CNG-0110,PI Historian,Operations,Update,Executed,2022-04-12,user_110
+CNG-0111,PI Historian,Production,Bulk Load,Planned,2023-11-25,user_111
+CNG-0112,SAP,Maintenance,Migration,In Review,2023-04-06,user_112
+CNG-0113,SAP,Operations,New Integration,Planned,2024-02-19,user_113
+CNG-0114,PowerBI,Operations,Migration,In Review,2024-02-29,user_114
+CNG-0115,SAP,Production,Migration,In Review,2022-12-26,user_115
+CNG-0116,Maximo,Maintenance,Bulk Load,Planned,2023-01-01,user_116
+CNG-0117,Maximo,Safety,Migration,Planned,2022-08-12,user_117
+CNG-0118,Maximo,Operations,New Integration,In Review,2022-06-28,user_118
+CNG-0119,Maximo,Safety,Update,Executed,2023-04-27,user_119
+CNG-0120,PowerBI,Safety,Update,Executed,2024-01-17,user_120
+CNG-0121,Maximo,Operations,Bulk Load,Executed,2022-08-25,user_121
+CNG-0122,SharePoint,Production,New Integration,Executed,2023-10-18,user_122
+CNG-0123,SharePoint,Operations,New Integration,In Review,2022-01-11,user_123
+CNG-0124,SharePoint,Maintenance,Migration,Executed,2023-08-13,user_124
+CNG-0125,SAP,Maintenance,Bulk Load,Executed,2023-10-10,user_125
+CNG-0126,PI Historian,Operations,New Integration,Executed,2023-10-05,user_126
+CNG-0127,PowerBI,Safety,New Integration,In Review,2022-11-15,user_127
+CNG-0128,SharePoint,Maintenance,New Integration,Planned,2022-03-27,user_128
+CNG-0129,SharePoint,Maintenance,Update,Executed,2023-09-01,user_129
+CNG-0130,Maximo,Operations,Update,In Review,2022-03-23,user_130
+CNG-0131,SharePoint,Operations,Update,In Review,2022-08-30,user_131
+CNG-0132,Maximo,Production,Migration,Executed,2022-06-02,user_132
+CNG-0133,Maximo,Operations,Migration,Planned,2023-01-31,user_133
+CNG-0134,PI Historian,Operations,Migration,Planned,2023-10-07,user_134
+CNG-0135,SAP,Maintenance,New Integration,Planned,2023-09-13,user_135
+CNG-0136,Maximo,Maintenance,Update,In Review,2022-01-13,user_136
+CNG-0137,Maximo,Maintenance,New Integration,Executed,2022-07-09,user_137
+CNG-0138,PI Historian,Safety,New Integration,Executed,2023-01-25,user_138
+CNG-0139,Maximo,Maintenance,Bulk Load,In Review,2022-06-24,user_139
+CNG-0140,PowerBI,Maintenance,New Integration,Executed,2022-10-10,user_140
+CNG-0141,SAP,Operations,Migration,Executed,2022-04-06,user_141
+CNG-0142,PowerBI,Production,Update,Planned,2023-04-18,user_142
+CNG-0143,SharePoint,Maintenance,Update,Executed,2023-09-14,user_143
+CNG-0144,SAP,Production,New Integration,Executed,2023-12-07,user_144
+CNG-0145,SharePoint,Maintenance,Migration,In Review,2023-07-25,user_145
+CNG-0146,Maximo,Maintenance,Migration,In Review,2023-02-12,user_146
+CNG-0147,PI Historian,Production,Migration,Planned,2022-11-29,user_147
+CNG-0148,PowerBI,Operations,Update,In Review,2022-10-16,user_148
+CNG-0149,SharePoint,Maintenance,Migration,Planned,2022-03-09,user_149
+CNG-0150,Maximo,Production,Migration,Planned,2023-01-30,user_150
+CNG-0151,PowerBI,Maintenance,New Integration,Executed,2023-12-16,user_151
+CNG-0152,PowerBI,Safety,Bulk Load,Planned,2022-09-15,user_152
+CNG-0153,SharePoint,Safety,Migration,Executed,2023-10-09,user_153
+CNG-0154,Maximo,Safety,New Integration,Planned,2022-08-08,user_154
+CNG-0155,PI Historian,Safety,New Integration,In Review,2023-04-24,user_155
+CNG-0156,SharePoint,Operations,Migration,In Review,2022-12-03,user_156
+CNG-0157,PowerBI,Safety,Bulk Load,In Review,2022-02-17,user_157
+CNG-0158,PowerBI,Production,Update,Planned,2022-01-21,user_158
+CNG-0159,SAP,Maintenance,Bulk Load,Planned,2022-12-12,user_159
+CNG-0160,Maximo,Production,Migration,Executed,2022-05-23,user_160
+CNG-0161,SAP,Safety,Bulk Load,Executed,2024-02-10,user_161
+CNG-0162,PI Historian,Operations,New Integration,Executed,2024-02-04,user_162
+CNG-0163,SharePoint,Safety,New Integration,Executed,2022-12-18,user_163
+CNG-0164,PowerBI,Safety,Bulk Load,Planned,2022-06-25,user_164
+CNG-0165,Maximo,Operations,Update,Planned,2022-12-15,user_165
+CNG-0166,PowerBI,Operations,Bulk Load,Executed,2023-02-01,user_166
+CNG-0167,SAP,Operations,Migration,Planned,2023-04-07,user_167
+CNG-0168,SAP,Operations,Update,Planned,2023-06-13,user_168
+CNG-0169,SharePoint,Operations,Bulk Load,Planned,2023-10-06,user_169
+CNG-0170,Maximo,Operations,Bulk Load,Planned,2023-09-10,user_170
+CNG-0171,Maximo,Maintenance,Update,Executed,2023-06-28,user_171
+CNG-0172,SharePoint,Safety,Bulk Load,Executed,2023-04-25,user_172
+CNG-0173,SAP,Safety,Migration,Planned,2022-10-08,user_173
+CNG-0174,SAP,Operations,New Integration,In Review,2023-04-10,user_174
+CNG-0175,SAP,Production,Migration,Executed,2024-01-25,user_175
+CNG-0176,PowerBI,Operations,Bulk Load,Executed,2022-01-06,user_176
+CNG-0177,PI Historian,Maintenance,New Integration,In Review,2023-06-27,user_177
+CNG-0178,SAP,Production,Update,Executed,2024-01-27,user_178
+CNG-0179,PI Historian,Maintenance,Migration,In Review,2023-04-04,user_179
+CNG-0180,PI Historian,Production,Update,In Review,2022-05-16,user_180
+CNG-0181,Maximo,Production,New Integration,Planned,2023-12-28,user_181
+CNG-0182,SharePoint,Operations,Bulk Load,Executed,2023-10-31,user_182
+CNG-0183,PowerBI,Maintenance,New Integration,In Review,2024-02-01,user_183
+CNG-0184,PI Historian,Production,New Integration,Planned,2024-02-07,user_184
+CNG-0185,PowerBI,Maintenance,Update,Executed,2022-07-09,user_185
+CNG-0186,Maximo,Operations,Migration,Planned,2023-10-13,user_186
+CNG-0187,SAP,Operations,New Integration,Planned,2022-11-23,user_187
+CNG-0188,PI Historian,Operations,Bulk Load,In Review,2022-12-11,user_188
+CNG-0189,SharePoint,Operations,New Integration,Executed,2022-04-14,user_189
+CNG-0190,Maximo,Safety,Update,Planned,2023-11-25,user_190
+CNG-0191,PowerBI,Production,Migration,In Review,2023-02-11,user_191
+CNG-0192,SAP,Safety,Bulk Load,In Review,2023-04-12,user_192
+CNG-0193,PowerBI,Operations,Update,Planned,2022-02-28,user_193
+CNG-0194,SharePoint,Production,New Integration,Planned,2023-01-14,user_194
+CNG-0195,PI Historian,Production,New Integration,In Review,2022-02-09,user_195
+CNG-0196,SharePoint,Maintenance,Migration,Planned,2024-01-20,user_196
+CNG-0197,PowerBI,Operations,Update,Planned,2023-10-22,user_197
+CNG-0198,PowerBI,Safety,Update,Executed,2022-08-06,user_198
+CNG-0199,SharePoint,Maintenance,Migration,In Review,2022-11-09,user_199
+CNG-0200,SharePoint,Production,Bulk Load,Planned,2022-10-04,user_0
+CNG-0201,SharePoint,Safety,Update,In Review,2022-08-15,user_1
+CNG-0202,SAP,Operations,Migration,Executed,2022-05-21,user_2
+CNG-0203,PowerBI,Safety,Update,In Review,2022-03-09,user_3
+CNG-0204,Maximo,Safety,Migration,In Review,2022-06-06,user_4
+CNG-0205,SAP,Safety,New Integration,In Review,2024-02-11,user_5
+CNG-0206,SAP,Maintenance,New Integration,Executed,2023-10-04,user_6
+CNG-0207,SAP,Production,Update,Executed,2023-04-17,user_7
+CNG-0208,Maximo,Safety,Update,In Review,2023-12-30,user_8
+CNG-0209,SharePoint,Production,New Integration,In Review,2023-11-03,user_9
+CNG-0210,PowerBI,Maintenance,Bulk Load,Executed,2023-09-28,user_10
+CNG-0211,PI Historian,Operations,Migration,Planned,2022-08-27,user_11
+CNG-0212,PI Historian,Operations,Bulk Load,Executed,2023-09-12,user_12
+CNG-0213,PowerBI,Safety,Bulk Load,In Review,2023-07-22,user_13
+CNG-0214,Maximo,Maintenance,Bulk Load,Planned,2024-02-13,user_14
+CNG-0215,PI Historian,Operations,New Integration,Planned,2022-02-16,user_15
+CNG-0216,SAP,Maintenance,Update,Planned,2024-01-12,user_16
+CNG-0217,PI Historian,Maintenance,Bulk Load,Executed,2022-11-05,user_17
+CNG-0218,PowerBI,Safety,New Integration,Executed,2023-07-17,user_18
+CNG-0219,SAP,Safety,Migration,Executed,2022-09-23,user_19
+CNG-0220,PI Historian,Maintenance,Update,Executed,2022-09-05,user_20
+CNG-0221,PowerBI,Maintenance,Migration,In Review,2023-10-30,user_21
+CNG-0222,Maximo,Safety,Bulk Load,Planned,2023-06-16,user_22
+CNG-0223,PowerBI,Maintenance,Update,In Review,2023-10-06,user_23
+CNG-0224,Maximo,Safety,Bulk Load,Executed,2022-06-07,user_24
+CNG-0225,SAP,Production,Update,Executed,2023-07-02,user_25
+CNG-0226,PowerBI,Maintenance,Bulk Load,In Review,2023-04-13,user_26
+CNG-0227,SharePoint,Safety,Migration,Planned,2022-09-20,user_27
+CNG-0228,SharePoint,Maintenance,Migration,Planned,2023-07-29,user_28
+CNG-0229,SharePoint,Safety,Bulk Load,Executed,2022-08-04,user_29
+CNG-0230,SharePoint,Maintenance,Update,Executed,2022-09-29,user_30
+CNG-0231,SharePoint,Operations,Migration,Executed,2023-06-24,user_31
+CNG-0232,Maximo,Operations,Update,Executed,2023-01-03,user_32
+CNG-0233,PowerBI,Maintenance,Update,Planned,2023-04-16,user_33
+CNG-0234,SAP,Operations,Migration,In Review,2023-11-20,user_34
+CNG-0235,SharePoint,Maintenance,New Integration,Planned,2023-07-06,user_35
+CNG-0236,SharePoint,Maintenance,New Integration,In Review,2022-02-01,user_36
+CNG-0237,SAP,Production,Update,Executed,2023-10-06,user_37
+CNG-0238,SAP,Production,Migration,Executed,2022-05-17,user_38
+CNG-0239,SharePoint,Operations,New Integration,In Review,2022-01-05,user_39
+CNG-0240,Maximo,Production,Bulk Load,Executed,2023-09-12,user_40
+CNG-0241,SAP,Production,Update,Planned,2022-12-15,user_41
+CNG-0242,PowerBI,Maintenance,New Integration,Executed,2022-04-19,user_42
+CNG-0243,PowerBI,Safety,Migration,Executed,2023-03-15,user_43
+CNG-0244,Maximo,Maintenance,Migration,Executed,2022-06-06,user_44
+CNG-0245,PI Historian,Production,Update,Executed,2023-12-02,user_45
+CNG-0246,Maximo,Maintenance,Migration,Planned,2023-07-30,user_46
+CNG-0247,SharePoint,Operations,Bulk Load,In Review,2022-03-18,user_47
+CNG-0248,PI Historian,Safety,Bulk Load,Executed,2022-07-14,user_48
+CNG-0249,SharePoint,Production,New Integration,Executed,2022-12-27,user_49
+CNG-0250,PowerBI,Production,Migration,Planned,2022-08-29,user_50
+CNG-0251,SAP,Maintenance,Bulk Load,Planned,2023-04-16,user_51
+CNG-0252,SharePoint,Maintenance,Update,Planned,2023-03-18,user_52
+CNG-0253,PowerBI,Maintenance,Migration,Executed,2023-04-11,user_53
+CNG-0254,Maximo,Maintenance,New Integration,In Review,2024-01-14,user_54
+CNG-0255,SharePoint,Production,Update,Planned,2023-02-06,user_55
+CNG-0256,PowerBI,Maintenance,Update,Planned,2023-06-20,user_56
+CNG-0257,SAP,Production,Update,Planned,2023-04-06,user_57
+CNG-0258,SharePoint,Maintenance,Bulk Load,In Review,2023-12-25,user_58
+CNG-0259,PowerBI,Safety,Update,Executed,2023-10-26,user_59
+CNG-0260,SharePoint,Safety,Bulk Load,Executed,2022-04-22,user_60
+CNG-0261,SAP,Maintenance,Update,Executed,2023-05-05,user_61
+CNG-0262,SharePoint,Maintenance,Bulk Load,Planned,2023-08-01,user_62
+CNG-0263,SharePoint,Operations,Migration,Executed,2022-01-09,user_63
+CNG-0264,PowerBI,Safety,Bulk Load,Planned,2022-01-07,user_64
+CNG-0265,PI Historian,Production,Bulk Load,In Review,2022-12-07,user_65
+CNG-0266,SharePoint,Safety,Migration,In Review,2023-08-26,user_66
+CNG-0267,PI Historian,Production,Update,Executed,2023-09-27,user_67
+CNG-0268,Maximo,Maintenance,Migration,Planned,2022-02-15,user_68
+CNG-0269,SharePoint,Safety,Update,Planned,2022-07-16,user_69
+CNG-0270,PI Historian,Safety,Bulk Load,Executed,2023-01-23,user_70
+CNG-0271,Maximo,Operations,Update,In Review,2022-08-09,user_71
+CNG-0272,PowerBI,Operations,Bulk Load,In Review,2023-03-16,user_72
+CNG-0273,SharePoint,Safety,Update,In Review,2023-05-28,user_73
+CNG-0274,PowerBI,Safety,Bulk Load,In Review,2023-11-11,user_74
+CNG-0275,Maximo,Safety,Bulk Load,In Review,2022-02-26,user_75
+CNG-0276,PowerBI,Production,New Integration,Executed,2022-01-26,user_76
+CNG-0277,PowerBI,Maintenance,Update,Executed,2022-10-19,user_77
+CNG-0278,SAP,Operations,Update,Executed,2023-11-21,user_78
+CNG-0279,Maximo,Maintenance,New Integration,In Review,2022-04-03,user_79
+CNG-0280,PowerBI,Operations,Bulk Load,In Review,2023-01-17,user_80
+CNG-0281,PI Historian,Operations,Bulk Load,Executed,2022-11-15,user_81
+CNG-0282,Maximo,Operations,New Integration,Executed,2022-09-17,user_82
+CNG-0283,SAP,Safety,New Integration,In Review,2022-05-03,user_83
+CNG-0284,SharePoint,Operations,Migration,Planned,2022-02-02,user_84
+CNG-0285,PowerBI,Maintenance,Bulk Load,Executed,2023-10-06,user_85
+CNG-0286,PI Historian,Operations,Migration,In Review,2024-02-12,user_86
+CNG-0287,SAP,Maintenance,Update,In Review,2023-07-08,user_87
+CNG-0288,Maximo,Operations,Migration,Executed,2022-07-15,user_88
+CNG-0289,PowerBI,Operations,New Integration,Planned,2024-02-14,user_89
+CNG-0290,SAP,Safety,New Integration,In Review,2022-10-14,user_90
+CNG-0291,SAP,Maintenance,New Integration,Executed,2024-02-15,user_91
+CNG-0292,PI Historian,Operations,New Integration,In Review,2022-03-11,user_92
+CNG-0293,SharePoint,Operations,Migration,In Review,2022-11-02,user_93
+CNG-0294,SharePoint,Maintenance,Migration,In Review,2022-06-12,user_94
+CNG-0295,SharePoint,Operations,Migration,In Review,2024-01-11,user_95
+CNG-0296,Maximo,Production,New Integration,Planned,2023-12-24,user_96
+CNG-0297,SAP,Safety,New Integration,Executed,2023-03-27,user_97
+CNG-0298,Maximo,Maintenance,Bulk Load,Executed,2023-10-30,user_98
+CNG-0299,SAP,Safety,Bulk Load,Executed,2022-06-03,user_99
+CNG-0300,PI Historian,Production,New Integration,Executed,2022-12-15,user_100
+CNG-0301,PI Historian,Production,Bulk Load,Executed,2022-02-08,user_101
+CNG-0302,Maximo,Production,Update,Planned,2023-04-25,user_102
+CNG-0303,Maximo,Maintenance,Update,In Review,2023-11-06,user_103
+CNG-0304,PI Historian,Production,New Integration,In Review,2023-12-15,user_104
+CNG-0305,PowerBI,Maintenance,Migration,Executed,2023-10-21,user_105
+CNG-0306,SharePoint,Maintenance,Update,In Review,2023-02-26,user_106
+CNG-0307,SharePoint,Operations,Update,In Review,2023-03-01,user_107
+CNG-0308,PI Historian,Maintenance,Migration,In Review,2022-03-26,user_108
+CNG-0309,SharePoint,Production,Bulk Load,Executed,2024-01-10,user_109
+CNG-0310,PowerBI,Maintenance,Migration,Executed,2024-01-04,user_110
+CNG-0311,PowerBI,Maintenance,Bulk Load,Planned,2023-05-13,user_111
+CNG-0312,SAP,Safety,Bulk Load,Executed,2024-02-28,user_112
+CNG-0313,Maximo,Production,Migration,Planned,2023-09-11,user_113
+CNG-0314,SharePoint,Maintenance,Bulk Load,Executed,2022-04-10,user_114
+CNG-0315,PowerBI,Operations,Update,In Review,2022-07-31,user_115
+CNG-0316,Maximo,Maintenance,New Integration,Planned,2022-10-12,user_116
+CNG-0317,Maximo,Maintenance,Bulk Load,Planned,2022-06-07,user_117
+CNG-0318,SAP,Safety,Update,Planned,2024-01-14,user_118
+CNG-0319,Maximo,Production,Migration,Executed,2023-05-04,user_119
+CNG-0320,Maximo,Production,Bulk Load,Planned,2022-04-04,user_120
+CNG-0321,PI Historian,Operations,Update,Executed,2023-07-10,user_121
+CNG-0322,SAP,Operations,Bulk Load,Planned,2023-05-29,user_122
+CNG-0323,SAP,Operations,Migration,Executed,2023-11-04,user_123
+CNG-0324,SharePoint,Maintenance,New Integration,Planned,2022-12-11,user_124
+CNG-0325,Maximo,Maintenance,Bulk Load,In Review,2023-01-24,user_125
+CNG-0326,SharePoint,Operations,New Integration,In Review,2022-04-07,user_126
+CNG-0327,PowerBI,Production,Bulk Load,Planned,2023-07-03,user_127
+CNG-0328,Maximo,Production,Bulk Load,Executed,2023-03-08,user_128
+CNG-0329,PowerBI,Operations,Migration,Executed,2024-02-22,user_129
+CNG-0330,PI Historian,Safety,Bulk Load,Executed,2022-11-21,user_130
+CNG-0331,Maximo,Production,Update,In Review,2022-02-06,user_131
+CNG-0332,SharePoint,Production,Update,In Review,2023-10-13,user_132
+CNG-0333,SharePoint,Operations,New Integration,In Review,2022-06-13,user_133
+CNG-0334,Maximo,Production,New Integration,Executed,2023-02-18,user_134
+CNG-0335,SharePoint,Maintenance,Update,Executed,2023-02-03,user_135
+CNG-0336,Maximo,Maintenance,New Integration,Executed,2023-04-09,user_136
+CNG-0337,SAP,Production,New Integration,Planned,2023-01-31,user_137
+CNG-0338,SharePoint,Maintenance,Update,Planned,2023-10-16,user_138
+CNG-0339,Maximo,Safety,Update,Planned,2023-01-21,user_139
+CNG-0340,Maximo,Production,Update,In Review,2022-09-15,user_140
+CNG-0341,SharePoint,Operations,Migration,In Review,2023-05-16,user_141
+CNG-0342,SAP,Maintenance,Migration,Executed,2023-07-30,user_142
+CNG-0343,SharePoint,Safety,Update,Planned,2022-06-27,user_143
+CNG-0344,Maximo,Safety,Bulk Load,Executed,2022-08-03,user_144
+CNG-0345,SAP,Maintenance,Update,Planned,2022-05-07,user_145
+CNG-0346,PowerBI,Safety,Migration,Planned,2023-07-27,user_146
+CNG-0347,PI Historian,Production,New Integration,Executed,2022-08-05,user_147
+CNG-0348,SharePoint,Safety,Bulk Load,Executed,2023-07-05,user_148
+CNG-0349,Maximo,Maintenance,Bulk Load,Planned,2022-04-15,user_149
+CNG-0350,SAP,Safety,New Integration,Planned,2023-12-27,user_150
+CNG-0351,SAP,Maintenance,Bulk Load,In Review,2024-02-16,user_151
+CNG-0352,PowerBI,Maintenance,New Integration,Executed,2023-12-26,user_152
+CNG-0353,SharePoint,Safety,Migration,Executed,2024-01-08,user_153
+CNG-0354,SAP,Maintenance,Bulk Load,Executed,2022-08-13,user_154
+CNG-0355,PowerBI,Maintenance,Bulk Load,Executed,2022-02-02,user_155
+CNG-0356,Maximo,Operations,New Integration,Planned,2022-02-15,user_156
+CNG-0357,PowerBI,Production,New Integration,In Review,2022-09-07,user_157
+CNG-0358,SharePoint,Maintenance,Migration,Executed,2023-12-08,user_158
+CNG-0359,PowerBI,Production,New Integration,Planned,2023-06-05,user_159
+CNG-0360,SAP,Operations,New Integration,Planned,2022-05-28,user_160
+CNG-0361,SAP,Operations,Migration,Planned,2023-10-28,user_161
+CNG-0362,PI Historian,Operations,Update,Planned,2024-02-19,user_162
+CNG-0363,PowerBI,Operations,Update,Planned,2023-12-04,user_163
+CNG-0364,Maximo,Production,New Integration,Executed,2023-08-09,user_164
+CNG-0365,SharePoint,Safety,Migration,Executed,2022-03-30,user_165
+CNG-0366,PI Historian,Safety,Update,In Review,2022-10-15,user_166
+CNG-0367,PowerBI,Production,Migration,Executed,2022-10-14,user_167
+CNG-0368,Maximo,Maintenance,New Integration,Planned,2022-09-01,user_168
+CNG-0369,PI Historian,Production,New Integration,In Review,2023-08-10,user_169
+CNG-0370,SAP,Maintenance,Migration,Planned,2023-02-02,user_170
+CNG-0371,SharePoint,Maintenance,Bulk Load,Planned,2023-03-17,user_171
+CNG-0372,PowerBI,Safety,New Integration,Executed,2024-01-17,user_172
+CNG-0373,Maximo,Operations,New Integration,Planned,2024-02-05,user_173
+CNG-0374,SAP,Safety,New Integration,Executed,2022-04-05,user_174
+CNG-0375,PI Historian,Safety,New Integration,Planned,2023-12-12,user_175
+CNG-0376,SharePoint,Production,Migration,In Review,2022-04-12,user_176
+CNG-0377,PI Historian,Production,Migration,Planned,2023-12-15,user_177
+CNG-0378,PI Historian,Maintenance,Migration,Executed,2022-10-25,user_178
+CNG-0379,Maximo,Production,Migration,Planned,2023-06-23,user_179
+CNG-0380,SAP,Maintenance,Bulk Load,Executed,2023-07-15,user_180
+CNG-0381,PowerBI,Maintenance,Migration,Executed,2023-03-22,user_181
+CNG-0382,Maximo,Operations,Migration,In Review,2023-01-20,user_182
+CNG-0383,SharePoint,Operations,New Integration,Executed,2024-03-01,user_183
+CNG-0384,PI Historian,Safety,Bulk Load,In Review,2023-02-16,user_184
+CNG-0385,SharePoint,Operations,New Integration,In Review,2023-05-03,user_185
+CNG-0386,Maximo,Maintenance,Bulk Load,Planned,2023-07-28,user_186
+CNG-0387,Maximo,Production,Update,In Review,2023-12-17,user_187
+CNG-0388,PowerBI,Operations,Bulk Load,Executed,2022-08-21,user_188
+CNG-0389,PI Historian,Operations,Bulk Load,Executed,2022-07-13,user_189
+CNG-0390,Maximo,Operations,New Integration,In Review,2022-09-06,user_190
+CNG-0391,SharePoint,Operations,Bulk Load,Planned,2024-01-15,user_191
+CNG-0392,PowerBI,Maintenance,Bulk Load,In Review,2022-05-17,user_192
+CNG-0393,SharePoint,Maintenance,New Integration,In Review,2023-08-30,user_193
+CNG-0394,PI Historian,Safety,Update,Executed,2022-07-13,user_194
+CNG-0395,PowerBI,Production,Update,Planned,2022-03-03,user_195
+CNG-0396,PowerBI,Safety,Update,Planned,2022-07-16,user_196
+CNG-0397,PowerBI,Safety,Bulk Load,Planned,2022-10-15,user_197
+CNG-0398,SAP,Operations,New Integration,Planned,2022-08-11,user_198
+CNG-0399,PowerBI,Production,Update,Executed,2023-02-19,user_199
+CNG-0400,SharePoint,Operations,Update,Planned,2023-10-30,user_0
+CNG-0401,SharePoint,Maintenance,Update,Planned,2022-08-20,user_1
+CNG-0402,PI Historian,Safety,Update,Planned,2022-11-16,user_2
+CNG-0403,Maximo,Production,New Integration,Executed,2023-03-02,user_3
+CNG-0404,Maximo,Maintenance,Update,Executed,2022-08-20,user_4
+CNG-0405,SAP,Safety,Bulk Load,Planned,2022-12-16,user_5
+CNG-0406,PowerBI,Production,Bulk Load,Executed,2023-05-28,user_6
+CNG-0407,SAP,Safety,New Integration,In Review,2022-03-08,user_7
+CNG-0408,PI Historian,Production,Migration,Planned,2022-08-20,user_8
+CNG-0409,PI Historian,Safety,Update,Executed,2023-07-04,user_9
+CNG-0410,Maximo,Operations,Update,Planned,2022-07-01,user_10
+CNG-0411,PI Historian,Safety,Bulk Load,Planned,2023-01-25,user_11
+CNG-0412,PowerBI,Safety,New Integration,Executed,2022-01-10,user_12
+CNG-0413,SharePoint,Production,Migration,In Review,2022-09-07,user_13
+CNG-0414,PI Historian,Production,Bulk Load,Planned,2023-02-19,user_14
+CNG-0415,SAP,Operations,Migration,In Review,2022-09-04,user_15
+CNG-0416,PowerBI,Production,New Integration,Executed,2022-04-10,user_16
+CNG-0417,PI Historian,Safety,New Integration,Planned,2023-07-25,user_17
+CNG-0418,PI Historian,Production,New Integration,Executed,2022-02-28,user_18
+CNG-0419,PowerBI,Production,Bulk Load,Executed,2022-01-27,user_19
+CNG-0420,PI Historian,Production,New Integration,Executed,2022-11-10,user_20
+CNG-0421,SharePoint,Operations,Bulk Load,Executed,2022-09-21,user_21
+CNG-0422,Maximo,Operations,Bulk Load,Planned,2023-03-29,user_22
+CNG-0423,PowerBI,Maintenance,Update,In Review,2022-06-16,user_23
+CNG-0424,SAP,Operations,Bulk Load,In Review,2024-02-21,user_24
+CNG-0425,PI Historian,Operations,Bulk Load,Planned,2023-06-21,user_25
+CNG-0426,Maximo,Operations,Update,Planned,2022-01-17,user_26
+CNG-0427,SAP,Safety,Migration,In Review,2023-10-25,user_27
+CNG-0428,SAP,Maintenance,Update,In Review,2024-02-21,user_28
+CNG-0429,SharePoint,Safety,Update,Planned,2022-01-12,user_29
+CNG-0430,Maximo,Operations,New Integration,Executed,2022-09-11,user_30
+CNG-0431,PowerBI,Operations,New Integration,Planned,2023-07-31,user_31
+CNG-0432,Maximo,Maintenance,Update,In Review,2022-03-19,user_32
+CNG-0433,Maximo,Maintenance,New Integration,Executed,2022-02-10,user_33
+CNG-0434,SAP,Production,Update,In Review,2022-06-02,user_34
+CNG-0435,SharePoint,Operations,New Integration,Executed,2023-04-08,user_35
+CNG-0436,SharePoint,Operations,Bulk Load,In Review,2024-02-01,user_36
+CNG-0437,Maximo,Safety,New Integration,Executed,2022-11-03,user_37
+CNG-0438,Maximo,Production,New Integration,Planned,2022-06-01,user_38
+CNG-0439,PI Historian,Operations,Bulk Load,Planned,2022-01-05,user_39
+CNG-0440,SAP,Safety,Update,Executed,2023-03-30,user_40
+CNG-0441,PowerBI,Maintenance,New Integration,Executed,2023-06-28,user_41
+CNG-0442,PowerBI,Safety,New Integration,Planned,2022-11-08,user_42
+CNG-0443,SharePoint,Operations,Bulk Load,Planned,2023-06-02,user_43
+CNG-0444,SAP,Safety,Bulk Load,Executed,2022-09-04,user_44
+CNG-0445,SharePoint,Safety,Bulk Load,Executed,2023-03-29,user_45
+CNG-0446,PowerBI,Production,Migration,Planned,2022-02-21,user_46
+CNG-0447,Maximo,Production,Bulk Load,In Review,2022-05-05,user_47
+CNG-0448,SAP,Maintenance,Update,Planned,2023-11-02,user_48
+CNG-0449,SAP,Production,New Integration,Executed,2023-08-17,user_49
+CNG-0450,PI Historian,Safety,New Integration,Executed,2022-07-25,user_50
+CNG-0451,Maximo,Production,Migration,In Review,2022-12-10,user_51
+CNG-0452,Maximo,Operations,New Integration,Planned,2022-12-26,user_52
+CNG-0453,SharePoint,Safety,New Integration,Executed,2022-01-26,user_53
+CNG-0454,SAP,Safety,Update,Planned,2022-05-18,user_54
+CNG-0455,SharePoint,Safety,New Integration,Executed,2022-12-05,user_55
+CNG-0456,Maximo,Operations,Update,In Review,2022-10-18,user_56
+CNG-0457,PI Historian,Safety,Migration,Planned,2023-04-28,user_57
+CNG-0458,SAP,Production,Update,Planned,2023-04-12,user_58
+CNG-0459,Maximo,Operations,Bulk Load,In Review,2023-09-17,user_59
+CNG-0460,PI Historian,Safety,Bulk Load,Executed,2023-03-24,user_60
+CNG-0461,PowerBI,Production,Migration,Executed,2023-01-05,user_61
+CNG-0462,Maximo,Production,New Integration,Planned,2023-06-15,user_62
+CNG-0463,PowerBI,Maintenance,Update,In Review,2023-06-07,user_63
+CNG-0464,SharePoint,Production,Bulk Load,Planned,2023-09-14,user_64
+CNG-0465,PowerBI,Production,Update,Planned,2023-02-24,user_65
+CNG-0466,Maximo,Maintenance,Bulk Load,Executed,2023-02-11,user_66
+CNG-0467,PowerBI,Maintenance,Update,Executed,2023-03-01,user_67
+CNG-0468,SAP,Operations,New Integration,Executed,2022-10-25,user_68
+CNG-0469,Maximo,Production,Migration,Executed,2022-06-22,user_69
+CNG-0470,PI Historian,Operations,New Integration,Executed,2022-12-27,user_70
+CNG-0471,PowerBI,Operations,Update,In Review,2024-02-19,user_71
+CNG-0472,SAP,Safety,Bulk Load,Planned,2022-08-26,user_72
+CNG-0473,SharePoint,Operations,Bulk Load,In Review,2024-01-27,user_73
+CNG-0474,SharePoint,Operations,Migration,Planned,2023-06-15,user_74
+CNG-0475,PowerBI,Operations,New Integration,Executed,2023-03-16,user_75
+CNG-0476,SharePoint,Operations,New Integration,In Review,2023-09-15,user_76
+CNG-0477,PI Historian,Maintenance,New Integration,Planned,2024-01-09,user_77
+CNG-0478,Maximo,Production,Bulk Load,Executed,2022-08-26,user_78
+CNG-0479,SAP,Safety,Migration,Executed,2022-02-17,user_79
+CNG-0480,PowerBI,Maintenance,Bulk Load,In Review,2023-11-09,user_80
+CNG-0481,SharePoint,Safety,New Integration,In Review,2023-04-14,user_81
+CNG-0482,Maximo,Safety,Update,In Review,2022-04-22,user_82
+CNG-0483,PI Historian,Maintenance,Bulk Load,Executed,2023-08-02,user_83
+CNG-0484,SharePoint,Operations,Migration,Planned,2022-07-11,user_84
+CNG-0485,SharePoint,Maintenance,New Integration,Planned,2023-12-29,user_85
+CNG-0486,SAP,Safety,Update,In Review,2022-08-25,user_86
+CNG-0487,PI Historian,Safety,Bulk Load,Planned,2023-02-04,user_87
+CNG-0488,PI Historian,Operations,Update,Executed,2022-12-29,user_88
+CNG-0489,PowerBI,Maintenance,Update,Planned,2023-12-20,user_89
+CNG-0490,SAP,Production,Migration,Executed,2023-01-19,user_90
+CNG-0491,PowerBI,Safety,Bulk Load,In Review,2023-07-23,user_91
+CNG-0492,SAP,Maintenance,Migration,Planned,2022-08-21,user_92
+CNG-0493,PI Historian,Operations,New Integration,Executed,2022-02-08,user_93
+CNG-0494,SAP,Operations,Update,In Review,2023-05-20,user_94
+CNG-0495,SAP,Production,Migration,In Review,2024-02-07,user_95
+CNG-0496,SAP,Safety,Migration,In Review,2023-09-08,user_96
+CNG-0497,Maximo,Production,New Integration,In Review,2022-09-04,user_97
+CNG-0498,Maximo,Production,Bulk Load,Planned,2023-07-20,user_98
+CNG-0499,PI Historian,Production,Migration,Executed,2022-03-26,user_99
+CNG-0500,SAP,Production,Update,Planned,2024-02-03,user_100
+CNG-0501,PI Historian,Operations,Update,Executed,2022-04-01,user_101
+CNG-0502,Maximo,Safety,Update,In Review,2022-01-12,user_102
+CNG-0503,SAP,Production,Update,Planned,2023-04-08,user_103
+CNG-0504,PowerBI,Safety,Migration,In Review,2023-03-14,user_104
+CNG-0505,Maximo,Operations,Update,Executed,2022-09-02,user_105
+CNG-0506,Maximo,Operations,Migration,In Review,2023-10-04,user_106
+CNG-0507,Maximo,Maintenance,Bulk Load,Planned,2022-11-23,user_107
+CNG-0508,SAP,Maintenance,Update,Planned,2023-08-03,user_108
+CNG-0509,SharePoint,Safety,Bulk Load,Executed,2023-05-17,user_109
+CNG-0510,PowerBI,Maintenance,Migration,Executed,2022-10-10,user_110
+CNG-0511,PowerBI,Production,New Integration,Planned,2023-03-30,user_111
+CNG-0512,PI Historian,Safety,Bulk Load,Planned,2022-06-29,user_112
+CNG-0513,SAP,Operations,Update,Planned,2022-03-26,user_113
+CNG-0514,Maximo,Operations,New Integration,Planned,2022-01-30,user_114
+CNG-0515,SharePoint,Production,Bulk Load,Executed,2022-12-13,user_115
+CNG-0516,SAP,Maintenance,Migration,Planned,2022-03-26,user_116
+CNG-0517,SAP,Safety,Migration,Executed,2024-01-31,user_117
+CNG-0518,SharePoint,Safety,Migration,Planned,2023-12-03,user_118
+CNG-0519,Maximo,Production,Bulk Load,Planned,2022-07-13,user_119
+CNG-0520,SAP,Maintenance,Migration,In Review,2024-01-16,user_120
+CNG-0521,PowerBI,Safety,Bulk Load,In Review,2024-02-01,user_121
+CNG-0522,PowerBI,Production,Update,Planned,2023-06-21,user_122
+CNG-0523,SharePoint,Safety,Update,Executed,2023-03-27,user_123
+CNG-0524,Maximo,Operations,Bulk Load,Planned,2023-05-03,user_124
+CNG-0525,SharePoint,Safety,Bulk Load,In Review,2022-06-08,user_125
+CNG-0526,SAP,Safety,New Integration,Planned,2022-03-04,user_126
+CNG-0527,PowerBI,Safety,Migration,In Review,2022-09-11,user_127
+CNG-0528,PI Historian,Maintenance,Update,Planned,2023-04-11,user_128
+CNG-0529,SharePoint,Maintenance,Update,Planned,2023-04-21,user_129
+CNG-0530,PI Historian,Production,New Integration,Executed,2022-03-05,user_130
+CNG-0531,PI Historian,Maintenance,Bulk Load,In Review,2022-06-25,user_131
+CNG-0532,PowerBI,Safety,Bulk Load,In Review,2022-03-26,user_132
+CNG-0533,SharePoint,Safety,New Integration,In Review,2023-01-08,user_133
+CNG-0534,PI Historian,Maintenance,Migration,Executed,2022-11-21,user_134
+CNG-0535,SAP,Maintenance,Bulk Load,Planned,2022-11-22,user_135
+CNG-0536,Maximo,Safety,Bulk Load,Executed,2023-12-05,user_136
+CNG-0537,Maximo,Safety,Migration,Planned,2023-07-26,user_137
+CNG-0538,PowerBI,Operations,Migration,Executed,2022-02-25,user_138
+CNG-0539,SharePoint,Production,New Integration,Executed,2023-08-21,user_139
+CNG-0540,SharePoint,Maintenance,New Integration,In Review,2024-02-23,user_140
+CNG-0541,Maximo,Production,New Integration,Executed,2022-07-02,user_141
+CNG-0542,SAP,Safety,Bulk Load,Planned,2023-01-31,user_142
+CNG-0543,Maximo,Production,New Integration,Executed,2023-09-19,user_143
+CNG-0544,Maximo,Maintenance,Bulk Load,Executed,2022-01-15,user_144
+CNG-0545,SharePoint,Maintenance,Update,Planned,2022-03-30,user_145
+CNG-0546,PI Historian,Production,Migration,In Review,2022-01-10,user_146
+CNG-0547,SAP,Maintenance,Migration,Planned,2023-07-21,user_147
+CNG-0548,SharePoint,Operations,Update,Planned,2023-07-02,user_148
+CNG-0549,Maximo,Safety,New Integration,Planned,2023-02-19,user_149
+CNG-0550,PI Historian,Safety,Bulk Load,Executed,2023-01-08,user_150
+CNG-0551,SAP,Maintenance,Bulk Load,Executed,2022-01-15,user_151
+CNG-0552,PowerBI,Safety,Bulk Load,Planned,2022-12-19,user_152
+CNG-0553,SAP,Operations,Migration,Planned,2022-10-22,user_153
+CNG-0554,SAP,Maintenance,New Integration,In Review,2022-10-03,user_154
+CNG-0555,Maximo,Operations,Bulk Load,Executed,2024-02-16,user_155
+CNG-0556,Maximo,Operations,Bulk Load,Executed,2023-11-04,user_156
+CNG-0557,PowerBI,Safety,Bulk Load,Executed,2023-03-11,user_157
+CNG-0558,PowerBI,Safety,Update,Executed,2022-06-19,user_158
+CNG-0559,PowerBI,Production,Bulk Load,Planned,2022-08-29,user_159
+CNG-0560,SharePoint,Operations,Update,Planned,2023-02-11,user_160
+CNG-0561,SharePoint,Safety,Bulk Load,In Review,2022-12-16,user_161
+CNG-0562,Maximo,Operations,Bulk Load,Executed,2022-09-02,user_162
+CNG-0563,Maximo,Production,Bulk Load,Executed,2022-03-03,user_163
+CNG-0564,PowerBI,Operations,Update,Planned,2022-09-13,user_164
+CNG-0565,SharePoint,Maintenance,Bulk Load,In Review,2022-08-11,user_165
+CNG-0566,PI Historian,Production,New Integration,Planned,2022-01-25,user_166
+CNG-0567,SharePoint,Production,Bulk Load,Executed,2023-06-30,user_167
+CNG-0568,Maximo,Operations,Update,Executed,2023-02-05,user_168
+CNG-0569,SharePoint,Operations,Update,In Review,2023-08-11,user_169
+CNG-0570,Maximo,Safety,New Integration,Planned,2022-04-07,user_170
+CNG-0571,PowerBI,Maintenance,Migration,Executed,2022-01-27,user_171
+CNG-0572,PowerBI,Production,New Integration,Executed,2023-04-20,user_172
+CNG-0573,PowerBI,Production,New Integration,In Review,2023-04-12,user_173
+CNG-0574,PI Historian,Production,Update,Executed,2022-08-22,user_174
+CNG-0575,PI Historian,Safety,Bulk Load,Executed,2022-07-17,user_175
+CNG-0576,Maximo,Maintenance,Bulk Load,Planned,2022-08-09,user_176
+CNG-0577,SAP,Production,Migration,In Review,2023-04-07,user_177
+CNG-0578,PI Historian,Production,Migration,In Review,2022-12-28,user_178
+CNG-0579,Maximo,Safety,Migration,In Review,2023-05-19,user_179
+CNG-0580,SharePoint,Operations,Migration,Planned,2023-10-26,user_180
+CNG-0581,PowerBI,Production,New Integration,In Review,2023-11-18,user_181
+CNG-0582,PowerBI,Maintenance,New Integration,Executed,2024-02-27,user_182
+CNG-0583,PowerBI,Maintenance,Bulk Load,In Review,2024-02-04,user_183
+CNG-0584,Maximo,Maintenance,New Integration,Executed,2022-12-10,user_184
+CNG-0585,PowerBI,Maintenance,Bulk Load,In Review,2022-06-13,user_185
+CNG-0586,PI Historian,Safety,Bulk Load,In Review,2023-11-09,user_186
+CNG-0587,SharePoint,Production,Bulk Load,Planned,2022-05-05,user_187
+CNG-0588,PowerBI,Safety,Bulk Load,In Review,2022-03-03,user_188
+CNG-0589,Maximo,Maintenance,Update,In Review,2023-02-24,user_189
+CNG-0590,SharePoint,Maintenance,Bulk Load,Planned,2022-06-16,user_190
+CNG-0591,PowerBI,Maintenance,New Integration,Executed,2022-11-20,user_191
+CNG-0592,SAP,Safety,New Integration,In Review,2022-12-16,user_192
+CNG-0593,PowerBI,Maintenance,New Integration,In Review,2022-12-21,user_193
+CNG-0594,PI Historian,Production,New Integration,Executed,2022-07-01,user_194
+CNG-0595,SharePoint,Maintenance,Update,Planned,2024-01-22,user_195
+CNG-0596,PI Historian,Production,Migration,In Review,2022-05-29,user_196
+CNG-0597,SAP,Production,Migration,Planned,2022-03-29,user_197
+CNG-0598,SAP,Maintenance,Bulk Load,Executed,2023-11-18,user_198
+CNG-0599,PI Historian,Safety,Bulk Load,Executed,2023-10-21,user_199
+CNG-0600,SharePoint,Operations,New Integration,Planned,2023-12-24,user_0
+CNG-0601,SAP,Operations,New Integration,Executed,2023-01-06,user_1
+CNG-0602,SAP,Production,Migration,Executed,2023-09-03,user_2
+CNG-0603,PowerBI,Safety,Migration,In Review,2022-08-17,user_3
+CNG-0604,Maximo,Operations,New Integration,Planned,2022-08-12,user_4
+CNG-0605,SAP,Maintenance,Bulk Load,In Review,2024-02-05,user_5
+CNG-0606,SharePoint,Maintenance,Update,Planned,2023-01-23,user_6
+CNG-0607,SharePoint,Production,Update,In Review,2023-02-24,user_7
+CNG-0608,PowerBI,Safety,Migration,Executed,2022-01-13,user_8
+CNG-0609,SharePoint,Safety,Migration,Planned,2022-12-25,user_9
+CNG-0610,PowerBI,Operations,Migration,Planned,2022-04-03,user_10
+CNG-0611,SAP,Operations,Update,Planned,2023-08-14,user_11
+CNG-0612,SAP,Maintenance,Update,Planned,2023-01-21,user_12
+CNG-0613,SAP,Production,New Integration,Executed,2022-08-31,user_13
+CNG-0614,SAP,Safety,Bulk Load,Executed,2023-03-30,user_14
+CNG-0615,Maximo,Operations,Migration,Executed,2022-07-17,user_15
+CNG-0616,Maximo,Operations,New Integration,In Review,2022-04-21,user_16
+CNG-0617,SAP,Production,Update,Executed,2022-08-02,user_17
+CNG-0618,SharePoint,Production,New Integration,In Review,2023-08-16,user_18
+CNG-0619,PowerBI,Maintenance,Update,In Review,2022-01-05,user_19
+CNG-0620,PI Historian,Production,Bulk Load,Executed,2022-09-30,user_20
+CNG-0621,PowerBI,Maintenance,Update,Executed,2023-01-10,user_21
+CNG-0622,PI Historian,Maintenance,New Integration,Executed,2022-04-09,user_22
+CNG-0623,PI Historian,Production,Bulk Load,In Review,2023-11-07,user_23
+CNG-0624,SAP,Production,Update,Planned,2023-10-15,user_24
+CNG-0625,PI Historian,Production,Migration,Executed,2023-11-13,user_25
+CNG-0626,SAP,Production,Update,In Review,2023-03-11,user_26
+CNG-0627,Maximo,Production,Bulk Load,In Review,2023-05-21,user_27
+CNG-0628,SharePoint,Maintenance,New Integration,Executed,2023-08-25,user_28
+CNG-0629,PI Historian,Operations,Bulk Load,In Review,2023-05-17,user_29
+CNG-0630,SharePoint,Safety,New Integration,Executed,2022-05-23,user_30
+CNG-0631,SAP,Safety,Update,In Review,2023-11-15,user_31
+CNG-0632,PI Historian,Maintenance,Update,Planned,2023-10-16,user_32
+CNG-0633,PowerBI,Maintenance,Bulk Load,In Review,2024-02-28,user_33
+CNG-0634,Maximo,Operations,Migration,Executed,2022-04-14,user_34
+CNG-0635,Maximo,Production,Update,Planned,2022-11-28,user_35
+CNG-0636,PI Historian,Maintenance,Migration,Executed,2022-05-22,user_36
+CNG-0637,Maximo,Safety,Migration,In Review,2023-07-10,user_37
+CNG-0638,PowerBI,Production,Bulk Load,Planned,2023-03-21,user_38
+CNG-0639,SharePoint,Maintenance,Update,Planned,2023-01-05,user_39
+CNG-0640,PowerBI,Production,Migration,In Review,2022-11-15,user_40
+CNG-0641,Maximo,Safety,Update,Planned,2023-10-28,user_41
+CNG-0642,SharePoint,Production,New Integration,Planned,2023-03-06,user_42
+CNG-0643,PowerBI,Maintenance,Migration,Planned,2022-02-18,user_43
+CNG-0644,SAP,Maintenance,Bulk Load,Executed,2022-01-24,user_44
+CNG-0645,SAP,Safety,Bulk Load,Executed,2022-12-23,user_45
+CNG-0646,SharePoint,Operations,Migration,Planned,2022-07-08,user_46
+CNG-0647,SharePoint,Operations,Update,In Review,2022-03-29,user_47
+CNG-0648,SharePoint,Production,New Integration,In Review,2022-02-19,user_48
+CNG-0649,SAP,Maintenance,New Integration,Executed,2022-04-07,user_49
+CNG-0650,PowerBI,Maintenance,Bulk Load,In Review,2023-11-23,user_50
+CNG-0651,SharePoint,Safety,Bulk Load,Planned,2023-08-28,user_51
+CNG-0652,SAP,Safety,Update,In Review,2023-08-10,user_52
+CNG-0653,SharePoint,Maintenance,Bulk Load,Executed,2023-10-17,user_53
+CNG-0654,SharePoint,Safety,Update,Executed,2022-05-03,user_54
+CNG-0655,SharePoint,Operations,Migration,Planned,2022-04-27,user_55
+CNG-0656,SAP,Operations,New Integration,Executed,2022-01-17,user_56
+CNG-0657,PowerBI,Production,Migration,Executed,2022-04-27,user_57
+CNG-0658,SAP,Safety,Bulk Load,Executed,2023-09-23,user_58
+CNG-0659,SAP,Production,New Integration,In Review,2022-07-14,user_59
+CNG-0660,SharePoint,Safety,New Integration,Executed,2023-12-11,user_60
+CNG-0661,PI Historian,Safety,Migration,In Review,2023-09-13,user_61
+CNG-0662,PI Historian,Operations,Update,Executed,2023-12-04,user_62
+CNG-0663,PI Historian,Maintenance,New Integration,Executed,2023-03-22,user_63
+CNG-0664,SAP,Safety,Update,In Review,2023-02-22,user_64
+CNG-0665,SharePoint,Safety,Migration,In Review,2023-07-09,user_65
+CNG-0666,PI Historian,Safety,Migration,Planned,2022-12-05,user_66
+CNG-0667,Maximo,Maintenance,Update,Planned,2024-02-18,user_67
+CNG-0668,Maximo,Production,Migration,In Review,2023-07-07,user_68
+CNG-0669,Maximo,Production,New Integration,Executed,2023-12-23,user_69
+CNG-0670,PowerBI,Safety,Migration,Planned,2023-02-13,user_70
+CNG-0671,SharePoint,Safety,Migration,In Review,2023-12-11,user_71
+CNG-0672,SAP,Production,New Integration,In Review,2023-10-21,user_72
+CNG-0673,SAP,Production,Update,Executed,2024-02-19,user_73
+CNG-0674,SharePoint,Operations,Migration,In Review,2023-03-13,user_74
+CNG-0675,PowerBI,Safety,Update,Planned,2023-05-03,user_75
+CNG-0676,SharePoint,Production,New Integration,Executed,2023-12-08,user_76
+CNG-0677,PowerBI,Operations,Update,In Review,2022-04-30,user_77
+CNG-0678,PI Historian,Maintenance,Update,In Review,2023-03-10,user_78
+CNG-0679,PI Historian,Safety,Bulk Load,Executed,2023-03-22,user_79
+CNG-0680,PowerBI,Production,Bulk Load,Executed,2024-01-16,user_80
+CNG-0681,SharePoint,Safety,Migration,Executed,2023-10-01,user_81
+CNG-0682,PI Historian,Operations,Bulk Load,Planned,2023-06-22,user_82
+CNG-0683,SharePoint,Production,Bulk Load,Planned,2022-06-08,user_83
+CNG-0684,PI Historian,Maintenance,Bulk Load,In Review,2023-09-01,user_84
+CNG-0685,SharePoint,Maintenance,Update,In Review,2022-09-12,user_85
+CNG-0686,SharePoint,Operations,Update,Executed,2023-04-21,user_86
+CNG-0687,Maximo,Maintenance,Bulk Load,In Review,2024-01-11,user_87
+CNG-0688,PowerBI,Maintenance,New Integration,In Review,2022-03-13,user_88
+CNG-0689,SAP,Maintenance,Bulk Load,Executed,2022-04-27,user_89
+CNG-0690,PowerBI,Maintenance,New Integration,Planned,2022-07-26,user_90
+CNG-0691,SharePoint,Maintenance,Update,Planned,2022-12-11,user_91
+CNG-0692,SharePoint,Maintenance,New Integration,Planned,2022-11-12,user_92
+CNG-0693,PowerBI,Maintenance,Update,In Review,2024-01-03,user_93
+CNG-0694,SharePoint,Production,New Integration,Executed,2022-11-04,user_94
+CNG-0695,PI Historian,Maintenance,Update,Planned,2023-03-01,user_95
+CNG-0696,SharePoint,Production,Update,In Review,2022-01-05,user_96
+CNG-0697,PowerBI,Safety,Bulk Load,Executed,2023-11-29,user_97
+CNG-0698,PowerBI,Operations,Migration,Planned,2023-05-07,user_98
+CNG-0699,PowerBI,Maintenance,Migration,Planned,2024-01-26,user_99
+CNG-0700,Maximo,Operations,Update,Executed,2022-09-24,user_100
+CNG-0701,Maximo,Maintenance,Bulk Load,In Review,2024-01-18,user_101
+CNG-0702,Maximo,Production,Migration,In Review,2022-10-24,user_102
+CNG-0703,Maximo,Maintenance,Migration,Planned,2023-12-01,user_103
+CNG-0704,Maximo,Safety,Bulk Load,Executed,2023-11-25,user_104
+CNG-0705,Maximo,Operations,Bulk Load,In Review,2023-01-28,user_105
+CNG-0706,Maximo,Operations,Migration,Executed,2022-04-28,user_106
+CNG-0707,PowerBI,Safety,Migration,Executed,2022-05-18,user_107
+CNG-0708,SAP,Production,New Integration,Planned,2023-09-13,user_108
+CNG-0709,Maximo,Production,New Integration,Executed,2022-01-15,user_109
+CNG-0710,PowerBI,Safety,Update,Executed,2022-12-07,user_110
+CNG-0711,SAP,Operations,Migration,Executed,2022-08-09,user_111
+CNG-0712,Maximo,Maintenance,Bulk Load,In Review,2022-07-29,user_112
+CNG-0713,SAP,Production,Bulk Load,Planned,2023-10-09,user_113
+CNG-0714,SAP,Maintenance,Migration,Planned,2022-07-05,user_114
+CNG-0715,PI Historian,Operations,Update,Executed,2023-05-31,user_115
+CNG-0716,SharePoint,Maintenance,Bulk Load,Executed,2024-02-26,user_116
+CNG-0717,PI Historian,Safety,Migration,In Review,2024-01-13,user_117
+CNG-0718,SAP,Production,Migration,Planned,2022-12-04,user_118
+CNG-0719,PowerBI,Production,Update,In Review,2023-04-15,user_119
+CNG-0720,Maximo,Safety,Migration,Planned,2023-11-13,user_120
+CNG-0721,SharePoint,Safety,Bulk Load,In Review,2023-05-21,user_121
+CNG-0722,Maximo,Production,New Integration,Executed,2023-12-15,user_122
+CNG-0723,PowerBI,Production,Update,In Review,2022-09-23,user_123
+CNG-0724,SharePoint,Production,Migration,Executed,2022-08-07,user_124
+CNG-0725,PI Historian,Operations,Update,Planned,2022-09-17,user_125
+CNG-0726,SAP,Operations,Migration,Planned,2023-02-25,user_126
+CNG-0727,PowerBI,Operations,New Integration,Executed,2023-09-02,user_127
+CNG-0728,SAP,Maintenance,Update,Planned,2023-04-16,user_128
+CNG-0729,SAP,Operations,Migration,In Review,2023-11-20,user_129
+CNG-0730,Maximo,Production,New Integration,Executed,2022-02-17,user_130
+CNG-0731,PowerBI,Operations,Bulk Load,Planned,2024-01-12,user_131
+CNG-0732,SAP,Production,Migration,In Review,2023-12-11,user_132
+CNG-0733,PI Historian,Safety,New Integration,In Review,2022-05-03,user_133
+CNG-0734,SharePoint,Maintenance,New Integration,Planned,2022-04-19,user_134
+CNG-0735,PowerBI,Maintenance,Update,Planned,2023-01-18,user_135
+CNG-0736,Maximo,Safety,Migration,In Review,2023-11-14,user_136
+CNG-0737,PowerBI,Production,Bulk Load,Executed,2023-10-31,user_137
+CNG-0738,Maximo,Maintenance,Migration,Planned,2023-03-06,user_138
+CNG-0739,SharePoint,Operations,New Integration,Planned,2022-10-31,user_139
+CNG-0740,PI Historian,Production,Bulk Load,Executed,2022-02-27,user_140
+CNG-0741,SAP,Maintenance,New Integration,Executed,2023-07-29,user_141
+CNG-0742,PowerBI,Safety,Update,Planned,2023-06-05,user_142
+CNG-0743,Maximo,Production,Migration,Executed,2023-10-13,user_143
+CNG-0744,SharePoint,Maintenance,New Integration,In Review,2022-07-07,user_144
+CNG-0745,SAP,Safety,New Integration,In Review,2023-10-14,user_145
+CNG-0746,SharePoint,Production,Migration,In Review,2023-08-18,user_146
+CNG-0747,PI Historian,Operations,Bulk Load,Planned,2023-04-12,user_147
+CNG-0748,SAP,Production,New Integration,Executed,2022-06-14,user_148
+CNG-0749,SAP,Operations,Migration,In Review,2023-08-11,user_149
+CNG-0750,SAP,Production,Update,Executed,2023-07-24,user_150
+CNG-0751,Maximo,Safety,Update,In Review,2023-04-11,user_151
+CNG-0752,SAP,Operations,Migration,Executed,2023-04-28,user_152
+CNG-0753,SharePoint,Operations,New Integration,In Review,2023-03-04,user_153
+CNG-0754,Maximo,Production,Migration,In Review,2023-01-12,user_154
+CNG-0755,SAP,Maintenance,Migration,In Review,2023-12-25,user_155
+CNG-0756,SharePoint,Operations,New Integration,In Review,2022-08-20,user_156
+CNG-0757,SharePoint,Production,Bulk Load,In Review,2023-12-15,user_157
+CNG-0758,PowerBI,Safety,Bulk Load,In Review,2023-12-23,user_158
+CNG-0759,SharePoint,Production,Update,In Review,2024-01-06,user_159
+CNG-0760,PI Historian,Production,Bulk Load,In Review,2022-01-12,user_160
+CNG-0761,SAP,Operations,Migration,In Review,2023-02-06,user_161
+CNG-0762,SAP,Maintenance,New Integration,Executed,2023-08-04,user_162
+CNG-0763,SAP,Safety,Update,Executed,2022-04-25,user_163
+CNG-0764,SharePoint,Operations,Bulk Load,Planned,2022-05-27,user_164
+CNG-0765,SharePoint,Operations,Migration,In Review,2024-01-10,user_165
+CNG-0766,SAP,Operations,Update,Executed,2022-09-12,user_166
+CNG-0767,Maximo,Safety,New Integration,Executed,2022-10-19,user_167
+CNG-0768,Maximo,Maintenance,Bulk Load,Executed,2023-09-21,user_168
+CNG-0769,PI Historian,Safety,Migration,Executed,2023-12-10,user_169
+CNG-0770,PowerBI,Safety,New Integration,Executed,2022-07-30,user_170
+CNG-0771,PI Historian,Maintenance,Migration,Executed,2024-02-23,user_171
+CNG-0772,SAP,Safety,Migration,Planned,2024-01-07,user_172
+CNG-0773,SAP,Production,Migration,Executed,2022-11-23,user_173
+CNG-0774,SAP,Safety,New Integration,Planned,2022-09-11,user_174
+CNG-0775,PowerBI,Operations,Update,Planned,2023-04-08,user_175
+CNG-0776,SharePoint,Safety,Migration,In Review,2023-05-15,user_176
+CNG-0777,PowerBI,Operations,Update,In Review,2024-02-20,user_177
+CNG-0778,PI Historian,Safety,Update,In Review,2022-03-21,user_178
+CNG-0779,SharePoint,Operations,Bulk Load,Executed,2022-05-28,user_179
+CNG-0780,SharePoint,Operations,Bulk Load,In Review,2023-09-27,user_180
+CNG-0781,PI Historian,Operations,Update,Executed,2023-02-10,user_181
+CNG-0782,SharePoint,Maintenance,Bulk Load,Executed,2022-02-22,user_182
+CNG-0783,Maximo,Safety,Bulk Load,In Review,2023-05-01,user_183
+CNG-0784,PI Historian,Safety,Update,In Review,2024-02-28,user_184
+CNG-0785,PI Historian,Production,New Integration,Planned,2023-03-07,user_185
+CNG-0786,Maximo,Production,Bulk Load,Planned,2023-10-05,user_186
+CNG-0787,PowerBI,Production,Bulk Load,Executed,2022-02-02,user_187
+CNG-0788,PowerBI,Safety,New Integration,Executed,2023-01-10,user_188
+CNG-0789,PowerBI,Maintenance,New Integration,In Review,2023-05-10,user_189
+CNG-0790,SharePoint,Operations,New Integration,In Review,2023-11-08,user_190
+CNG-0791,Maximo,Safety,Update,Planned,2022-02-16,user_191
+CNG-0792,PI Historian,Maintenance,New Integration,In Review,2022-05-12,user_192
+CNG-0793,PI Historian,Maintenance,Update,Executed,2024-02-08,user_193
+CNG-0794,PI Historian,Safety,Migration,In Review,2022-02-02,user_194
+CNG-0795,SharePoint,Operations,Migration,Planned,2022-07-03,user_195
+CNG-0796,SharePoint,Maintenance,New Integration,Executed,2022-11-26,user_196
+CNG-0797,PowerBI,Safety,New Integration,Planned,2023-12-21,user_197
+CNG-0798,SharePoint,Operations,Migration,Planned,2024-01-29,user_198
+CNG-0799,PowerBI,Production,Update,Executed,2022-03-16,user_199
+CNG-0800,PowerBI,Maintenance,Update,Planned,2023-10-22,user_0
+CNG-0801,PI Historian,Maintenance,New Integration,In Review,2023-03-23,user_1
+CNG-0802,SharePoint,Safety,New Integration,In Review,2022-03-12,user_2
+CNG-0803,PowerBI,Safety,New Integration,Planned,2023-02-02,user_3
+CNG-0804,Maximo,Operations,Migration,In Review,2022-01-12,user_4
+CNG-0805,Maximo,Production,Bulk Load,Planned,2023-07-15,user_5
+CNG-0806,SharePoint,Production,New Integration,In Review,2024-02-28,user_6
+CNG-0807,PI Historian,Safety,Update,Planned,2023-11-22,user_7
+CNG-0808,PI Historian,Safety,Bulk Load,In Review,2023-09-18,user_8
+CNG-0809,PowerBI,Operations,Update,Executed,2022-10-26,user_9
+CNG-0810,SharePoint,Safety,Bulk Load,Executed,2023-01-19,user_10
+CNG-0811,Maximo,Operations,Migration,In Review,2024-02-27,user_11
+CNG-0812,PowerBI,Operations,Bulk Load,Planned,2022-03-09,user_12
+CNG-0813,PowerBI,Production,Update,In Review,2023-11-08,user_13
+CNG-0814,SAP,Operations,Bulk Load,Planned,2024-01-15,user_14
+CNG-0815,SharePoint,Production,Migration,In Review,2024-02-19,user_15
+CNG-0816,PowerBI,Production,Update,In Review,2022-10-04,user_16
+CNG-0817,Maximo,Production,New Integration,Executed,2022-08-07,user_17
+CNG-0818,SAP,Safety,Bulk Load,Planned,2023-08-24,user_18
+CNG-0819,Maximo,Production,Update,Planned,2022-12-06,user_19
+CNG-0820,PI Historian,Operations,Bulk Load,Planned,2023-11-28,user_20
+CNG-0821,SAP,Safety,Migration,Planned,2022-06-21,user_21
+CNG-0822,SAP,Operations,Update,Planned,2022-09-06,user_22
+CNG-0823,PowerBI,Safety,New Integration,Executed,2023-07-24,user_23
+CNG-0824,PI Historian,Operations,New Integration,In Review,2022-10-01,user_24
+CNG-0825,PowerBI,Maintenance,Bulk Load,Planned,2022-11-07,user_25
+CNG-0826,SharePoint,Maintenance,Migration,Planned,2023-08-04,user_26
+CNG-0827,Maximo,Maintenance,Migration,In Review,2022-07-18,user_27
+CNG-0828,Maximo,Operations,Bulk Load,Executed,2022-02-10,user_28
+CNG-0829,PowerBI,Safety,Update,Executed,2023-02-16,user_29
+CNG-0830,Maximo,Production,Update,Executed,2022-11-28,user_30
+CNG-0831,Maximo,Production,Bulk Load,In Review,2022-10-27,user_31
+CNG-0832,SharePoint,Operations,Update,In Review,2023-03-12,user_32
+CNG-0833,PI Historian,Operations,Update,Executed,2023-11-26,user_33
+CNG-0834,SAP,Operations,Update,Executed,2023-10-11,user_34
+CNG-0835,PowerBI,Operations,Bulk Load,In Review,2022-04-14,user_35
+CNG-0836,PowerBI,Production,New Integration,Executed,2022-06-11,user_36
+CNG-0837,SharePoint,Safety,Migration,Planned,2022-12-27,user_37
+CNG-0838,SharePoint,Production,New Integration,In Review,2023-04-23,user_38
+CNG-0839,SAP,Operations,Update,Executed,2022-07-29,user_39
+CNG-0840,PI Historian,Maintenance,Bulk Load,Planned,2023-04-01,user_40
+CNG-0841,PowerBI,Production,Migration,In Review,2022-06-01,user_41
+CNG-0842,SharePoint,Maintenance,Update,In Review,2022-09-09,user_42
+CNG-0843,PowerBI,Maintenance,Migration,Planned,2023-10-22,user_43
+CNG-0844,Maximo,Operations,Migration,In Review,2023-12-22,user_44
+CNG-0845,PowerBI,Production,New Integration,Executed,2022-11-17,user_45
+CNG-0846,PI Historian,Safety,Update,In Review,2022-04-01,user_46
+CNG-0847,PI Historian,Production,Migration,Executed,2023-07-13,user_47
+CNG-0848,PowerBI,Safety,New Integration,Planned,2023-10-23,user_48
+CNG-0849,Maximo,Safety,Bulk Load,Planned,2023-11-17,user_49
+CNG-0850,PI Historian,Operations,Migration,In Review,2023-02-05,user_50
+CNG-0851,SharePoint,Safety,Update,Planned,2022-05-17,user_51
+CNG-0852,PowerBI,Production,Bulk Load,Planned,2022-11-26,user_52
+CNG-0853,Maximo,Production,Migration,In Review,2023-01-26,user_53
+CNG-0854,SharePoint,Maintenance,Migration,Executed,2023-06-26,user_54
+CNG-0855,PowerBI,Safety,Update,In Review,2023-07-23,user_55
+CNG-0856,Maximo,Operations,Migration,In Review,2023-12-26,user_56
+CNG-0857,SharePoint,Operations,Update,Executed,2023-09-05,user_57
+CNG-0858,PI Historian,Production,Update,Executed,2022-06-29,user_58
+CNG-0859,PowerBI,Safety,Update,Executed,2022-06-14,user_59
+CNG-0860,PowerBI,Operations,Update,In Review,2022-08-18,user_60
+CNG-0861,PI Historian,Safety,Migration,Executed,2022-08-27,user_61
+CNG-0862,SAP,Safety,Bulk Load,Planned,2024-02-15,user_62
+CNG-0863,SharePoint,Maintenance,Bulk Load,Executed,2022-12-26,user_63
+CNG-0864,PI Historian,Operations,New Integration,Planned,2023-09-15,user_64
+CNG-0865,PowerBI,Maintenance,Update,Executed,2022-10-25,user_65
+CNG-0866,SharePoint,Operations,Migration,Planned,2022-01-01,user_66
+CNG-0867,SharePoint,Safety,Migration,Planned,2023-11-18,user_67
+CNG-0868,SAP,Operations,New Integration,Planned,2022-11-30,user_68
+CNG-0869,PowerBI,Production,Bulk Load,Planned,2023-03-24,user_69
+CNG-0870,Maximo,Safety,Migration,Planned,2023-05-11,user_70
+CNG-0871,SAP,Operations,New Integration,Executed,2022-11-20,user_71
+CNG-0872,SAP,Maintenance,Bulk Load,In Review,2023-11-05,user_72
+CNG-0873,Maximo,Maintenance,Migration,In Review,2023-03-21,user_73
+CNG-0874,Maximo,Safety,Update,In Review,2023-01-02,user_74
+CNG-0875,SAP,Maintenance,New Integration,In Review,2022-06-19,user_75
+CNG-0876,SharePoint,Safety,Migration,In Review,2022-07-01,user_76
+CNG-0877,PI Historian,Safety,New Integration,Planned,2024-02-27,user_77
+CNG-0878,PI Historian,Safety,New Integration,Executed,2023-08-07,user_78
+CNG-0879,SAP,Operations,New Integration,Planned,2023-06-14,user_79
+CNG-0880,SharePoint,Safety,Update,Executed,2022-02-19,user_80
+CNG-0881,Maximo,Maintenance,Bulk Load,Executed,2022-10-29,user_81
+CNG-0882,SAP,Production,Bulk Load,Executed,2023-10-18,user_82
+CNG-0883,PowerBI,Operations,Migration,Executed,2023-03-07,user_83
+CNG-0884,SharePoint,Maintenance,Update,In Review,2023-12-25,user_84
+CNG-0885,PowerBI,Safety,Bulk Load,Executed,2024-02-05,user_85
+CNG-0886,PowerBI,Safety,Migration,Executed,2023-06-10,user_86
+CNG-0887,SAP,Production,Migration,In Review,2022-04-11,user_87
+CNG-0888,SharePoint,Maintenance,New Integration,Planned,2023-03-10,user_88
+CNG-0889,PowerBI,Operations,Update,Planned,2023-10-13,user_89
+CNG-0890,SharePoint,Maintenance,Bulk Load,Planned,2023-11-26,user_90
+CNG-0891,PI Historian,Safety,Update,Planned,2024-01-04,user_91
+CNG-0892,PowerBI,Operations,Update,Executed,2022-02-02,user_92
+CNG-0893,PowerBI,Safety,Bulk Load,In Review,2022-07-15,user_93
+CNG-0894,SharePoint,Safety,Bulk Load,In Review,2023-08-13,user_94
+CNG-0895,PI Historian,Maintenance,Update,Planned,2022-04-20,user_95
+CNG-0896,PowerBI,Production,Migration,In Review,2023-09-01,user_96
+CNG-0897,SAP,Safety,Update,Executed,2022-12-31,user_97
+CNG-0898,SharePoint,Maintenance,Bulk Load,Planned,2022-03-22,user_98
+CNG-0899,SharePoint,Operations,Update,Executed,2023-06-08,user_99
+CNG-0900,PowerBI,Production,Bulk Load,Executed,2023-08-10,user_100
+CNG-0901,PI Historian,Safety,Migration,Executed,2024-01-09,user_101
+CNG-0902,PowerBI,Safety,Update,Executed,2023-05-11,user_102
+CNG-0903,Maximo,Operations,Migration,Executed,2024-02-03,user_103
+CNG-0904,PowerBI,Maintenance,Update,Planned,2023-07-29,user_104
+CNG-0905,Maximo,Safety,Update,Executed,2022-07-30,user_105
+CNG-0906,SAP,Operations,Bulk Load,Planned,2022-12-07,user_106
+CNG-0907,SharePoint,Safety,New Integration,In Review,2023-04-06,user_107
+CNG-0908,SharePoint,Maintenance,Bulk Load,Executed,2023-02-15,user_108
+CNG-0909,PI Historian,Production,Update,Executed,2023-09-01,user_109
+CNG-0910,PowerBI,Maintenance,New Integration,In Review,2024-01-06,user_110
+CNG-0911,SAP,Maintenance,New Integration,Planned,2023-03-07,user_111
+CNG-0912,Maximo,Maintenance,Migration,Executed,2023-03-30,user_112
+CNG-0913,PI Historian,Operations,Update,In Review,2022-06-02,user_113
+CNG-0914,SAP,Safety,Bulk Load,In Review,2024-02-23,user_114
+CNG-0915,SAP,Production,New Integration,Executed,2023-08-27,user_115
+CNG-0916,Maximo,Operations,New Integration,Planned,2023-10-09,user_116
+CNG-0917,Maximo,Maintenance,Bulk Load,Planned,2022-03-19,user_117
+CNG-0918,SharePoint,Production,Bulk Load,Executed,2022-06-20,user_118
+CNG-0919,PowerBI,Maintenance,New Integration,In Review,2023-03-26,user_119
+CNG-0920,PI Historian,Maintenance,Bulk Load,Executed,2022-03-19,user_120
+CNG-0921,PowerBI,Maintenance,Migration,Planned,2022-07-10,user_121
+CNG-0922,PI Historian,Production,New Integration,In Review,2023-03-07,user_122
+CNG-0923,SAP,Safety,Migration,Executed,2022-10-01,user_123
+CNG-0924,Maximo,Maintenance,Update,In Review,2023-11-04,user_124
+CNG-0925,Maximo,Safety,Migration,Planned,2022-02-06,user_125
+CNG-0926,SAP,Production,Bulk Load,Planned,2022-11-02,user_126
+CNG-0927,SAP,Production,New Integration,Planned,2022-03-11,user_127
+CNG-0928,PI Historian,Maintenance,Migration,Executed,2022-01-03,user_128
+CNG-0929,SAP,Safety,Bulk Load,In Review,2023-07-13,user_129
+CNG-0930,PI Historian,Safety,Bulk Load,Executed,2023-12-05,user_130
+CNG-0931,PowerBI,Maintenance,Migration,Executed,2022-12-19,user_131
+CNG-0932,Maximo,Operations,New Integration,Executed,2023-11-04,user_132
+CNG-0933,Maximo,Operations,Migration,Executed,2023-03-30,user_133
+CNG-0934,Maximo,Production,Update,In Review,2023-05-12,user_134
+CNG-0935,PowerBI,Production,Migration,In Review,2023-08-27,user_135
+CNG-0936,PowerBI,Operations,Migration,Executed,2022-11-29,user_136
+CNG-0937,SharePoint,Operations,New Integration,Executed,2023-09-30,user_137
+CNG-0938,PI Historian,Operations,Migration,Planned,2023-01-09,user_138
+CNG-0939,PI Historian,Maintenance,Bulk Load,Planned,2024-02-21,user_139
+CNG-0940,SharePoint,Maintenance,New Integration,In Review,2023-06-16,user_140
+CNG-0941,Maximo,Maintenance,Bulk Load,Planned,2023-07-21,user_141
+CNG-0942,PI Historian,Maintenance,New Integration,In Review,2023-06-30,user_142
+CNG-0943,PI Historian,Maintenance,Update,In Review,2023-05-21,user_143
+CNG-0944,Maximo,Maintenance,Update,In Review,2023-11-28,user_144
+CNG-0945,SAP,Production,Update,Planned,2022-02-03,user_145
+CNG-0946,SAP,Safety,Migration,Planned,2022-03-22,user_146
+CNG-0947,SharePoint,Production,Update,In Review,2023-08-10,user_147
+CNG-0948,PowerBI,Safety,New Integration,In Review,2022-09-09,user_148
+CNG-0949,PI Historian,Production,Update,Executed,2022-01-22,user_149
+CNG-0950,PI Historian,Production,New Integration,In Review,2022-03-16,user_150
+CNG-0951,SharePoint,Maintenance,Bulk Load,In Review,2022-11-16,user_151
+CNG-0952,SharePoint,Maintenance,Migration,Executed,2023-12-19,user_152
+CNG-0953,PI Historian,Safety,Bulk Load,In Review,2023-04-20,user_153
+CNG-0954,Maximo,Safety,Bulk Load,In Review,2023-07-07,user_154
+CNG-0955,Maximo,Maintenance,Update,In Review,2023-02-15,user_155
+CNG-0956,PowerBI,Production,Update,Executed,2023-06-04,user_156
+CNG-0957,PI Historian,Safety,Update,Planned,2023-03-21,user_157
+CNG-0958,PI Historian,Operations,Bulk Load,In Review,2023-03-07,user_158
+CNG-0959,PI Historian,Operations,Migration,Executed,2023-01-04,user_159
+CNG-0960,PI Historian,Operations,Migration,In Review,2022-03-27,user_160
+CNG-0961,SharePoint,Safety,Bulk Load,Executed,2023-04-25,user_161
+CNG-0962,SAP,Maintenance,Migration,In Review,2023-12-22,user_162
+CNG-0963,PI Historian,Maintenance,Bulk Load,Executed,2022-06-18,user_163
+CNG-0964,SAP,Maintenance,Bulk Load,Planned,2023-12-26,user_164
+CNG-0965,Maximo,Safety,Migration,Planned,2023-04-13,user_165
+CNG-0966,PowerBI,Safety,New Integration,Planned,2022-08-02,user_166
+CNG-0967,Maximo,Operations,New Integration,In Review,2022-07-10,user_167
+CNG-0968,PI Historian,Safety,Update,Executed,2022-06-02,user_168
+CNG-0969,Maximo,Operations,Migration,In Review,2023-07-21,user_169
+CNG-0970,SharePoint,Operations,Update,In Review,2023-04-02,user_170
+CNG-0971,SAP,Maintenance,Bulk Load,Executed,2022-02-08,user_171
+CNG-0972,PI Historian,Safety,New Integration,In Review,2023-06-17,user_172
+CNG-0973,SharePoint,Maintenance,Migration,Executed,2022-09-17,user_173
+CNG-0974,SAP,Maintenance,Migration,Executed,2022-06-08,user_174
+CNG-0975,SharePoint,Safety,Migration,Planned,2023-02-07,user_175
+CNG-0976,Maximo,Safety,New Integration,Planned,2022-09-07,user_176
+CNG-0977,PI Historian,Production,Update,Planned,2023-09-15,user_177
+CNG-0978,Maximo,Operations,New Integration,Executed,2023-01-04,user_178
+CNG-0979,PowerBI,Production,Update,Planned,2022-07-29,user_179
+CNG-0980,PI Historian,Operations,Bulk Load,Executed,2022-07-17,user_180
+CNG-0981,Maximo,Operations,Bulk Load,In Review,2023-05-19,user_181
+CNG-0982,PI Historian,Operations,Update,Planned,2023-11-26,user_182
+CNG-0983,SAP,Maintenance,Bulk Load,Executed,2023-03-23,user_183
+CNG-0984,PI Historian,Maintenance,Bulk Load,Executed,2023-01-07,user_184
+CNG-0985,PI Historian,Safety,Migration,Executed,2023-04-19,user_185
+CNG-0986,SAP,Operations,Migration,Executed,2023-02-15,user_186
+CNG-0987,Maximo,Operations,New Integration,Planned,2023-03-13,user_187
+CNG-0988,PI Historian,Operations,New Integration,Planned,2022-12-09,user_188
+CNG-0989,SharePoint,Maintenance,New Integration,Planned,2022-11-10,user_189
+CNG-0990,PI Historian,Safety,Migration,Executed,2023-05-31,user_190
+CNG-0991,Maximo,Maintenance,New Integration,In Review,2023-10-14,user_191
+CNG-0992,SAP,Production,New Integration,Executed,2022-10-23,user_192
+CNG-0993,Maximo,Production,Migration,In Review,2024-01-02,user_193
+CNG-0994,PowerBI,Production,Update,Planned,2023-05-14,user_194
+CNG-0995,PI Historian,Safety,Migration,Executed,2022-11-23,user_195
+CNG-0996,PI Historian,Production,Update,Executed,2024-02-12,user_196
+CNG-0997,SAP,Safety,Migration,Planned,2023-05-23,user_197
+CNG-0998,PI Historian,Maintenance,New Integration,Executed,2023-07-13,user_198
+CNG-0999,SharePoint,Maintenance,Bulk Load,In Review,2022-05-30,user_199

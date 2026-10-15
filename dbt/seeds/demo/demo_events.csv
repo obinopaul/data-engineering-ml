@@ -1,0 +1,8 @@
+event_id,entity_id,event_type,event_at,updated_at,metric_value,is_deleted
+e1,asset_a,pressure,2026-01-01 09:00:00,2026-01-01 09:01:00,100,false
+e1,asset_a,pressure,2026-01-01 09:00:00,2026-01-02 10:00:00,110,false
+e2,asset_a,temperature,2026-01-01 09:00:00,2026-01-01 09:01:00,45,false
+e3,asset_b,pressure,2026-01-01 10:00:00,2026-01-01 10:01:00,200,false
+e4,asset_b,pressure,2026-01-01 11:00:00,2026-01-01 11:01:00,210,false
+e4,asset_b,pressure,2026-01-01 11:00:00,2026-01-02 11:00:00,,true
+e5,asset_a,pressure,2026-01-01 08:00:00,2026-01-03 12:00:00,90,false

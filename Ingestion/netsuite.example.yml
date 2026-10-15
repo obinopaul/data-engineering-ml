@@ -1,0 +1,12 @@
+# Uses vendor_sources.py; set credentials in main/.env, not here.
+pipeline_name: netsuite_customers
+dataset: raw
+table: netsuite_customers
+primary_key: id
+write_disposition: merge
+source:
+  type: netsuite
+  page_size: 1000
+  # Confirm Customer fields and permissions in your NetSuite Records Catalog.
+  # ORDER BY must include a unique key for stable offset pagination.
+  query: SELECT id, entityid FROM customer ORDER BY id

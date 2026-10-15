@@ -1,0 +1,13 @@
+version: 2
+seeds:
+  - name: demo_events
+    description: "Synthetic fixture: updates, a tombstone and a late-arriving event. Not field data."
+  - name: demo_entities
+    description: "Synthetic entity master for the demo."
+  - name: event_type_lookup
+    description: "Editable business mapping; normalize actual measurement units before using it."
+    columns:
+      - name: event_type
+        data_tests: [unique, not_null]
+      - name: metric_unit
+        data_tests: [not_null]

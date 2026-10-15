@@ -1,0 +1,83 @@
+version: 2
+unit_tests:
+  - name: latest_version_and_tombstone_are_retained
+    model: int_latest_events
+    config:
+      enabled: "{{ var('workload') in ['demo', 'events'] }}"
+    given:
+      - input: ref('stg_events')
+        rows:
+          - {event_id: a, entity_id: x, event_type: pressure, event_at: '2026-01-01 00:00:00', updated_at: '2026-01-01 01:00:00', metric_value: 10, is_deleted: false}
+          - {event_id: a, entity_id: x, event_type: pressure, event_at: '2026-01-01 00:00:00', updated_at: '2026-01-02 01:00:00', metric_value: 12, is_deleted: false}
+          - {event_id: b, entity_id: x, event_type: pressure, event_at: '2026-01-01 00:00:00', updated_at: '2026-01-02 01:00:00', metric_value: null, is_deleted: true}
+    expect:
+      rows:
+        - {event_id: a, metric_value: 12, is_deleted: false}
+        - {event_id: b, metric_value: null, is_deleted: true}
+  - name: incremental_replays_boundary_and_late_updates
+    model: fct_events
+    config:
+      enabled: "{{ var('workload') in ['demo', 'events'] }}"
+    overrides:
+      macros: {is_incremental: true}
+      vars: {event_lookback_days: 3}
+    given:
+      - input: ref('int_latest_events')
+        format: sql
+        rows: |
+          select column1::varchar as event_id, 'x'::varchar as entity_id,
+                 'pressure'::varchar as event_type,
+                 '2025-12-01'::timestamp_ntz as event_at,
+                 column2::timestamp_ntz as updated_at,
+                 10::float as metric_value, column3::boolean as is_deleted
+          from values ('old', '2026-01-06', false),
+                      ('boundary', '2026-01-07', false),
+                      ('late', '2026-01-09', false),
+                      ('removed', '2026-01-10', true)
+      - input: this
+        rows:
+          - {updated_at: '2026-01-10 00:00:00'}
+    expect:
+      rows:
+        - {event_id: boundary, is_deleted: false}
+        - {event_id: late, is_deleted: false}
+        - {event_id: removed, is_deleted: true}
+  - name: initial_fact_keeps_historical_events
+    model: fct_events
+    config:
+      enabled: "{{ var('workload') in ['demo', 'events'] }}"
+    overrides:
+      macros: {is_incremental: false}
+    given:
+      - input: ref('int_latest_events')
+        format: sql
+        rows: |
+          select 'old'::varchar as event_id, 'x'::varchar as entity_id,
+                 'pressure'::varchar as event_type,
+                 '2020-01-01'::timestamp_ntz as event_at,
+                 '2020-01-02'::timestamp_ntz as updated_at,
+                 10::float as metric_value, false as is_deleted
+    expect:
+      rows:
+        - {event_id: old, metric_value: 10, is_deleted: false}
+  - name: reporting_excludes_deleted_and_keeps_units_separate
+    model: mart_entity_daily
+    config:
+      enabled: "{{ var('workload') in ['demo', 'events'] }}"
+    given:
+      - input: ref('fct_events')
+        rows:
+          - {entity_key: k, entity_id: x, event_at: '2026-01-01 10:00:00', event_type: pressure, metric_value: 100, is_deleted: false}
+          - {entity_key: k, entity_id: x, event_at: '2026-01-01 11:00:00', event_type: pressure, metric_value: 500, is_deleted: true}
+          - {entity_key: k, entity_id: x, event_at: '2026-01-01 12:00:00', event_type: temperature, metric_value: 20, is_deleted: false}
+      - input: ref('dim_entities')
+        rows:
+          - {entity_key: k, entity_id: x, entity_name: Example, entity_type: equipment}
+      - input: ref('event_type_lookup')
+        rows:
+          - {event_type: pressure, metric_unit: kPa}
+          - {event_type: temperature, metric_unit: degC}
+    expect:
+      rows:
+        - {entity_id: x, event_type: pressure, metric_unit: kPa, event_count: 1, average_value: 100}
+        - {entity_id: x, event_type: temperature, metric_unit: degC, event_count: 1, average_value: 20}

@@ -1,0 +1,1001 @@
+Date,Location,Observation Type,Category,Severity,Reported By,Verified,Status
+2023-04-17,Terminal X,Unsafe Act,PPE Violation,Low,emp_0,False,Closed
+2022-04-09,Plant Y,Unsafe Act,Slips/Trips,Low,emp_1,True,In Progress
+2023-08-08,Platform C,Near Miss,PPE Violation,Low,emp_2,True,Open
+2023-09-05,Plant Y,Unsafe Condition,Chemical Leak,Low,emp_3,True,In Progress
+2022-04-28,Plant Y,Unsafe Act,Fire Hazard,Low,emp_4,True,Closed
+2023-09-13,Rig B,Near Miss,PPE Violation,Low,emp_5,True,Closed
+2022-08-25,Platform C,Unsafe Condition,Chemical Leak,High,emp_6,False,In Progress
+2023-05-03,Platform C,Unsafe Act,PPE Violation,Low,emp_7,False,Closed
+2023-05-16,Platform C,Unsafe Condition,PPE Violation,Medium,emp_8,False,Closed
+2023-10-14,Plant Y,Near Miss,Fire Hazard,Low,emp_9,False,Open
+2023-10-21,Terminal X,Unsafe Act,Unauthorized Entry,Low,emp_10,True,In Progress
+2022-04-10,Platform C,Unsafe Condition,Unauthorized Entry,High,emp_11,True,In Progress
+2023-09-09,Plant Y,Unsafe Act,PPE Violation,High,emp_12,False,In Progress
+2022-08-16,Rig B,Unsafe Condition,Slips/Trips,Medium,emp_13,True,Closed
+2023-11-01,Terminal X,Near Miss,Chemical Leak,Medium,emp_14,True,In Progress
+2022-02-03,Rig B,Near Miss,Slips/Trips,High,emp_15,False,In Progress
+2023-10-13,Terminal X,Unsafe Act,Slips/Trips,High,emp_16,True,Open
+2022-11-27,Plant Y,Unsafe Condition,PPE Violation,Low,emp_17,False,Open
+2023-05-26,Rig A,Unsafe Act,PPE Violation,High,emp_18,False,Open
+2023-10-02,Terminal X,Unsafe Act,PPE Violation,Medium,emp_19,True,Closed
+2023-02-23,Rig B,Unsafe Condition,PPE Violation,Low,emp_20,True,In Progress
+2022-04-27,Plant Y,Unsafe Condition,Unauthorized Entry,Medium,emp_21,False,Open
+2023-02-27,Terminal X,Unsafe Condition,PPE Violation,Low,emp_22,False,Open
+2022-06-23,Rig A,Near Miss,Unauthorized Entry,High,emp_23,True,Open
+2023-05-01,Rig A,Unsafe Act,Unauthorized Entry,Medium,emp_24,False,In Progress
+2023-01-03,Platform C,Unsafe Act,PPE Violation,Low,emp_25,False,In Progress
+2024-01-07,Platform C,Near Miss,Fire Hazard,Low,emp_26,False,In Progress
+2022-08-29,Rig B,Unsafe Condition,Chemical Leak,High,emp_27,True,Closed
+2023-02-15,Terminal X,Near Miss,Slips/Trips,High,emp_28,False,Closed
+2023-08-24,Terminal X,Near Miss,Unauthorized Entry,High,emp_29,True,Open
+2022-04-28,Platform C,Near Miss,Chemical Leak,Medium,emp_30,False,In Progress
+2022-05-29,Terminal X,Unsafe Act,Fire Hazard,Low,emp_31,True,Open
+2023-03-19,Terminal X,Near Miss,Slips/Trips,High,emp_32,False,In Progress
+2023-02-22,Rig A,Unsafe Act,Slips/Trips,Medium,emp_33,True,In Progress
+2024-01-11,Platform C,Unsafe Act,Unauthorized Entry,Medium,emp_34,True,In Progress
+2024-02-20,Plant Y,Unsafe Act,PPE Violation,Medium,emp_35,True,Closed
+2023-12-01,Platform C,Unsafe Condition,Fire Hazard,High,emp_36,False,Closed
+2023-01-09,Plant Y,Unsafe Act,Unauthorized Entry,High,emp_37,False,In Progress
+2023-06-28,Rig A,Unsafe Act,Fire Hazard,Low,emp_38,False,Open
+2024-01-13,Rig B,Unsafe Condition,PPE Violation,Low,emp_39,True,In Progress
+2023-05-12,Terminal X,Unsafe Act,PPE Violation,High,emp_40,False,In Progress
+2023-09-01,Rig A,Near Miss,Unauthorized Entry,Medium,emp_41,True,Open
+2023-11-26,Terminal X,Near Miss,PPE Violation,Medium,emp_42,False,In Progress
+2022-06-06,Rig B,Unsafe Act,Chemical Leak,Medium,emp_43,True,Open
+2022-09-16,Rig B,Unsafe Condition,Slips/Trips,Low,emp_44,True,Closed
+2022-06-30,Rig A,Near Miss,Unauthorized Entry,Medium,emp_45,True,Closed
+2022-08-11,Rig B,Unsafe Condition,Fire Hazard,Low,emp_46,False,Open
+2022-12-14,Plant Y,Unsafe Condition,Chemical Leak,Low,emp_47,False,Closed
+2022-05-15,Rig B,Near Miss,Unauthorized Entry,Medium,emp_48,False,Closed
+2023-12-12,Terminal X,Unsafe Condition,PPE Violation,Medium,emp_49,True,Open
+2023-07-08,Terminal X,Near Miss,PPE Violation,High,emp_50,True,Closed
+2022-10-26,Terminal X,Unsafe Condition,PPE Violation,High,emp_51,False,In Progress
+2022-03-19,Terminal X,Near Miss,PPE Violation,Medium,emp_52,False,In Progress
+2023-09-12,Plant Y,Unsafe Act,Fire Hazard,Low,emp_53,False,Open
+2023-09-25,Platform C,Near Miss,Chemical Leak,Low,emp_54,True,Closed
+2023-08-15,Rig A,Near Miss,Slips/Trips,Low,emp_55,True,In Progress
+2023-12-26,Terminal X,Near Miss,Fire Hazard,Low,emp_56,True,In Progress
+2024-01-26,Rig B,Near Miss,Fire Hazard,Low,emp_57,True,Closed
+2022-05-22,Terminal X,Unsafe Condition,Slips/Trips,High,emp_58,True,Closed
+2022-05-31,Rig B,Unsafe Act,Slips/Trips,Medium,emp_59,False,In Progress
+2022-08-23,Rig B,Near Miss,PPE Violation,High,emp_60,True,In Progress
+2022-01-25,Terminal X,Unsafe Condition,Fire Hazard,Low,emp_61,True,Open
+2023-12-17,Plant Y,Unsafe Act,Unauthorized Entry,Low,emp_62,True,Open
+2022-07-30,Rig B,Unsafe Act,Slips/Trips,Low,emp_63,True,In Progress
+2024-02-15,Rig B,Unsafe Act,Slips/Trips,Low,emp_64,True,Open
+2023-03-16,Terminal X,Unsafe Act,Chemical Leak,Medium,emp_65,False,In Progress
+2023-06-26,Rig B,Near Miss,Unauthorized Entry,Low,emp_66,True,In Progress
+2022-11-14,Rig B,Near Miss,Unauthorized Entry,Medium,emp_67,True,Open
+2022-03-16,Terminal X,Unsafe Condition,Slips/Trips,Low,emp_68,True,Open
+2022-07-02,Terminal X,Unsafe Condition,PPE Violation,Medium,emp_69,False,Closed
+2022-06-26,Rig A,Unsafe Condition,Chemical Leak,High,emp_70,False,Closed
+2023-07-29,Plant Y,Unsafe Act,Unauthorized Entry,Low,emp_71,False,Closed
+2023-05-07,Plant Y,Unsafe Act,Slips/Trips,Medium,emp_72,True,In Progress
+2023-02-28,Rig B,Near Miss,Unauthorized Entry,High,emp_73,False,Open
+2023-09-01,Plant Y,Unsafe Act,Chemical Leak,Low,emp_74,True,In Progress
+2022-02-03,Rig B,Unsafe Act,Chemical Leak,Low,emp_75,True,Open
+2023-04-28,Rig A,Unsafe Act,Fire Hazard,Low,emp_76,False,In Progress
+2023-12-09,Terminal X,Unsafe Condition,Slips/Trips,Medium,emp_77,True,Closed
+2023-06-29,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_78,True,Closed
+2022-05-05,Terminal X,Near Miss,Fire Hazard,High,emp_79,True,Closed
+2023-05-11,Plant Y,Unsafe Act,Fire Hazard,Medium,emp_80,False,In Progress
+2023-11-09,Rig A,Unsafe Act,Unauthorized Entry,Medium,emp_81,True,Open
+2022-10-27,Plant Y,Near Miss,Unauthorized Entry,Low,emp_82,True,Open
+2023-03-14,Plant Y,Unsafe Act,Fire Hazard,Low,emp_83,False,Closed
+2024-02-06,Rig A,Unsafe Act,Unauthorized Entry,Low,emp_84,True,Closed
+2022-08-23,Rig A,Unsafe Condition,Chemical Leak,Low,emp_85,True,Closed
+2022-12-27,Rig A,Near Miss,PPE Violation,Low,emp_86,False,Closed
+2022-08-12,Rig A,Near Miss,Chemical Leak,Low,emp_87,True,Open
+2024-02-04,Terminal X,Near Miss,Fire Hazard,Low,emp_88,True,In Progress
+2022-10-16,Platform C,Near Miss,Fire Hazard,High,emp_89,True,In Progress
+2022-09-08,Platform C,Unsafe Condition,Chemical Leak,High,emp_90,True,In Progress
+2023-09-12,Rig A,Unsafe Condition,Unauthorized Entry,High,emp_91,True,In Progress
+2022-09-30,Platform C,Unsafe Act,Unauthorized Entry,High,emp_92,False,Closed
+2023-04-13,Platform C,Unsafe Act,Fire Hazard,Low,emp_93,False,Closed
+2022-08-17,Rig A,Unsafe Act,Slips/Trips,High,emp_94,False,Closed
+2022-04-30,Platform C,Unsafe Act,Unauthorized Entry,Low,emp_95,False,In Progress
+2022-05-05,Plant Y,Unsafe Condition,Chemical Leak,High,emp_96,True,Closed
+2022-11-16,Rig B,Near Miss,Unauthorized Entry,Medium,emp_97,True,Closed
+2024-01-06,Rig B,Unsafe Condition,Chemical Leak,High,emp_98,True,Open
+2022-10-18,Rig A,Unsafe Act,Fire Hazard,High,emp_99,True,Open
+2022-09-26,Terminal X,Unsafe Condition,Unauthorized Entry,Low,emp_100,True,Closed
+2023-12-28,Rig A,Near Miss,Chemical Leak,High,emp_101,False,Open
+2023-06-06,Terminal X,Near Miss,Fire Hazard,Medium,emp_102,False,Open
+2023-04-14,Rig B,Unsafe Condition,Slips/Trips,Low,emp_103,True,Closed
+2024-01-20,Rig A,Unsafe Condition,Chemical Leak,Low,emp_104,True,Closed
+2023-12-08,Plant Y,Unsafe Condition,Slips/Trips,High,emp_105,True,Closed
+2022-09-28,Platform C,Unsafe Act,Slips/Trips,Low,emp_106,False,Closed
+2023-08-17,Terminal X,Unsafe Condition,PPE Violation,Low,emp_107,True,In Progress
+2022-05-23,Platform C,Unsafe Condition,Unauthorized Entry,Low,emp_108,True,In Progress
+2023-07-25,Platform C,Unsafe Condition,Chemical Leak,Low,emp_109,True,Closed
+2022-08-04,Rig A,Near Miss,Slips/Trips,Low,emp_110,False,Open
+2022-03-21,Platform C,Near Miss,PPE Violation,Low,emp_111,True,Closed
+2022-07-20,Plant Y,Unsafe Act,Fire Hazard,Medium,emp_112,False,Closed
+2023-06-09,Platform C,Unsafe Act,Chemical Leak,High,emp_113,False,Open
+2022-07-11,Rig A,Near Miss,Slips/Trips,Medium,emp_114,False,In Progress
+2023-04-27,Plant Y,Near Miss,Unauthorized Entry,Low,emp_115,False,Closed
+2024-01-23,Rig B,Near Miss,PPE Violation,Low,emp_116,False,Closed
+2022-09-07,Platform C,Unsafe Condition,Slips/Trips,High,emp_117,False,In Progress
+2023-09-10,Rig A,Unsafe Condition,Unauthorized Entry,Medium,emp_118,True,In Progress
+2022-11-21,Rig B,Near Miss,Slips/Trips,High,emp_119,True,Open
+2023-11-19,Rig B,Unsafe Condition,Chemical Leak,Medium,emp_120,True,In Progress
+2022-02-16,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_121,False,In Progress
+2022-06-05,Plant Y,Unsafe Act,Chemical Leak,High,emp_122,True,In Progress
+2022-05-20,Platform C,Near Miss,PPE Violation,High,emp_123,False,Open
+2023-06-03,Rig A,Near Miss,Chemical Leak,Low,emp_124,False,In Progress
+2024-02-25,Terminal X,Unsafe Condition,Unauthorized Entry,High,emp_125,False,In Progress
+2023-01-31,Plant Y,Near Miss,Slips/Trips,Medium,emp_126,True,Open
+2023-05-10,Terminal X,Unsafe Act,Fire Hazard,Medium,emp_127,False,In Progress
+2023-04-24,Plant Y,Unsafe Act,Unauthorized Entry,Medium,emp_128,False,In Progress
+2022-01-31,Plant Y,Unsafe Act,Unauthorized Entry,Medium,emp_129,True,Open
+2022-04-14,Platform C,Near Miss,Chemical Leak,Low,emp_130,True,Closed
+2023-08-17,Plant Y,Near Miss,PPE Violation,High,emp_131,False,Open
+2022-07-25,Terminal X,Near Miss,Slips/Trips,Medium,emp_132,False,In Progress
+2023-08-27,Plant Y,Near Miss,PPE Violation,Low,emp_133,True,In Progress
+2022-01-20,Platform C,Near Miss,Slips/Trips,High,emp_134,True,In Progress
+2022-11-16,Platform C,Unsafe Act,Slips/Trips,High,emp_135,True,Open
+2023-07-27,Terminal X,Unsafe Condition,PPE Violation,Low,emp_136,False,In Progress
+2022-06-25,Rig B,Unsafe Act,Unauthorized Entry,Low,emp_137,True,In Progress
+2023-08-23,Rig B,Near Miss,Slips/Trips,Medium,emp_138,True,Open
+2022-08-25,Plant Y,Unsafe Act,PPE Violation,High,emp_139,True,Closed
+2023-12-12,Rig A,Near Miss,Slips/Trips,High,emp_140,False,Closed
+2023-04-03,Plant Y,Near Miss,Fire Hazard,Low,emp_141,True,In Progress
+2023-07-29,Terminal X,Unsafe Act,Unauthorized Entry,High,emp_142,True,Open
+2023-04-19,Terminal X,Near Miss,Chemical Leak,Medium,emp_143,True,In Progress
+2022-05-02,Terminal X,Unsafe Condition,Slips/Trips,High,emp_144,True,Open
+2022-11-18,Terminal X,Near Miss,Fire Hazard,Low,emp_145,True,Open
+2022-05-11,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_146,False,Closed
+2024-02-01,Platform C,Unsafe Condition,Chemical Leak,Medium,emp_147,False,Closed
+2023-06-29,Rig B,Near Miss,Slips/Trips,Medium,emp_148,False,Open
+2022-05-25,Terminal X,Unsafe Act,PPE Violation,High,emp_149,True,In Progress
+2022-04-12,Rig A,Unsafe Condition,Slips/Trips,High,emp_150,False,Closed
+2022-02-09,Rig A,Unsafe Act,Fire Hazard,Low,emp_151,False,In Progress
+2023-06-08,Rig A,Unsafe Condition,Chemical Leak,Medium,emp_152,False,Closed
+2023-06-22,Rig A,Near Miss,Slips/Trips,Medium,emp_153,True,Closed
+2022-11-17,Platform C,Near Miss,PPE Violation,Medium,emp_154,True,In Progress
+2023-12-30,Rig A,Unsafe Condition,Slips/Trips,High,emp_155,False,Closed
+2023-09-13,Terminal X,Near Miss,Unauthorized Entry,Medium,emp_156,False,Closed
+2023-09-23,Plant Y,Unsafe Condition,PPE Violation,Low,emp_157,True,In Progress
+2023-05-08,Rig A,Near Miss,Fire Hazard,Low,emp_158,True,Closed
+2022-12-16,Platform C,Unsafe Act,Chemical Leak,High,emp_159,False,Closed
+2022-11-08,Platform C,Near Miss,Slips/Trips,High,emp_160,True,Closed
+2023-11-14,Rig A,Unsafe Act,PPE Violation,Medium,emp_161,False,In Progress
+2023-08-17,Plant Y,Near Miss,Unauthorized Entry,High,emp_162,True,Open
+2023-11-10,Rig A,Unsafe Act,PPE Violation,Low,emp_163,False,In Progress
+2024-02-26,Platform C,Near Miss,Unauthorized Entry,Medium,emp_164,False,Open
+2023-04-04,Rig B,Unsafe Act,Fire Hazard,Low,emp_165,True,Closed
+2022-12-27,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_166,False,Open
+2023-11-14,Platform C,Unsafe Condition,Fire Hazard,High,emp_167,False,In Progress
+2023-08-19,Rig A,Unsafe Act,Slips/Trips,Medium,emp_168,False,In Progress
+2023-09-13,Terminal X,Near Miss,PPE Violation,Medium,emp_169,True,Closed
+2024-01-29,Rig A,Unsafe Act,Unauthorized Entry,Low,emp_170,True,Open
+2023-09-23,Rig A,Near Miss,Unauthorized Entry,Low,emp_171,True,Closed
+2023-04-22,Rig B,Unsafe Condition,PPE Violation,Medium,emp_172,False,Closed
+2023-11-29,Terminal X,Near Miss,PPE Violation,High,emp_173,True,In Progress
+2022-08-15,Terminal X,Unsafe Condition,Slips/Trips,High,emp_174,False,Open
+2022-02-10,Rig B,Near Miss,Fire Hazard,Low,emp_175,False,Open
+2023-08-24,Platform C,Near Miss,Unauthorized Entry,High,emp_176,True,Open
+2022-08-27,Rig A,Near Miss,Slips/Trips,Low,emp_177,True,Open
+2023-08-31,Plant Y,Unsafe Act,Fire Hazard,High,emp_178,False,Closed
+2023-04-24,Rig A,Unsafe Act,Slips/Trips,Medium,emp_179,False,Closed
+2023-01-05,Rig A,Unsafe Condition,Unauthorized Entry,Low,emp_180,True,In Progress
+2022-05-14,Platform C,Unsafe Condition,PPE Violation,Low,emp_181,True,Closed
+2024-02-05,Rig A,Unsafe Act,PPE Violation,Medium,emp_182,True,Closed
+2023-08-03,Rig B,Unsafe Condition,Fire Hazard,Low,emp_183,False,In Progress
+2023-07-29,Rig B,Unsafe Act,Chemical Leak,High,emp_184,False,In Progress
+2024-02-17,Terminal X,Near Miss,Fire Hazard,High,emp_185,False,In Progress
+2022-12-04,Plant Y,Unsafe Condition,Chemical Leak,Low,emp_186,False,Closed
+2022-07-16,Rig A,Unsafe Condition,Slips/Trips,High,emp_187,False,Closed
+2023-08-12,Rig A,Unsafe Act,Slips/Trips,Low,emp_188,True,In Progress
+2023-02-15,Platform C,Unsafe Condition,Unauthorized Entry,Medium,emp_189,True,In Progress
+2022-11-22,Rig B,Unsafe Condition,Chemical Leak,Low,emp_190,False,In Progress
+2023-11-04,Plant Y,Near Miss,Unauthorized Entry,Medium,emp_191,False,Closed
+2023-06-24,Terminal X,Unsafe Condition,PPE Violation,High,emp_192,True,Closed
+2023-11-09,Rig B,Near Miss,Chemical Leak,Medium,emp_193,True,Open
+2024-02-24,Terminal X,Unsafe Act,Fire Hazard,High,emp_194,True,Closed
+2023-06-23,Platform C,Unsafe Condition,PPE Violation,Low,emp_195,True,Closed
+2023-01-17,Platform C,Near Miss,PPE Violation,High,emp_196,False,Closed
+2022-10-02,Rig A,Unsafe Act,Fire Hazard,Low,emp_197,True,In Progress
+2022-09-28,Plant Y,Unsafe Condition,PPE Violation,Low,emp_198,False,Closed
+2024-01-18,Terminal X,Unsafe Act,Chemical Leak,Medium,emp_199,True,In Progress
+2024-02-27,Rig B,Unsafe Condition,Unauthorized Entry,Medium,emp_200,True,Open
+2022-11-29,Platform C,Unsafe Act,PPE Violation,Medium,emp_201,True,Open
+2023-11-16,Rig A,Unsafe Act,Chemical Leak,Medium,emp_202,False,In Progress
+2022-08-14,Rig A,Near Miss,Slips/Trips,High,emp_203,False,In Progress
+2023-07-24,Terminal X,Unsafe Act,Chemical Leak,High,emp_204,True,In Progress
+2024-02-12,Platform C,Unsafe Condition,Unauthorized Entry,High,emp_205,False,Closed
+2023-12-07,Plant Y,Unsafe Condition,Chemical Leak,Low,emp_206,False,Open
+2022-02-02,Platform C,Near Miss,Fire Hazard,High,emp_207,True,In Progress
+2022-04-13,Terminal X,Unsafe Condition,Unauthorized Entry,High,emp_208,True,Closed
+2024-01-17,Terminal X,Unsafe Condition,Slips/Trips,High,emp_209,False,Open
+2023-10-01,Platform C,Unsafe Condition,Fire Hazard,Medium,emp_210,False,Closed
+2022-07-23,Terminal X,Unsafe Act,Chemical Leak,High,emp_211,False,Open
+2023-04-23,Platform C,Unsafe Act,Unauthorized Entry,Low,emp_212,True,Closed
+2023-12-13,Rig B,Unsafe Condition,Slips/Trips,Medium,emp_213,True,Open
+2022-08-08,Platform C,Near Miss,Fire Hazard,Low,emp_214,False,Open
+2022-07-30,Platform C,Unsafe Act,Slips/Trips,High,emp_215,True,Closed
+2023-01-30,Terminal X,Near Miss,Chemical Leak,Medium,emp_216,True,In Progress
+2023-10-06,Terminal X,Unsafe Condition,Slips/Trips,Low,emp_217,False,Open
+2023-05-07,Rig A,Unsafe Condition,PPE Violation,High,emp_218,False,In Progress
+2022-10-12,Rig A,Unsafe Act,Fire Hazard,Low,emp_219,True,Closed
+2023-07-19,Rig B,Unsafe Condition,Slips/Trips,Low,emp_220,True,In Progress
+2023-02-03,Rig A,Unsafe Act,Chemical Leak,Low,emp_221,False,In Progress
+2022-09-20,Platform C,Unsafe Condition,Chemical Leak,High,emp_222,True,In Progress
+2022-06-24,Terminal X,Unsafe Condition,Slips/Trips,High,emp_223,True,In Progress
+2022-11-09,Rig A,Unsafe Act,Chemical Leak,Low,emp_224,False,In Progress
+2023-05-11,Rig A,Unsafe Act,Unauthorized Entry,Medium,emp_225,False,Open
+2023-03-08,Rig B,Unsafe Act,Unauthorized Entry,Medium,emp_226,True,Open
+2024-02-15,Rig B,Unsafe Condition,Unauthorized Entry,High,emp_227,True,Open
+2023-11-28,Platform C,Unsafe Condition,PPE Violation,High,emp_228,True,Closed
+2023-12-29,Terminal X,Near Miss,Slips/Trips,High,emp_229,False,In Progress
+2023-12-30,Rig B,Unsafe Act,PPE Violation,High,emp_230,True,Open
+2022-01-28,Rig A,Unsafe Condition,Chemical Leak,High,emp_231,True,Closed
+2022-04-16,Terminal X,Unsafe Condition,PPE Violation,Medium,emp_232,False,Open
+2022-12-03,Terminal X,Unsafe Act,Chemical Leak,High,emp_233,False,Open
+2022-07-29,Rig A,Near Miss,Chemical Leak,Low,emp_234,True,In Progress
+2023-04-08,Rig B,Unsafe Act,Fire Hazard,Low,emp_235,False,Closed
+2023-07-18,Rig A,Near Miss,Unauthorized Entry,Medium,emp_236,False,In Progress
+2023-10-01,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_237,True,In Progress
+2022-09-12,Plant Y,Near Miss,Fire Hazard,Medium,emp_238,False,Open
+2023-09-10,Plant Y,Unsafe Condition,Unauthorized Entry,Medium,emp_239,False,In Progress
+2023-04-20,Platform C,Unsafe Act,Chemical Leak,Low,emp_240,True,Closed
+2022-05-13,Rig A,Unsafe Act,Chemical Leak,High,emp_241,False,In Progress
+2023-05-31,Rig A,Unsafe Act,PPE Violation,Low,emp_242,True,In Progress
+2022-04-01,Platform C,Near Miss,PPE Violation,Low,emp_243,True,In Progress
+2022-10-10,Platform C,Unsafe Condition,Unauthorized Entry,Medium,emp_244,False,Open
+2023-01-01,Platform C,Unsafe Act,Chemical Leak,Low,emp_245,False,Closed
+2023-05-10,Terminal X,Unsafe Act,Slips/Trips,Medium,emp_246,False,Open
+2023-07-27,Rig A,Unsafe Condition,PPE Violation,High,emp_247,True,Open
+2023-12-19,Terminal X,Unsafe Act,Unauthorized Entry,High,emp_248,False,Open
+2023-04-24,Platform C,Unsafe Condition,Chemical Leak,High,emp_249,True,Open
+2023-05-09,Rig A,Unsafe Condition,Chemical Leak,Low,emp_250,False,Open
+2022-03-14,Terminal X,Unsafe Condition,Slips/Trips,Medium,emp_251,False,Closed
+2022-10-25,Terminal X,Unsafe Condition,Unauthorized Entry,High,emp_252,False,In Progress
+2022-07-25,Platform C,Unsafe Condition,Chemical Leak,Medium,emp_253,True,Open
+2022-05-05,Rig A,Near Miss,PPE Violation,Medium,emp_254,False,Open
+2024-02-21,Platform C,Unsafe Act,Slips/Trips,High,emp_255,False,Closed
+2023-04-25,Rig A,Near Miss,Unauthorized Entry,High,emp_256,True,Closed
+2022-06-03,Plant Y,Unsafe Act,Slips/Trips,Medium,emp_257,True,In Progress
+2023-05-11,Rig B,Near Miss,PPE Violation,High,emp_258,False,Closed
+2022-02-24,Rig B,Unsafe Condition,Unauthorized Entry,Medium,emp_259,False,In Progress
+2023-10-12,Rig B,Unsafe Act,Slips/Trips,Medium,emp_260,False,Open
+2022-04-05,Platform C,Unsafe Act,Fire Hazard,High,emp_261,True,Open
+2023-01-07,Plant Y,Near Miss,PPE Violation,Low,emp_262,True,In Progress
+2022-11-25,Rig A,Near Miss,PPE Violation,High,emp_263,True,Closed
+2022-04-26,Terminal X,Unsafe Act,PPE Violation,Low,emp_264,True,In Progress
+2022-07-02,Rig A,Near Miss,Fire Hazard,Medium,emp_265,False,Closed
+2023-08-20,Terminal X,Near Miss,Fire Hazard,Medium,emp_266,True,Open
+2022-09-30,Rig A,Near Miss,Chemical Leak,Low,emp_267,True,Closed
+2023-08-20,Plant Y,Unsafe Condition,Slips/Trips,Medium,emp_268,True,In Progress
+2022-01-01,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_269,False,In Progress
+2022-01-27,Platform C,Near Miss,Slips/Trips,Low,emp_270,False,Open
+2023-01-20,Rig A,Near Miss,Fire Hazard,Medium,emp_271,True,Closed
+2022-05-10,Rig A,Unsafe Condition,Fire Hazard,Low,emp_272,True,Closed
+2022-03-25,Terminal X,Unsafe Condition,Chemical Leak,High,emp_273,False,Closed
+2022-05-08,Platform C,Unsafe Act,Unauthorized Entry,High,emp_274,False,Open
+2022-05-31,Platform C,Unsafe Act,Chemical Leak,Medium,emp_275,False,Closed
+2022-09-10,Plant Y,Unsafe Condition,Slips/Trips,Medium,emp_276,False,In Progress
+2023-12-17,Platform C,Near Miss,Chemical Leak,Low,emp_277,False,Closed
+2023-04-27,Platform C,Near Miss,PPE Violation,Low,emp_278,False,Open
+2023-05-04,Platform C,Near Miss,Slips/Trips,Low,emp_279,False,Closed
+2024-02-02,Rig B,Near Miss,Slips/Trips,Low,emp_280,False,Closed
+2022-01-10,Plant Y,Unsafe Act,Unauthorized Entry,High,emp_281,True,In Progress
+2023-01-14,Rig A,Unsafe Condition,Fire Hazard,High,emp_282,True,Closed
+2023-03-06,Terminal X,Near Miss,Slips/Trips,Medium,emp_283,True,In Progress
+2023-07-24,Rig A,Unsafe Act,Fire Hazard,Low,emp_284,True,In Progress
+2022-01-04,Plant Y,Near Miss,Chemical Leak,Low,emp_285,True,Open
+2022-12-21,Terminal X,Unsafe Condition,PPE Violation,Medium,emp_286,True,In Progress
+2023-11-05,Plant Y,Unsafe Act,Unauthorized Entry,Low,emp_287,False,In Progress
+2023-01-19,Platform C,Unsafe Condition,Fire Hazard,Low,emp_288,False,Open
+2022-03-21,Terminal X,Unsafe Condition,Slips/Trips,Low,emp_289,True,In Progress
+2023-12-07,Platform C,Unsafe Act,Fire Hazard,Low,emp_290,True,Open
+2023-01-15,Rig A,Unsafe Act,Slips/Trips,Low,emp_291,False,Closed
+2022-11-01,Rig A,Unsafe Act,Fire Hazard,Medium,emp_292,False,Open
+2023-07-21,Terminal X,Unsafe Act,Slips/Trips,Low,emp_293,False,In Progress
+2022-09-13,Terminal X,Unsafe Act,Chemical Leak,Medium,emp_294,True,Open
+2024-01-09,Plant Y,Unsafe Act,Slips/Trips,Low,emp_295,False,In Progress
+2022-03-16,Plant Y,Unsafe Act,Slips/Trips,High,emp_296,True,Closed
+2022-12-26,Platform C,Near Miss,PPE Violation,High,emp_297,True,Open
+2023-09-09,Terminal X,Unsafe Condition,Slips/Trips,High,emp_298,False,Closed
+2022-12-26,Rig A,Unsafe Act,PPE Violation,High,emp_299,False,In Progress
+2023-02-09,Plant Y,Near Miss,Unauthorized Entry,Medium,emp_300,True,In Progress
+2023-07-24,Plant Y,Near Miss,PPE Violation,Medium,emp_301,False,Closed
+2022-02-15,Rig A,Near Miss,Chemical Leak,Low,emp_302,False,Open
+2023-08-26,Plant Y,Unsafe Condition,PPE Violation,High,emp_303,True,Open
+2023-11-18,Platform C,Unsafe Act,Unauthorized Entry,Medium,emp_304,False,In Progress
+2023-02-14,Terminal X,Near Miss,Chemical Leak,Low,emp_305,True,Closed
+2022-12-11,Rig A,Unsafe Condition,Fire Hazard,Low,emp_306,True,Closed
+2022-07-21,Terminal X,Unsafe Condition,Fire Hazard,Medium,emp_307,False,Open
+2023-01-28,Plant Y,Unsafe Condition,PPE Violation,High,emp_308,True,Open
+2023-03-11,Plant Y,Near Miss,PPE Violation,Low,emp_309,True,Open
+2022-04-02,Rig A,Unsafe Act,Unauthorized Entry,High,emp_310,False,Closed
+2022-01-23,Platform C,Near Miss,Unauthorized Entry,High,emp_311,False,Open
+2023-07-01,Rig B,Near Miss,Slips/Trips,High,emp_312,False,Open
+2022-07-19,Rig A,Unsafe Act,Unauthorized Entry,Low,emp_313,True,In Progress
+2023-09-03,Rig B,Unsafe Act,Slips/Trips,High,emp_314,True,Open
+2024-02-29,Rig B,Unsafe Act,Chemical Leak,Low,emp_315,False,Open
+2023-09-12,Platform C,Unsafe Condition,PPE Violation,High,emp_316,True,Closed
+2024-02-24,Rig B,Unsafe Act,Chemical Leak,Low,emp_317,False,Closed
+2023-11-27,Rig B,Near Miss,Unauthorized Entry,High,emp_318,False,In Progress
+2024-02-11,Platform C,Unsafe Act,Chemical Leak,Medium,emp_319,True,Open
+2022-02-20,Rig B,Near Miss,Chemical Leak,High,emp_320,False,In Progress
+2023-12-31,Rig B,Unsafe Condition,Chemical Leak,High,emp_321,True,Closed
+2023-01-07,Rig B,Near Miss,Unauthorized Entry,Low,emp_322,True,In Progress
+2022-05-19,Rig A,Near Miss,Chemical Leak,Low,emp_323,False,Closed
+2022-02-25,Rig A,Unsafe Act,Slips/Trips,High,emp_324,True,In Progress
+2022-11-24,Rig A,Unsafe Act,Unauthorized Entry,Medium,emp_325,False,In Progress
+2022-03-29,Platform C,Near Miss,Chemical Leak,Medium,emp_326,True,Open
+2023-01-24,Plant Y,Unsafe Act,Unauthorized Entry,Low,emp_327,True,In Progress
+2023-10-06,Rig B,Unsafe Condition,Fire Hazard,Medium,emp_328,True,Open
+2023-09-03,Rig B,Unsafe Condition,Slips/Trips,High,emp_329,False,Open
+2022-01-05,Platform C,Unsafe Act,Chemical Leak,Low,emp_330,True,Open
+2023-02-09,Rig B,Unsafe Condition,Fire Hazard,High,emp_331,False,Open
+2022-11-10,Rig A,Unsafe Act,Fire Hazard,Low,emp_332,True,In Progress
+2022-05-07,Plant Y,Near Miss,Unauthorized Entry,Low,emp_333,True,Closed
+2022-07-14,Terminal X,Near Miss,Fire Hazard,Low,emp_334,False,Closed
+2024-01-22,Rig B,Unsafe Condition,Slips/Trips,Low,emp_335,False,Closed
+2022-11-23,Rig A,Unsafe Act,Slips/Trips,Medium,emp_336,False,In Progress
+2022-04-25,Terminal X,Unsafe Act,PPE Violation,High,emp_337,False,Open
+2023-01-05,Plant Y,Unsafe Condition,Slips/Trips,High,emp_338,False,Closed
+2023-09-02,Terminal X,Near Miss,Fire Hazard,High,emp_339,True,In Progress
+2022-06-11,Rig A,Unsafe Condition,Slips/Trips,Low,emp_340,True,Open
+2023-09-30,Terminal X,Near Miss,Unauthorized Entry,Medium,emp_341,False,Closed
+2022-03-31,Platform C,Unsafe Act,PPE Violation,High,emp_342,True,Open
+2023-01-02,Terminal X,Near Miss,Fire Hazard,Medium,emp_343,True,Closed
+2023-04-17,Rig B,Unsafe Condition,PPE Violation,Low,emp_344,True,Closed
+2022-01-07,Rig B,Unsafe Act,Fire Hazard,High,emp_345,False,Closed
+2022-08-14,Platform C,Unsafe Condition,Unauthorized Entry,Medium,emp_346,True,Open
+2023-12-23,Rig A,Unsafe Condition,PPE Violation,Low,emp_347,True,In Progress
+2022-11-20,Rig B,Near Miss,Chemical Leak,Medium,emp_348,True,Open
+2023-05-22,Plant Y,Unsafe Condition,Fire Hazard,High,emp_349,False,Closed
+2024-02-24,Rig B,Near Miss,Chemical Leak,High,emp_350,True,Open
+2022-01-28,Rig B,Unsafe Act,PPE Violation,Low,emp_351,True,In Progress
+2023-10-06,Rig A,Near Miss,Chemical Leak,Low,emp_352,False,Open
+2022-06-23,Terminal X,Unsafe Act,Chemical Leak,Low,emp_353,False,In Progress
+2022-07-07,Rig B,Near Miss,PPE Violation,Medium,emp_354,True,In Progress
+2023-07-24,Platform C,Unsafe Condition,Unauthorized Entry,Medium,emp_355,True,Open
+2022-02-15,Terminal X,Near Miss,Chemical Leak,Medium,emp_356,False,Closed
+2023-01-12,Plant Y,Near Miss,Chemical Leak,Low,emp_357,False,In Progress
+2023-09-16,Rig A,Unsafe Act,Unauthorized Entry,High,emp_358,False,Open
+2023-09-26,Plant Y,Unsafe Condition,Chemical Leak,High,emp_359,False,In Progress
+2022-11-05,Terminal X,Near Miss,Chemical Leak,Medium,emp_360,False,Closed
+2023-12-14,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_361,False,Open
+2022-11-21,Terminal X,Near Miss,Slips/Trips,High,emp_362,False,Open
+2022-05-16,Plant Y,Near Miss,Unauthorized Entry,High,emp_363,True,Open
+2022-04-03,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_364,False,Closed
+2022-07-01,Plant Y,Near Miss,Unauthorized Entry,Medium,emp_365,False,In Progress
+2023-02-16,Terminal X,Unsafe Condition,Fire Hazard,High,emp_366,True,Open
+2024-02-27,Platform C,Near Miss,Fire Hazard,Low,emp_367,False,In Progress
+2022-02-18,Terminal X,Unsafe Act,Chemical Leak,Medium,emp_368,False,In Progress
+2023-09-24,Plant Y,Unsafe Condition,Unauthorized Entry,High,emp_369,True,Closed
+2022-03-11,Rig B,Near Miss,Unauthorized Entry,High,emp_370,False,Open
+2023-05-16,Terminal X,Near Miss,Unauthorized Entry,High,emp_371,True,In Progress
+2023-10-02,Rig B,Unsafe Act,Slips/Trips,High,emp_372,True,Open
+2022-07-13,Platform C,Unsafe Condition,Fire Hazard,Low,emp_373,True,Open
+2023-10-29,Rig A,Near Miss,Unauthorized Entry,High,emp_374,True,Closed
+2023-01-20,Platform C,Unsafe Act,Unauthorized Entry,Medium,emp_375,False,Open
+2023-11-17,Terminal X,Near Miss,Slips/Trips,Low,emp_376,True,Open
+2024-02-23,Rig B,Unsafe Condition,Slips/Trips,High,emp_377,True,In Progress
+2024-02-27,Rig B,Near Miss,Unauthorized Entry,Low,emp_378,False,Closed
+2023-02-23,Plant Y,Near Miss,PPE Violation,Medium,emp_379,True,Open
+2022-08-06,Rig B,Near Miss,Unauthorized Entry,High,emp_380,True,In Progress
+2022-04-14,Plant Y,Near Miss,Unauthorized Entry,Medium,emp_381,True,Closed
+2023-06-14,Rig A,Unsafe Act,Slips/Trips,High,emp_382,True,Closed
+2023-03-26,Terminal X,Unsafe Act,Slips/Trips,High,emp_383,False,In Progress
+2023-02-21,Plant Y,Unsafe Condition,Unauthorized Entry,High,emp_384,True,In Progress
+2023-08-23,Rig A,Unsafe Act,Unauthorized Entry,High,emp_385,False,In Progress
+2024-02-10,Rig B,Unsafe Act,Unauthorized Entry,High,emp_386,False,In Progress
+2022-04-13,Rig B,Unsafe Condition,Slips/Trips,Low,emp_387,True,In Progress
+2022-05-16,Rig A,Unsafe Act,Unauthorized Entry,High,emp_388,True,Open
+2022-02-07,Rig B,Unsafe Act,Unauthorized Entry,High,emp_389,True,Open
+2022-01-07,Rig A,Unsafe Condition,Chemical Leak,Low,emp_390,True,Closed
+2022-09-29,Plant Y,Unsafe Condition,PPE Violation,Low,emp_391,False,Open
+2023-04-11,Plant Y,Unsafe Condition,Fire Hazard,Low,emp_392,False,Open
+2022-09-13,Rig A,Near Miss,PPE Violation,Low,emp_393,False,Open
+2023-07-09,Plant Y,Near Miss,Chemical Leak,Low,emp_394,True,In Progress
+2022-07-07,Plant Y,Unsafe Condition,Fire Hazard,Low,emp_395,False,Closed
+2023-02-04,Plant Y,Unsafe Condition,Unauthorized Entry,High,emp_396,True,Closed
+2022-01-12,Platform C,Unsafe Condition,Chemical Leak,High,emp_397,True,Closed
+2023-06-28,Terminal X,Near Miss,Unauthorized Entry,Medium,emp_398,True,Closed
+2023-06-08,Rig B,Near Miss,Slips/Trips,High,emp_399,True,Open
+2024-01-21,Platform C,Unsafe Act,Chemical Leak,High,emp_400,True,Open
+2022-06-10,Plant Y,Unsafe Act,Slips/Trips,Low,emp_401,False,In Progress
+2022-11-19,Rig A,Unsafe Condition,Chemical Leak,Low,emp_402,False,Closed
+2024-02-17,Plant Y,Near Miss,Chemical Leak,High,emp_403,True,Open
+2022-10-21,Terminal X,Near Miss,Slips/Trips,Medium,emp_404,False,Open
+2024-02-25,Plant Y,Near Miss,Fire Hazard,Low,emp_405,True,In Progress
+2023-04-19,Rig A,Unsafe Condition,PPE Violation,High,emp_406,True,In Progress
+2023-11-27,Terminal X,Unsafe Act,Unauthorized Entry,High,emp_407,True,In Progress
+2022-01-21,Plant Y,Unsafe Condition,Chemical Leak,Medium,emp_408,False,Open
+2023-02-11,Terminal X,Unsafe Act,Unauthorized Entry,Medium,emp_409,True,Open
+2023-05-11,Rig B,Unsafe Act,Slips/Trips,Low,emp_410,True,In Progress
+2022-01-22,Rig B,Unsafe Condition,Unauthorized Entry,Medium,emp_411,False,Closed
+2022-01-22,Plant Y,Unsafe Act,Slips/Trips,High,emp_412,False,In Progress
+2022-05-12,Terminal X,Unsafe Act,Unauthorized Entry,High,emp_413,False,In Progress
+2022-06-08,Rig A,Near Miss,PPE Violation,Medium,emp_414,True,In Progress
+2023-02-13,Plant Y,Unsafe Act,PPE Violation,Medium,emp_415,True,In Progress
+2023-12-11,Rig B,Unsafe Condition,PPE Violation,Medium,emp_416,False,Open
+2024-01-21,Rig B,Unsafe Condition,PPE Violation,Medium,emp_417,True,Closed
+2022-04-02,Plant Y,Unsafe Act,PPE Violation,Low,emp_418,False,In Progress
+2022-08-29,Terminal X,Near Miss,PPE Violation,Medium,emp_419,False,Closed
+2023-03-22,Rig B,Near Miss,Slips/Trips,Low,emp_420,True,Closed
+2022-10-24,Terminal X,Unsafe Act,Chemical Leak,High,emp_421,True,Closed
+2022-12-22,Rig B,Unsafe Act,Unauthorized Entry,Medium,emp_422,False,In Progress
+2023-10-16,Rig B,Unsafe Condition,PPE Violation,Low,emp_423,False,Open
+2024-01-25,Platform C,Unsafe Act,Slips/Trips,Medium,emp_424,False,In Progress
+2023-11-22,Rig B,Near Miss,Slips/Trips,High,emp_425,False,Closed
+2023-08-28,Rig A,Unsafe Act,Slips/Trips,High,emp_426,True,Closed
+2023-03-02,Plant Y,Unsafe Condition,Chemical Leak,High,emp_427,False,Open
+2022-04-17,Plant Y,Unsafe Condition,Unauthorized Entry,Medium,emp_428,False,In Progress
+2022-09-08,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_429,False,Closed
+2023-09-09,Rig B,Unsafe Condition,Fire Hazard,Low,emp_430,True,Open
+2023-03-20,Rig A,Unsafe Condition,Slips/Trips,High,emp_431,True,Closed
+2023-09-25,Terminal X,Unsafe Act,Fire Hazard,Medium,emp_432,False,Open
+2023-03-20,Platform C,Unsafe Act,PPE Violation,High,emp_433,True,Open
+2022-06-23,Terminal X,Unsafe Act,PPE Violation,High,emp_434,True,In Progress
+2022-06-10,Terminal X,Unsafe Act,Chemical Leak,Low,emp_435,True,Closed
+2022-04-25,Rig B,Unsafe Condition,Unauthorized Entry,Low,emp_436,False,In Progress
+2023-09-01,Platform C,Near Miss,Fire Hazard,Low,emp_437,False,Closed
+2023-08-09,Terminal X,Unsafe Act,Unauthorized Entry,Low,emp_438,True,In Progress
+2022-04-26,Rig A,Near Miss,Chemical Leak,High,emp_439,False,Closed
+2022-06-25,Rig A,Unsafe Act,PPE Violation,Low,emp_440,False,In Progress
+2023-06-20,Plant Y,Unsafe Act,Unauthorized Entry,Low,emp_441,True,Open
+2022-08-04,Platform C,Near Miss,Unauthorized Entry,Low,emp_442,True,Closed
+2023-06-27,Platform C,Unsafe Condition,PPE Violation,Low,emp_443,False,Closed
+2023-02-21,Plant Y,Unsafe Act,Fire Hazard,High,emp_444,True,Open
+2023-12-10,Terminal X,Unsafe Act,PPE Violation,Low,emp_445,False,In Progress
+2022-01-19,Platform C,Unsafe Act,Unauthorized Entry,High,emp_446,False,Closed
+2023-05-11,Rig A,Near Miss,Fire Hazard,Medium,emp_447,True,Closed
+2022-02-02,Rig A,Unsafe Condition,Fire Hazard,High,emp_448,False,In Progress
+2023-06-08,Rig B,Near Miss,PPE Violation,High,emp_449,False,Open
+2024-03-01,Platform C,Near Miss,Unauthorized Entry,Low,emp_450,True,In Progress
+2022-01-28,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_451,True,In Progress
+2022-04-25,Plant Y,Near Miss,Unauthorized Entry,Medium,emp_452,True,In Progress
+2022-06-02,Plant Y,Unsafe Condition,Slips/Trips,Medium,emp_453,False,Closed
+2022-02-16,Terminal X,Unsafe Act,Chemical Leak,Medium,emp_454,True,Open
+2023-04-06,Rig B,Unsafe Condition,Fire Hazard,High,emp_455,True,Open
+2023-02-10,Plant Y,Unsafe Act,Chemical Leak,Medium,emp_456,True,In Progress
+2023-06-18,Platform C,Near Miss,Fire Hazard,High,emp_457,True,Closed
+2022-11-26,Rig B,Near Miss,Fire Hazard,High,emp_458,False,In Progress
+2022-02-02,Platform C,Unsafe Act,Chemical Leak,High,emp_459,False,Closed
+2022-06-09,Rig A,Near Miss,Fire Hazard,Medium,emp_460,True,Closed
+2022-12-04,Rig B,Unsafe Condition,Fire Hazard,Low,emp_461,False,Closed
+2022-04-18,Plant Y,Unsafe Act,Slips/Trips,Low,emp_462,True,Closed
+2024-01-15,Rig B,Near Miss,Unauthorized Entry,Medium,emp_463,True,Open
+2023-01-09,Rig B,Unsafe Act,Unauthorized Entry,Low,emp_464,False,Closed
+2023-04-11,Rig B,Unsafe Condition,Slips/Trips,Low,emp_465,False,Closed
+2023-06-02,Rig B,Unsafe Condition,Chemical Leak,High,emp_466,True,In Progress
+2023-12-28,Platform C,Near Miss,PPE Violation,High,emp_467,True,In Progress
+2023-08-01,Rig A,Unsafe Condition,PPE Violation,Medium,emp_468,False,Open
+2023-10-18,Terminal X,Unsafe Act,PPE Violation,Medium,emp_469,True,In Progress
+2023-07-28,Rig B,Unsafe Condition,Slips/Trips,Low,emp_470,False,Closed
+2023-04-01,Plant Y,Unsafe Act,Slips/Trips,High,emp_471,True,In Progress
+2024-02-05,Rig B,Unsafe Act,Fire Hazard,Medium,emp_472,True,Open
+2022-10-13,Plant Y,Unsafe Condition,PPE Violation,Medium,emp_473,False,In Progress
+2023-08-08,Platform C,Near Miss,Chemical Leak,Medium,emp_474,False,In Progress
+2023-11-26,Plant Y,Unsafe Condition,Chemical Leak,Medium,emp_475,False,Open
+2023-04-13,Terminal X,Unsafe Act,PPE Violation,Medium,emp_476,False,Open
+2023-12-23,Rig A,Unsafe Act,PPE Violation,Medium,emp_477,False,Closed
+2022-08-18,Plant Y,Unsafe Condition,PPE Violation,Low,emp_478,False,In Progress
+2022-12-30,Plant Y,Near Miss,Slips/Trips,High,emp_479,False,Closed
+2022-08-01,Rig A,Near Miss,Slips/Trips,High,emp_480,True,In Progress
+2022-07-20,Terminal X,Unsafe Act,Slips/Trips,Medium,emp_481,True,In Progress
+2022-04-27,Rig B,Unsafe Act,Unauthorized Entry,High,emp_482,True,Closed
+2024-01-28,Plant Y,Near Miss,Chemical Leak,High,emp_483,False,In Progress
+2023-07-09,Rig A,Unsafe Condition,Chemical Leak,High,emp_484,False,In Progress
+2022-03-10,Platform C,Unsafe Act,Fire Hazard,Medium,emp_485,False,In Progress
+2022-04-08,Rig A,Unsafe Act,Slips/Trips,Medium,emp_486,True,Open
+2024-02-16,Platform C,Near Miss,Unauthorized Entry,High,emp_487,False,Closed
+2024-02-18,Terminal X,Unsafe Condition,Unauthorized Entry,High,emp_488,False,Open
+2022-11-08,Rig B,Near Miss,Chemical Leak,Medium,emp_489,True,Closed
+2023-07-03,Rig A,Unsafe Condition,Slips/Trips,Low,emp_490,False,Closed
+2022-08-24,Plant Y,Unsafe Condition,Fire Hazard,High,emp_491,True,In Progress
+2023-05-30,Terminal X,Unsafe Condition,Slips/Trips,Low,emp_492,True,Closed
+2022-12-24,Rig A,Unsafe Act,PPE Violation,High,emp_493,False,Open
+2023-04-29,Plant Y,Near Miss,Slips/Trips,Low,emp_494,False,Open
+2022-03-21,Rig A,Near Miss,PPE Violation,Low,emp_495,False,Open
+2022-01-01,Platform C,Unsafe Condition,PPE Violation,Low,emp_496,True,Closed
+2023-03-01,Rig A,Unsafe Act,Fire Hazard,Medium,emp_497,True,Open
+2023-09-08,Rig A,Unsafe Act,Chemical Leak,Low,emp_498,True,Closed
+2022-04-12,Rig A,Near Miss,Slips/Trips,Low,emp_499,False,Open
+2022-02-01,Terminal X,Unsafe Act,PPE Violation,Low,emp_500,False,Open
+2024-01-08,Rig A,Unsafe Act,Slips/Trips,High,emp_501,False,Closed
+2023-01-07,Plant Y,Unsafe Condition,Chemical Leak,Low,emp_502,False,Open
+2023-08-24,Platform C,Unsafe Act,Chemical Leak,High,emp_503,True,In Progress
+2023-08-13,Platform C,Unsafe Condition,Unauthorized Entry,Low,emp_504,True,Closed
+2022-12-12,Rig A,Near Miss,Chemical Leak,Low,emp_505,True,Closed
+2022-01-21,Terminal X,Unsafe Act,Fire Hazard,Medium,emp_506,True,Closed
+2023-02-02,Terminal X,Near Miss,PPE Violation,High,emp_507,False,In Progress
+2022-02-27,Plant Y,Near Miss,Unauthorized Entry,Low,emp_508,False,Closed
+2022-06-16,Rig A,Unsafe Act,Fire Hazard,High,emp_509,False,Open
+2023-05-01,Platform C,Unsafe Act,Slips/Trips,High,emp_510,True,Open
+2022-02-28,Terminal X,Near Miss,PPE Violation,Medium,emp_511,True,Open
+2022-06-29,Rig A,Unsafe Act,Chemical Leak,Medium,emp_512,False,Closed
+2022-05-30,Terminal X,Unsafe Condition,PPE Violation,Medium,emp_513,False,Open
+2022-12-31,Terminal X,Unsafe Condition,Slips/Trips,Medium,emp_514,True,Closed
+2024-01-09,Platform C,Unsafe Act,Unauthorized Entry,Medium,emp_515,False,Open
+2024-01-04,Rig B,Near Miss,Unauthorized Entry,Medium,emp_516,True,In Progress
+2023-01-09,Plant Y,Unsafe Act,Unauthorized Entry,Medium,emp_517,True,In Progress
+2022-08-19,Plant Y,Unsafe Act,Chemical Leak,Medium,emp_518,True,In Progress
+2022-09-01,Platform C,Near Miss,Fire Hazard,Low,emp_519,False,In Progress
+2023-12-27,Terminal X,Near Miss,Fire Hazard,High,emp_520,False,Closed
+2022-11-21,Rig A,Unsafe Condition,PPE Violation,Medium,emp_521,True,Open
+2022-10-21,Terminal X,Near Miss,Chemical Leak,Medium,emp_522,False,In Progress
+2023-05-09,Platform C,Unsafe Condition,Unauthorized Entry,High,emp_523,True,Closed
+2023-03-20,Plant Y,Near Miss,Unauthorized Entry,Low,emp_524,True,In Progress
+2023-12-24,Terminal X,Unsafe Act,Slips/Trips,High,emp_525,True,In Progress
+2022-05-01,Plant Y,Unsafe Condition,Slips/Trips,High,emp_526,True,Closed
+2024-01-19,Rig A,Unsafe Condition,Unauthorized Entry,Medium,emp_527,False,Closed
+2022-08-30,Plant Y,Unsafe Condition,Unauthorized Entry,High,emp_528,True,Open
+2022-09-03,Plant Y,Unsafe Act,Chemical Leak,High,emp_529,True,Open
+2022-11-07,Rig B,Unsafe Act,Fire Hazard,Medium,emp_530,False,In Progress
+2024-01-24,Rig B,Unsafe Act,Slips/Trips,Medium,emp_531,True,In Progress
+2023-01-29,Rig B,Unsafe Act,Fire Hazard,Medium,emp_532,True,Open
+2022-09-08,Plant Y,Unsafe Act,Chemical Leak,Medium,emp_533,False,Open
+2022-03-19,Platform C,Unsafe Condition,Unauthorized Entry,High,emp_534,False,Closed
+2023-03-07,Plant Y,Unsafe Act,Fire Hazard,High,emp_535,False,Open
+2022-06-03,Platform C,Unsafe Condition,Unauthorized Entry,Low,emp_536,True,Open
+2023-09-26,Platform C,Unsafe Act,Unauthorized Entry,Low,emp_537,False,In Progress
+2022-05-28,Rig B,Near Miss,PPE Violation,High,emp_538,False,Open
+2023-08-08,Terminal X,Unsafe Condition,Fire Hazard,Low,emp_539,True,In Progress
+2023-12-23,Rig A,Near Miss,Fire Hazard,High,emp_540,True,Open
+2022-12-20,Rig B,Unsafe Condition,Unauthorized Entry,Low,emp_541,True,Closed
+2023-03-29,Rig B,Near Miss,Chemical Leak,Medium,emp_542,True,Open
+2022-09-07,Terminal X,Unsafe Act,PPE Violation,Low,emp_543,True,Open
+2023-12-05,Rig A,Unsafe Act,Unauthorized Entry,Medium,emp_544,False,Open
+2023-08-26,Plant Y,Unsafe Act,Slips/Trips,Medium,emp_545,False,In Progress
+2024-01-13,Plant Y,Unsafe Condition,Slips/Trips,Medium,emp_546,False,Closed
+2024-02-28,Rig B,Near Miss,PPE Violation,Medium,emp_547,True,Open
+2022-10-26,Rig A,Unsafe Act,Chemical Leak,Low,emp_548,True,In Progress
+2022-04-09,Rig B,Near Miss,Unauthorized Entry,High,emp_549,True,Closed
+2023-04-20,Platform C,Near Miss,Fire Hazard,Medium,emp_550,False,In Progress
+2023-07-12,Rig B,Unsafe Act,PPE Violation,Low,emp_551,False,In Progress
+2022-05-21,Rig B,Unsafe Act,Chemical Leak,Medium,emp_552,True,Closed
+2022-11-05,Plant Y,Near Miss,Fire Hazard,Low,emp_553,False,Open
+2022-06-09,Plant Y,Unsafe Act,Slips/Trips,Low,emp_554,True,In Progress
+2023-02-05,Plant Y,Unsafe Act,Slips/Trips,Low,emp_555,False,In Progress
+2023-06-26,Platform C,Unsafe Act,Fire Hazard,High,emp_556,False,Open
+2022-10-25,Plant Y,Unsafe Condition,PPE Violation,Low,emp_557,False,Open
+2022-07-16,Rig A,Near Miss,Slips/Trips,Low,emp_558,True,Closed
+2022-11-28,Terminal X,Near Miss,Unauthorized Entry,High,emp_559,False,Closed
+2022-07-02,Rig A,Unsafe Condition,Fire Hazard,High,emp_560,False,Closed
+2023-01-29,Rig A,Near Miss,Fire Hazard,Low,emp_561,True,Open
+2023-01-16,Plant Y,Unsafe Act,Slips/Trips,High,emp_562,False,In Progress
+2023-07-02,Terminal X,Near Miss,PPE Violation,Medium,emp_563,True,In Progress
+2022-05-26,Terminal X,Unsafe Act,Unauthorized Entry,Medium,emp_564,True,Closed
+2022-09-15,Terminal X,Unsafe Condition,PPE Violation,High,emp_565,True,Open
+2023-09-09,Platform C,Unsafe Act,Chemical Leak,High,emp_566,True,In Progress
+2022-05-03,Plant Y,Near Miss,Chemical Leak,Low,emp_567,True,Closed
+2022-08-22,Terminal X,Near Miss,Slips/Trips,High,emp_568,False,In Progress
+2023-01-18,Platform C,Near Miss,Slips/Trips,Low,emp_569,True,In Progress
+2022-04-16,Rig B,Unsafe Condition,Slips/Trips,Medium,emp_570,True,Open
+2023-05-22,Rig B,Unsafe Condition,Chemical Leak,High,emp_571,True,Open
+2022-09-11,Platform C,Near Miss,PPE Violation,Low,emp_572,True,In Progress
+2023-01-08,Platform C,Unsafe Act,PPE Violation,Low,emp_573,False,Closed
+2023-12-22,Plant Y,Unsafe Condition,Slips/Trips,Medium,emp_574,True,Open
+2022-11-07,Plant Y,Near Miss,Unauthorized Entry,High,emp_575,False,In Progress
+2023-05-02,Rig B,Near Miss,PPE Violation,Medium,emp_576,True,Open
+2022-04-01,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_577,False,Open
+2022-11-02,Rig B,Unsafe Condition,Fire Hazard,Low,emp_578,True,Open
+2022-05-27,Terminal X,Unsafe Condition,Fire Hazard,High,emp_579,True,In Progress
+2023-09-12,Terminal X,Unsafe Act,Fire Hazard,Low,emp_580,False,Closed
+2022-02-15,Plant Y,Unsafe Act,Unauthorized Entry,High,emp_581,True,Closed
+2022-03-18,Rig A,Near Miss,Slips/Trips,Medium,emp_582,False,Closed
+2024-01-06,Rig A,Unsafe Condition,Chemical Leak,High,emp_583,True,Open
+2023-09-15,Platform C,Unsafe Act,Unauthorized Entry,High,emp_584,False,In Progress
+2024-02-04,Plant Y,Unsafe Condition,Chemical Leak,Low,emp_585,True,Open
+2023-01-02,Terminal X,Near Miss,Chemical Leak,Low,emp_586,True,Closed
+2022-10-06,Rig A,Unsafe Act,Slips/Trips,High,emp_587,False,Closed
+2023-08-14,Terminal X,Unsafe Act,Fire Hazard,Low,emp_588,True,In Progress
+2022-08-12,Rig A,Unsafe Act,Slips/Trips,Low,emp_589,True,Open
+2022-06-29,Rig A,Near Miss,Unauthorized Entry,Low,emp_590,True,Closed
+2024-01-06,Rig A,Unsafe Condition,Unauthorized Entry,High,emp_591,True,In Progress
+2022-05-18,Plant Y,Unsafe Act,Unauthorized Entry,Low,emp_592,True,Open
+2022-10-20,Rig B,Near Miss,Slips/Trips,High,emp_593,True,Open
+2023-09-21,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_594,False,Closed
+2022-02-09,Plant Y,Near Miss,Chemical Leak,Medium,emp_595,False,Closed
+2023-08-27,Plant Y,Unsafe Condition,PPE Violation,Low,emp_596,False,Open
+2022-04-05,Plant Y,Near Miss,Unauthorized Entry,Low,emp_597,True,Open
+2023-10-02,Plant Y,Unsafe Condition,Chemical Leak,High,emp_598,False,Closed
+2023-02-14,Plant Y,Unsafe Act,PPE Violation,High,emp_599,True,Open
+2022-07-14,Platform C,Unsafe Condition,Chemical Leak,Low,emp_600,True,Closed
+2022-06-10,Terminal X,Near Miss,Unauthorized Entry,Medium,emp_601,True,Open
+2022-06-24,Plant Y,Near Miss,Fire Hazard,Low,emp_602,True,Closed
+2022-04-28,Terminal X,Unsafe Condition,Unauthorized Entry,Low,emp_603,False,In Progress
+2022-08-24,Platform C,Unsafe Act,Slips/Trips,Medium,emp_604,True,Closed
+2022-07-30,Platform C,Unsafe Act,Chemical Leak,High,emp_605,False,Closed
+2023-07-05,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_606,True,In Progress
+2023-07-15,Rig A,Unsafe Condition,Slips/Trips,High,emp_607,False,Open
+2023-05-03,Rig B,Near Miss,Slips/Trips,High,emp_608,False,In Progress
+2022-11-08,Rig A,Unsafe Act,Fire Hazard,Medium,emp_609,False,Closed
+2024-02-12,Rig A,Unsafe Condition,Chemical Leak,Medium,emp_610,False,Open
+2024-01-31,Rig A,Unsafe Act,Chemical Leak,High,emp_611,False,In Progress
+2022-04-23,Plant Y,Unsafe Condition,Fire Hazard,Low,emp_612,False,Open
+2022-02-06,Platform C,Unsafe Condition,PPE Violation,High,emp_613,True,Open
+2023-07-11,Rig A,Unsafe Act,Fire Hazard,Low,emp_614,False,In Progress
+2023-05-08,Platform C,Unsafe Condition,Unauthorized Entry,Low,emp_615,True,Open
+2023-07-13,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_616,False,In Progress
+2022-08-31,Rig B,Near Miss,Slips/Trips,Low,emp_617,True,Closed
+2022-01-27,Terminal X,Unsafe Condition,Unauthorized Entry,Low,emp_618,False,Open
+2022-09-28,Terminal X,Unsafe Condition,Chemical Leak,High,emp_619,False,Closed
+2023-12-20,Plant Y,Unsafe Condition,Fire Hazard,Medium,emp_620,True,Closed
+2024-02-08,Rig B,Near Miss,Unauthorized Entry,Low,emp_621,False,Open
+2022-06-15,Terminal X,Unsafe Act,Chemical Leak,Low,emp_622,False,In Progress
+2023-10-27,Terminal X,Near Miss,PPE Violation,Medium,emp_623,False,Open
+2022-09-06,Rig B,Near Miss,PPE Violation,High,emp_624,True,Closed
+2022-10-02,Rig B,Unsafe Act,Slips/Trips,Medium,emp_625,False,Closed
+2023-11-23,Terminal X,Near Miss,Chemical Leak,Medium,emp_626,True,In Progress
+2022-08-22,Rig B,Unsafe Act,PPE Violation,Low,emp_627,False,Open
+2022-03-18,Terminal X,Near Miss,Fire Hazard,Low,emp_628,False,Closed
+2022-06-10,Terminal X,Unsafe Act,Chemical Leak,High,emp_629,True,Closed
+2022-05-31,Plant Y,Unsafe Condition,Fire Hazard,Low,emp_630,False,Closed
+2023-06-13,Rig A,Near Miss,Fire Hazard,Low,emp_631,False,In Progress
+2023-11-16,Terminal X,Near Miss,PPE Violation,Medium,emp_632,True,Closed
+2022-08-10,Platform C,Near Miss,Chemical Leak,Low,emp_633,False,Closed
+2023-12-14,Rig A,Near Miss,Unauthorized Entry,High,emp_634,True,Open
+2022-05-21,Rig A,Unsafe Condition,PPE Violation,Medium,emp_635,True,Open
+2022-12-13,Rig A,Near Miss,PPE Violation,High,emp_636,True,Closed
+2022-01-28,Plant Y,Unsafe Condition,Chemical Leak,Medium,emp_637,False,Closed
+2023-12-12,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_638,True,Open
+2022-12-14,Plant Y,Unsafe Condition,Fire Hazard,Medium,emp_639,True,In Progress
+2024-01-22,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_640,False,In Progress
+2024-02-16,Plant Y,Unsafe Act,Fire Hazard,Low,emp_641,True,In Progress
+2022-06-18,Plant Y,Unsafe Act,PPE Violation,Low,emp_642,False,In Progress
+2023-11-07,Platform C,Near Miss,Slips/Trips,High,emp_643,False,In Progress
+2022-06-20,Plant Y,Unsafe Act,Unauthorized Entry,High,emp_644,False,In Progress
+2023-07-09,Rig B,Unsafe Act,PPE Violation,Low,emp_645,False,In Progress
+2024-02-20,Platform C,Near Miss,Chemical Leak,Low,emp_646,True,In Progress
+2023-06-11,Plant Y,Near Miss,Unauthorized Entry,Low,emp_647,True,Open
+2022-04-11,Rig A,Near Miss,Slips/Trips,Medium,emp_648,True,In Progress
+2023-12-10,Rig B,Unsafe Act,Slips/Trips,Medium,emp_649,True,In Progress
+2022-01-08,Rig B,Unsafe Act,Fire Hazard,Medium,emp_650,True,In Progress
+2022-10-15,Rig B,Near Miss,Unauthorized Entry,Low,emp_651,False,Closed
+2023-09-23,Platform C,Unsafe Condition,Fire Hazard,High,emp_652,True,Open
+2023-04-14,Plant Y,Near Miss,PPE Violation,Low,emp_653,True,Open
+2023-10-10,Plant Y,Unsafe Condition,Unauthorized Entry,Medium,emp_654,True,Open
+2022-07-09,Rig A,Unsafe Condition,PPE Violation,Medium,emp_655,False,In Progress
+2023-07-15,Rig A,Near Miss,Fire Hazard,Low,emp_656,False,In Progress
+2023-09-09,Rig B,Near Miss,Unauthorized Entry,Low,emp_657,True,Closed
+2022-04-11,Rig A,Near Miss,Fire Hazard,Medium,emp_658,False,Open
+2022-01-02,Platform C,Unsafe Act,Unauthorized Entry,Medium,emp_659,True,In Progress
+2023-12-15,Plant Y,Unsafe Condition,Fire Hazard,Medium,emp_660,True,Open
+2022-10-02,Rig B,Unsafe Act,Slips/Trips,Low,emp_661,False,Closed
+2023-08-17,Rig A,Unsafe Act,Fire Hazard,Medium,emp_662,False,Closed
+2023-06-25,Platform C,Near Miss,Slips/Trips,Medium,emp_663,True,Closed
+2024-02-10,Platform C,Unsafe Act,Fire Hazard,High,emp_664,True,Open
+2024-02-26,Rig A,Near Miss,Unauthorized Entry,Low,emp_665,False,In Progress
+2023-11-27,Plant Y,Unsafe Condition,Unauthorized Entry,High,emp_666,True,In Progress
+2022-11-08,Rig A,Near Miss,Unauthorized Entry,High,emp_667,False,Closed
+2023-01-05,Rig B,Unsafe Act,Chemical Leak,Medium,emp_668,True,In Progress
+2023-06-18,Rig A,Unsafe Act,PPE Violation,Low,emp_669,False,Closed
+2023-04-02,Platform C,Near Miss,Unauthorized Entry,Medium,emp_670,True,Open
+2023-01-27,Rig A,Near Miss,Slips/Trips,Low,emp_671,True,Closed
+2022-04-21,Plant Y,Unsafe Act,Unauthorized Entry,High,emp_672,False,Open
+2023-07-26,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_673,True,Closed
+2023-10-30,Rig A,Unsafe Condition,Slips/Trips,Medium,emp_674,True,In Progress
+2023-02-05,Plant Y,Near Miss,Chemical Leak,Medium,emp_675,False,In Progress
+2022-08-08,Plant Y,Unsafe Condition,Slips/Trips,Medium,emp_676,True,Closed
+2023-02-03,Platform C,Unsafe Act,Fire Hazard,Low,emp_677,True,In Progress
+2024-02-17,Plant Y,Near Miss,PPE Violation,High,emp_678,True,In Progress
+2022-06-15,Plant Y,Unsafe Act,PPE Violation,High,emp_679,False,In Progress
+2022-10-25,Plant Y,Unsafe Act,Chemical Leak,Low,emp_680,False,Open
+2022-12-04,Plant Y,Unsafe Condition,PPE Violation,Medium,emp_681,False,In Progress
+2022-02-16,Rig B,Near Miss,Chemical Leak,High,emp_682,True,Open
+2022-04-19,Rig B,Near Miss,Chemical Leak,Medium,emp_683,True,Closed
+2024-01-21,Platform C,Unsafe Condition,Chemical Leak,Low,emp_684,True,In Progress
+2022-04-11,Rig A,Unsafe Act,PPE Violation,Medium,emp_685,True,In Progress
+2023-10-24,Plant Y,Unsafe Act,Chemical Leak,High,emp_686,False,In Progress
+2023-08-29,Rig A,Unsafe Act,PPE Violation,High,emp_687,True,Closed
+2023-05-22,Rig A,Unsafe Act,Chemical Leak,Medium,emp_688,True,Open
+2022-02-13,Platform C,Near Miss,Unauthorized Entry,Low,emp_689,True,Open
+2023-04-05,Plant Y,Near Miss,Chemical Leak,Medium,emp_690,False,In Progress
+2023-12-05,Plant Y,Unsafe Condition,Slips/Trips,Low,emp_691,True,Closed
+2022-04-10,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_692,True,Closed
+2023-07-09,Rig A,Near Miss,Fire Hazard,High,emp_693,True,Closed
+2022-10-25,Rig A,Near Miss,Chemical Leak,Low,emp_694,True,Closed
+2023-05-09,Rig B,Unsafe Act,Slips/Trips,Low,emp_695,True,Closed
+2022-05-11,Terminal X,Unsafe Act,Slips/Trips,Low,emp_696,False,Open
+2022-11-16,Rig B,Unsafe Condition,PPE Violation,High,emp_697,True,Open
+2023-03-18,Rig B,Near Miss,Unauthorized Entry,Medium,emp_698,True,Open
+2022-12-09,Rig B,Unsafe Condition,Chemical Leak,High,emp_699,True,In Progress
+2022-03-28,Platform C,Near Miss,PPE Violation,Low,emp_700,True,Closed
+2023-09-07,Platform C,Unsafe Act,Unauthorized Entry,Medium,emp_701,True,In Progress
+2023-04-30,Rig B,Unsafe Condition,Chemical Leak,High,emp_702,True,Closed
+2023-09-15,Terminal X,Unsafe Condition,Fire Hazard,Low,emp_703,True,Open
+2022-09-09,Rig A,Near Miss,Chemical Leak,Low,emp_704,True,In Progress
+2022-01-17,Terminal X,Unsafe Act,Slips/Trips,High,emp_705,True,Open
+2022-03-17,Plant Y,Unsafe Condition,Slips/Trips,High,emp_706,True,Closed
+2022-10-29,Platform C,Unsafe Act,Fire Hazard,High,emp_707,False,Closed
+2022-09-20,Rig A,Unsafe Condition,PPE Violation,Low,emp_708,False,Closed
+2022-07-22,Rig A,Unsafe Act,Unauthorized Entry,High,emp_709,False,Open
+2022-09-14,Plant Y,Near Miss,Chemical Leak,Low,emp_710,False,Closed
+2024-01-07,Plant Y,Unsafe Condition,Slips/Trips,High,emp_711,True,Open
+2022-06-22,Rig B,Unsafe Condition,PPE Violation,Low,emp_712,False,In Progress
+2022-09-10,Platform C,Unsafe Act,Fire Hazard,Low,emp_713,False,Closed
+2022-11-13,Platform C,Unsafe Act,Slips/Trips,Medium,emp_714,True,Closed
+2022-07-25,Terminal X,Unsafe Condition,Fire Hazard,High,emp_715,False,Closed
+2022-08-20,Rig B,Near Miss,Chemical Leak,High,emp_716,False,In Progress
+2022-07-20,Rig B,Unsafe Act,Unauthorized Entry,Low,emp_717,True,Closed
+2022-09-05,Rig B,Unsafe Act,Slips/Trips,Low,emp_718,True,Open
+2022-06-14,Rig B,Unsafe Act,Slips/Trips,Low,emp_719,True,Open
+2023-05-07,Platform C,Unsafe Condition,Chemical Leak,Medium,emp_720,False,Closed
+2023-01-17,Platform C,Unsafe Condition,PPE Violation,Medium,emp_721,False,Closed
+2022-01-08,Rig B,Unsafe Condition,Unauthorized Entry,Low,emp_722,True,In Progress
+2023-05-18,Terminal X,Unsafe Condition,Slips/Trips,High,emp_723,True,In Progress
+2023-11-18,Rig A,Near Miss,Unauthorized Entry,High,emp_724,False,In Progress
+2023-09-18,Rig A,Near Miss,Slips/Trips,Medium,emp_725,True,Closed
+2023-03-09,Terminal X,Unsafe Condition,Unauthorized Entry,Medium,emp_726,False,In Progress
+2022-10-30,Rig B,Near Miss,Fire Hazard,Low,emp_727,True,In Progress
+2022-08-08,Platform C,Unsafe Act,Slips/Trips,High,emp_728,True,Open
+2022-03-30,Rig A,Unsafe Act,Unauthorized Entry,Low,emp_729,False,In Progress
+2023-05-20,Plant Y,Unsafe Act,PPE Violation,Medium,emp_730,True,Open
+2023-10-26,Plant Y,Unsafe Condition,Fire Hazard,High,emp_731,True,Open
+2023-10-04,Terminal X,Unsafe Act,Fire Hazard,High,emp_732,True,In Progress
+2022-11-03,Rig B,Near Miss,PPE Violation,Medium,emp_733,False,Open
+2023-04-19,Rig A,Unsafe Condition,Unauthorized Entry,Low,emp_734,True,Closed
+2023-12-23,Rig B,Near Miss,Chemical Leak,Low,emp_735,True,Closed
+2022-10-16,Rig A,Unsafe Act,PPE Violation,High,emp_736,True,In Progress
+2022-10-06,Terminal X,Unsafe Act,Unauthorized Entry,Medium,emp_737,True,Closed
+2023-10-04,Terminal X,Unsafe Act,PPE Violation,High,emp_738,True,Open
+2022-02-15,Plant Y,Unsafe Condition,PPE Violation,Medium,emp_739,True,Closed
+2022-10-02,Rig B,Near Miss,Slips/Trips,Low,emp_740,False,In Progress
+2022-04-06,Plant Y,Unsafe Condition,Unauthorized Entry,Medium,emp_741,False,In Progress
+2023-04-18,Rig B,Unsafe Condition,Chemical Leak,Low,emp_742,True,Open
+2024-02-27,Plant Y,Unsafe Act,Slips/Trips,Medium,emp_743,False,In Progress
+2023-05-20,Platform C,Unsafe Condition,PPE Violation,High,emp_744,False,Closed
+2023-12-23,Platform C,Unsafe Condition,PPE Violation,Low,emp_745,True,In Progress
+2024-01-03,Platform C,Unsafe Act,PPE Violation,High,emp_746,False,Open
+2022-05-25,Platform C,Unsafe Condition,Unauthorized Entry,High,emp_747,False,In Progress
+2023-06-14,Rig A,Unsafe Act,Unauthorized Entry,Low,emp_748,False,Closed
+2022-09-03,Platform C,Unsafe Act,Slips/Trips,Low,emp_749,False,Open
+2023-04-03,Terminal X,Unsafe Act,Chemical Leak,High,emp_750,False,Closed
+2023-11-16,Terminal X,Unsafe Act,Slips/Trips,High,emp_751,False,Open
+2022-12-03,Rig A,Unsafe Condition,Fire Hazard,High,emp_752,False,In Progress
+2022-07-02,Platform C,Unsafe Act,PPE Violation,High,emp_753,False,Open
+2023-10-11,Platform C,Unsafe Act,PPE Violation,Low,emp_754,True,Open
+2023-08-22,Platform C,Unsafe Condition,PPE Violation,Low,emp_755,True,In Progress
+2023-03-15,Plant Y,Unsafe Condition,Slips/Trips,High,emp_756,False,Closed
+2022-05-23,Rig B,Near Miss,Slips/Trips,Medium,emp_757,False,In Progress
+2022-02-13,Plant Y,Unsafe Condition,PPE Violation,Medium,emp_758,True,Open
+2023-09-28,Rig B,Unsafe Condition,Slips/Trips,Low,emp_759,False,In Progress
+2023-04-09,Platform C,Near Miss,Unauthorized Entry,High,emp_760,False,Open
+2022-03-11,Platform C,Unsafe Condition,Unauthorized Entry,High,emp_761,True,In Progress
+2022-01-27,Plant Y,Unsafe Condition,Slips/Trips,Low,emp_762,True,In Progress
+2022-09-17,Plant Y,Unsafe Condition,PPE Violation,Medium,emp_763,True,Closed
+2022-03-30,Rig B,Unsafe Condition,Slips/Trips,Medium,emp_764,False,Open
+2022-09-06,Terminal X,Near Miss,Slips/Trips,Medium,emp_765,False,Closed
+2023-05-29,Rig B,Unsafe Condition,Slips/Trips,Low,emp_766,True,Open
+2022-04-09,Plant Y,Unsafe Condition,Fire Hazard,Medium,emp_767,True,In Progress
+2024-01-16,Plant Y,Near Miss,Unauthorized Entry,Low,emp_768,False,Open
+2022-12-25,Rig A,Unsafe Act,Chemical Leak,Low,emp_769,True,Closed
+2023-08-19,Plant Y,Near Miss,Chemical Leak,High,emp_770,False,Closed
+2024-01-11,Rig A,Unsafe Act,Fire Hazard,Medium,emp_771,False,Closed
+2022-12-16,Terminal X,Near Miss,Slips/Trips,Low,emp_772,True,Open
+2023-07-27,Rig B,Near Miss,Fire Hazard,Medium,emp_773,True,Closed
+2023-04-28,Rig B,Unsafe Condition,Fire Hazard,Medium,emp_774,False,Closed
+2023-09-08,Rig A,Unsafe Act,PPE Violation,High,emp_775,True,Closed
+2022-09-30,Rig B,Unsafe Condition,Unauthorized Entry,Medium,emp_776,True,In Progress
+2022-12-02,Plant Y,Unsafe Act,Chemical Leak,High,emp_777,True,In Progress
+2023-04-10,Platform C,Near Miss,Slips/Trips,Low,emp_778,True,Open
+2023-12-12,Rig A,Near Miss,Chemical Leak,Medium,emp_779,False,Open
+2023-02-20,Rig B,Unsafe Act,Chemical Leak,Low,emp_780,False,Closed
+2024-01-17,Rig A,Unsafe Condition,Unauthorized Entry,Medium,emp_781,False,In Progress
+2023-05-04,Rig A,Unsafe Condition,Chemical Leak,Low,emp_782,False,Closed
+2023-12-21,Platform C,Unsafe Condition,Chemical Leak,Medium,emp_783,True,Closed
+2023-04-15,Plant Y,Unsafe Condition,Fire Hazard,Medium,emp_784,True,In Progress
+2022-05-19,Rig A,Near Miss,Unauthorized Entry,Medium,emp_785,False,In Progress
+2023-01-23,Rig B,Near Miss,PPE Violation,Medium,emp_786,False,In Progress
+2023-05-02,Terminal X,Near Miss,Slips/Trips,Medium,emp_787,True,Open
+2023-01-01,Rig A,Near Miss,Chemical Leak,Medium,emp_788,False,Open
+2023-02-03,Rig A,Near Miss,Slips/Trips,Medium,emp_789,False,Closed
+2023-10-13,Platform C,Unsafe Condition,PPE Violation,Medium,emp_790,True,Open
+2023-12-22,Plant Y,Unsafe Condition,Slips/Trips,Medium,emp_791,False,In Progress
+2023-06-09,Terminal X,Unsafe Condition,PPE Violation,Low,emp_792,True,In Progress
+2023-10-14,Rig B,Unsafe Condition,Fire Hazard,High,emp_793,True,Open
+2023-04-07,Terminal X,Near Miss,Chemical Leak,Medium,emp_794,False,Closed
+2022-08-24,Rig B,Near Miss,PPE Violation,High,emp_795,True,Closed
+2023-06-30,Plant Y,Near Miss,Slips/Trips,Medium,emp_796,False,Open
+2023-05-20,Rig B,Unsafe Act,Chemical Leak,Medium,emp_797,True,Closed
+2023-06-20,Platform C,Unsafe Condition,Fire Hazard,Low,emp_798,False,Closed
+2023-12-24,Platform C,Unsafe Condition,Chemical Leak,Low,emp_799,False,Closed
+2023-07-04,Platform C,Near Miss,PPE Violation,High,emp_800,False,In Progress
+2022-08-30,Platform C,Unsafe Condition,Fire Hazard,Low,emp_801,True,In Progress
+2023-02-02,Terminal X,Unsafe Condition,Slips/Trips,Low,emp_802,True,Open
+2023-05-31,Plant Y,Near Miss,Fire Hazard,High,emp_803,False,In Progress
+2022-10-02,Rig B,Unsafe Act,Fire Hazard,Low,emp_804,True,Closed
+2022-04-23,Rig B,Unsafe Act,Unauthorized Entry,Medium,emp_805,False,In Progress
+2023-02-10,Platform C,Unsafe Act,Fire Hazard,High,emp_806,False,Open
+2022-12-04,Platform C,Near Miss,Fire Hazard,High,emp_807,True,In Progress
+2022-11-22,Rig A,Unsafe Condition,Chemical Leak,Medium,emp_808,False,Closed
+2022-06-25,Plant Y,Near Miss,Slips/Trips,Low,emp_809,True,Closed
+2024-01-06,Terminal X,Near Miss,Chemical Leak,High,emp_810,False,Open
+2024-01-20,Rig B,Unsafe Condition,Chemical Leak,High,emp_811,True,In Progress
+2023-01-26,Rig A,Unsafe Act,PPE Violation,Medium,emp_812,False,In Progress
+2022-09-20,Rig A,Unsafe Act,Chemical Leak,Medium,emp_813,False,In Progress
+2023-01-29,Rig B,Near Miss,Unauthorized Entry,Low,emp_814,True,Closed
+2023-09-16,Terminal X,Unsafe Act,Unauthorized Entry,High,emp_815,False,Open
+2023-03-21,Rig A,Near Miss,PPE Violation,Low,emp_816,False,In Progress
+2022-05-27,Rig A,Near Miss,Slips/Trips,Low,emp_817,True,Closed
+2022-02-01,Plant Y,Unsafe Condition,Slips/Trips,Medium,emp_818,False,Closed
+2023-09-20,Terminal X,Unsafe Condition,Chemical Leak,High,emp_819,True,Closed
+2024-01-01,Rig A,Unsafe Condition,Chemical Leak,High,emp_820,False,In Progress
+2022-01-09,Terminal X,Near Miss,Chemical Leak,High,emp_821,True,In Progress
+2022-10-22,Rig B,Unsafe Condition,Slips/Trips,Medium,emp_822,False,In Progress
+2022-12-06,Platform C,Unsafe Act,Fire Hazard,Medium,emp_823,False,In Progress
+2022-02-25,Rig A,Unsafe Act,Unauthorized Entry,Medium,emp_824,False,In Progress
+2023-04-13,Plant Y,Near Miss,Fire Hazard,Medium,emp_825,True,In Progress
+2022-06-15,Rig B,Near Miss,Fire Hazard,Medium,emp_826,True,In Progress
+2022-01-16,Terminal X,Unsafe Condition,Slips/Trips,High,emp_827,True,In Progress
+2023-04-09,Rig B,Near Miss,Fire Hazard,Low,emp_828,True,In Progress
+2022-01-28,Rig A,Near Miss,PPE Violation,High,emp_829,False,Closed
+2022-02-16,Terminal X,Unsafe Act,Chemical Leak,Low,emp_830,False,In Progress
+2023-11-30,Platform C,Unsafe Act,PPE Violation,Medium,emp_831,True,Open
+2023-09-16,Rig B,Unsafe Condition,Unauthorized Entry,Low,emp_832,True,Closed
+2023-07-16,Rig A,Near Miss,Chemical Leak,High,emp_833,True,In Progress
+2023-06-28,Plant Y,Near Miss,Fire Hazard,High,emp_834,False,Open
+2022-02-15,Terminal X,Unsafe Act,Unauthorized Entry,Low,emp_835,True,In Progress
+2024-02-13,Rig B,Near Miss,Chemical Leak,Medium,emp_836,True,Open
+2023-11-25,Rig B,Unsafe Act,Fire Hazard,Medium,emp_837,False,Open
+2023-05-08,Platform C,Unsafe Condition,PPE Violation,High,emp_838,False,Open
+2022-02-12,Platform C,Unsafe Act,Chemical Leak,Low,emp_839,True,Open
+2022-07-07,Plant Y,Near Miss,Fire Hazard,Medium,emp_840,False,Closed
+2022-08-24,Plant Y,Unsafe Condition,PPE Violation,Medium,emp_841,True,Closed
+2022-05-25,Rig A,Unsafe Act,Unauthorized Entry,High,emp_842,False,Open
+2022-09-27,Rig A,Unsafe Act,Unauthorized Entry,Medium,emp_843,True,In Progress
+2022-10-27,Plant Y,Unsafe Condition,Unauthorized Entry,Low,emp_844,True,Open
+2023-08-04,Plant Y,Unsafe Condition,Unauthorized Entry,High,emp_845,True,Closed
+2023-07-15,Terminal X,Unsafe Act,Slips/Trips,High,emp_846,True,In Progress
+2022-08-28,Platform C,Near Miss,Chemical Leak,Low,emp_847,False,Closed
+2023-03-17,Rig A,Unsafe Act,Chemical Leak,High,emp_848,False,Closed
+2023-01-12,Platform C,Unsafe Condition,Slips/Trips,Medium,emp_849,False,In Progress
+2023-03-27,Platform C,Unsafe Act,Fire Hazard,Medium,emp_850,False,Open
+2023-10-21,Plant Y,Unsafe Condition,Fire Hazard,Low,emp_851,True,Open
+2023-02-09,Terminal X,Unsafe Condition,Unauthorized Entry,Medium,emp_852,True,Open
+2022-06-01,Rig B,Near Miss,PPE Violation,Low,emp_853,False,Open
+2022-10-23,Terminal X,Unsafe Condition,Fire Hazard,Low,emp_854,False,In Progress
+2022-07-29,Terminal X,Unsafe Condition,PPE Violation,Medium,emp_855,False,In Progress
+2022-12-19,Platform C,Near Miss,Chemical Leak,Low,emp_856,False,In Progress
+2023-01-17,Terminal X,Unsafe Condition,PPE Violation,Medium,emp_857,False,Closed
+2022-01-03,Rig A,Near Miss,Chemical Leak,High,emp_858,True,In Progress
+2022-08-19,Platform C,Near Miss,Slips/Trips,High,emp_859,True,Open
+2023-05-27,Rig A,Unsafe Condition,Slips/Trips,Low,emp_860,True,Closed
+2023-05-29,Rig B,Unsafe Condition,Unauthorized Entry,Medium,emp_861,False,Open
+2023-06-28,Platform C,Unsafe Act,Fire Hazard,Medium,emp_862,False,Open
+2023-03-25,Rig B,Near Miss,Unauthorized Entry,High,emp_863,False,In Progress
+2023-11-22,Platform C,Unsafe Act,Chemical Leak,High,emp_864,False,In Progress
+2022-01-05,Plant Y,Unsafe Condition,Unauthorized Entry,Medium,emp_865,True,Open
+2022-07-11,Terminal X,Unsafe Act,PPE Violation,Low,emp_866,True,Open
+2023-01-14,Plant Y,Near Miss,Chemical Leak,High,emp_867,False,Closed
+2023-10-11,Rig B,Unsafe Act,Slips/Trips,Low,emp_868,True,In Progress
+2023-03-17,Terminal X,Near Miss,Fire Hazard,Low,emp_869,True,Closed
+2023-07-26,Platform C,Unsafe Condition,Chemical Leak,High,emp_870,False,Closed
+2023-02-23,Terminal X,Unsafe Condition,Chemical Leak,Low,emp_871,False,Closed
+2023-03-19,Rig A,Near Miss,PPE Violation,Low,emp_872,False,Open
+2022-03-01,Terminal X,Unsafe Condition,Fire Hazard,Medium,emp_873,False,Closed
+2022-09-26,Rig A,Unsafe Condition,Slips/Trips,Low,emp_874,False,Closed
+2022-06-23,Terminal X,Unsafe Condition,Chemical Leak,Medium,emp_875,False,Open
+2022-02-28,Rig A,Unsafe Condition,Chemical Leak,High,emp_876,True,In Progress
+2022-11-23,Rig B,Near Miss,PPE Violation,High,emp_877,True,In Progress
+2022-01-25,Plant Y,Unsafe Act,Unauthorized Entry,Medium,emp_878,False,Closed
+2023-02-21,Platform C,Unsafe Act,Slips/Trips,High,emp_879,True,Open
+2023-06-26,Terminal X,Unsafe Condition,Fire Hazard,Low,emp_880,False,In Progress
+2022-06-18,Plant Y,Unsafe Act,Chemical Leak,Low,emp_881,False,Closed
+2022-09-21,Platform C,Unsafe Act,Chemical Leak,Low,emp_882,False,Closed
+2022-11-04,Platform C,Unsafe Condition,Slips/Trips,High,emp_883,False,Open
+2023-05-27,Rig A,Unsafe Condition,Unauthorized Entry,Low,emp_884,True,Closed
+2022-07-30,Rig B,Unsafe Act,Chemical Leak,High,emp_885,False,In Progress
+2022-12-03,Rig B,Near Miss,Slips/Trips,Low,emp_886,True,Open
+2022-04-24,Plant Y,Unsafe Condition,PPE Violation,Medium,emp_887,False,In Progress
+2023-11-23,Rig B,Near Miss,Unauthorized Entry,High,emp_888,False,In Progress
+2023-08-12,Terminal X,Unsafe Act,Fire Hazard,High,emp_889,False,In Progress
+2023-06-22,Rig B,Unsafe Condition,Chemical Leak,Low,emp_890,True,Closed
+2023-09-16,Plant Y,Near Miss,Slips/Trips,High,emp_891,False,Closed
+2022-08-06,Rig B,Unsafe Condition,PPE Violation,High,emp_892,False,In Progress
+2023-05-08,Terminal X,Unsafe Act,Fire Hazard,Medium,emp_893,False,In Progress
+2024-02-14,Rig A,Near Miss,Slips/Trips,Medium,emp_894,True,Open
+2023-04-20,Plant Y,Unsafe Act,Slips/Trips,Low,emp_895,True,Open
+2022-04-14,Rig A,Unsafe Act,Fire Hazard,Medium,emp_896,True,Closed
+2023-06-30,Rig A,Unsafe Condition,PPE Violation,Low,emp_897,False,Closed
+2022-03-21,Rig A,Near Miss,PPE Violation,Low,emp_898,True,Open
+2022-09-19,Platform C,Unsafe Act,Unauthorized Entry,Low,emp_899,False,In Progress
+2022-07-21,Platform C,Unsafe Act,Chemical Leak,High,emp_900,True,Closed
+2022-10-14,Rig A,Near Miss,Fire Hazard,Medium,emp_901,True,In Progress
+2022-11-13,Plant Y,Unsafe Act,Fire Hazard,Low,emp_902,False,Open
+2024-02-08,Terminal X,Unsafe Act,Fire Hazard,Medium,emp_903,True,Closed
+2023-12-31,Terminal X,Near Miss,PPE Violation,Low,emp_904,False,Closed
+2022-09-14,Rig B,Near Miss,Chemical Leak,Medium,emp_905,False,Open
+2022-05-22,Plant Y,Near Miss,Unauthorized Entry,Medium,emp_906,True,Closed
+2023-12-01,Platform C,Near Miss,Slips/Trips,Low,emp_907,False,Open
+2023-04-19,Rig A,Unsafe Condition,Slips/Trips,High,emp_908,False,Closed
+2023-12-10,Rig B,Near Miss,Fire Hazard,Medium,emp_909,True,Open
+2023-11-29,Terminal X,Unsafe Condition,Chemical Leak,High,emp_910,True,Closed
+2022-04-12,Platform C,Unsafe Condition,PPE Violation,High,emp_911,False,In Progress
+2023-08-09,Platform C,Unsafe Condition,Chemical Leak,Low,emp_912,True,In Progress
+2023-09-20,Rig A,Unsafe Act,Chemical Leak,Low,emp_913,False,In Progress
+2023-01-15,Terminal X,Unsafe Condition,PPE Violation,Low,emp_914,False,Closed
+2022-05-08,Plant Y,Unsafe Condition,Fire Hazard,Medium,emp_915,True,Closed
+2023-07-20,Platform C,Unsafe Act,Chemical Leak,Low,emp_916,True,In Progress
+2023-02-28,Rig A,Unsafe Act,Slips/Trips,Low,emp_917,True,In Progress
+2023-03-04,Plant Y,Unsafe Act,PPE Violation,Medium,emp_918,True,Open
+2022-04-14,Terminal X,Near Miss,Unauthorized Entry,Medium,emp_919,False,Open
+2023-08-11,Platform C,Unsafe Act,Fire Hazard,Low,emp_920,False,Open
+2024-02-26,Plant Y,Unsafe Act,PPE Violation,Low,emp_921,True,In Progress
+2022-01-01,Plant Y,Unsafe Condition,Unauthorized Entry,Low,emp_922,True,In Progress
+2023-02-10,Plant Y,Unsafe Act,Unauthorized Entry,Low,emp_923,False,In Progress
+2022-08-14,Platform C,Near Miss,Chemical Leak,High,emp_924,False,Open
+2022-06-18,Platform C,Unsafe Act,Chemical Leak,High,emp_925,False,Closed
+2022-07-11,Rig B,Near Miss,Chemical Leak,Low,emp_926,False,In Progress
+2024-01-03,Terminal X,Unsafe Act,PPE Violation,High,emp_927,True,Closed
+2023-08-31,Rig A,Unsafe Act,PPE Violation,Medium,emp_928,False,Closed
+2023-03-05,Plant Y,Unsafe Act,Fire Hazard,High,emp_929,False,Closed
+2023-12-14,Rig B,Unsafe Act,Chemical Leak,High,emp_930,True,Open
+2023-02-14,Rig A,Near Miss,Unauthorized Entry,Low,emp_931,False,Closed
+2023-04-12,Rig B,Near Miss,Slips/Trips,High,emp_932,False,In Progress
+2022-06-20,Platform C,Unsafe Condition,Fire Hazard,High,emp_933,True,Open
+2023-07-15,Plant Y,Near Miss,PPE Violation,High,emp_934,True,In Progress
+2023-04-13,Rig A,Unsafe Act,Fire Hazard,High,emp_935,True,In Progress
+2022-01-06,Rig A,Unsafe Condition,Fire Hazard,Medium,emp_936,False,Open
+2023-09-27,Rig A,Unsafe Condition,Fire Hazard,Low,emp_937,False,In Progress
+2023-11-11,Rig A,Unsafe Condition,Fire Hazard,Low,emp_938,True,In Progress
+2022-11-10,Rig A,Unsafe Act,Slips/Trips,Medium,emp_939,True,Open
+2023-04-21,Rig B,Near Miss,Chemical Leak,High,emp_940,False,In Progress
+2022-12-06,Plant Y,Unsafe Act,Unauthorized Entry,Medium,emp_941,True,Closed
+2022-02-09,Platform C,Unsafe Condition,Fire Hazard,High,emp_942,True,In Progress
+2022-03-29,Platform C,Unsafe Act,Fire Hazard,Medium,emp_943,True,Closed
+2022-07-11,Platform C,Unsafe Act,Fire Hazard,Low,emp_944,False,In Progress
+2022-12-14,Platform C,Near Miss,Chemical Leak,Low,emp_945,False,Open
+2022-09-26,Rig B,Near Miss,PPE Violation,Low,emp_946,False,Open
+2022-11-09,Terminal X,Unsafe Condition,PPE Violation,High,emp_947,False,In Progress
+2022-03-08,Plant Y,Unsafe Act,Slips/Trips,High,emp_948,False,Open
+2022-05-20,Rig A,Unsafe Act,PPE Violation,Medium,emp_949,False,In Progress
+2022-02-18,Terminal X,Near Miss,Fire Hazard,Medium,emp_950,True,Open
+2024-01-06,Platform C,Unsafe Act,Fire Hazard,Low,emp_951,False,Closed
+2023-10-08,Terminal X,Unsafe Act,Fire Hazard,High,emp_952,False,In Progress
+2022-04-08,Plant Y,Unsafe Act,Slips/Trips,Medium,emp_953,True,Closed
+2022-11-07,Rig A,Near Miss,Fire Hazard,High,emp_954,False,Closed
+2022-08-27,Rig A,Unsafe Condition,PPE Violation,High,emp_955,False,In Progress
+2022-12-11,Plant Y,Unsafe Condition,Chemical Leak,Low,emp_956,True,Closed
+2023-01-02,Plant Y,Unsafe Act,Chemical Leak,Low,emp_957,True,In Progress
+2022-07-10,Platform C,Unsafe Condition,Unauthorized Entry,High,emp_958,True,Closed
+2023-11-05,Rig A,Near Miss,PPE Violation,High,emp_959,False,In Progress
+2024-01-08,Terminal X,Near Miss,Fire Hazard,High,emp_960,True,In Progress
+2022-12-13,Rig B,Unsafe Condition,Chemical Leak,High,emp_961,False,Open
+2023-09-03,Rig B,Unsafe Condition,PPE Violation,Low,emp_962,False,In Progress
+2023-11-21,Plant Y,Unsafe Act,Chemical Leak,Medium,emp_963,False,In Progress
+2022-01-27,Platform C,Unsafe Condition,Fire Hazard,Low,emp_964,False,Closed
+2024-01-11,Rig B,Unsafe Act,Chemical Leak,Medium,emp_965,True,In Progress
+2023-02-16,Rig A,Unsafe Act,Unauthorized Entry,High,emp_966,True,Open
+2022-02-04,Plant Y,Near Miss,Unauthorized Entry,Medium,emp_967,False,Closed
+2024-02-13,Terminal X,Near Miss,Chemical Leak,Low,emp_968,True,Closed
+2022-12-06,Plant Y,Near Miss,PPE Violation,Low,emp_969,False,Open
+2023-03-07,Terminal X,Near Miss,PPE Violation,High,emp_970,False,Closed
+2022-11-15,Plant Y,Unsafe Condition,PPE Violation,Low,emp_971,False,Closed
+2022-05-19,Plant Y,Near Miss,Chemical Leak,High,emp_972,True,Closed
+2022-01-19,Plant Y,Unsafe Condition,PPE Violation,Low,emp_973,False,Closed
+2024-01-11,Terminal X,Near Miss,Fire Hazard,Low,emp_974,False,Open
+2022-12-08,Terminal X,Unsafe Condition,Unauthorized Entry,High,emp_975,True,Open
+2022-05-01,Plant Y,Unsafe Act,Fire Hazard,Medium,emp_976,True,Closed
+2023-04-17,Rig B,Unsafe Condition,PPE Violation,Low,emp_977,True,Closed
+2023-07-24,Platform C,Unsafe Condition,Fire Hazard,Medium,emp_978,True,Open
+2024-02-03,Platform C,Near Miss,PPE Violation,Low,emp_979,False,Open
+2023-01-16,Platform C,Unsafe Condition,Chemical Leak,Low,emp_980,True,Open
+2022-07-12,Terminal X,Unsafe Act,Fire Hazard,Low,emp_981,False,Closed
+2023-07-01,Terminal X,Unsafe Act,Chemical Leak,Low,emp_982,True,Closed
+2024-01-16,Rig B,Near Miss,Chemical Leak,Medium,emp_983,True,In Progress
+2022-03-09,Platform C,Unsafe Act,Slips/Trips,Medium,emp_984,True,Open
+2022-10-02,Platform C,Unsafe Condition,PPE Violation,Low,emp_985,True,Closed
+2023-05-19,Plant Y,Unsafe Act,Unauthorized Entry,Low,emp_986,True,Open
+2023-09-18,Terminal X,Near Miss,PPE Violation,Medium,emp_987,True,Closed
+2023-06-30,Platform C,Unsafe Condition,Unauthorized Entry,High,emp_988,False,Open
+2023-09-11,Rig B,Near Miss,PPE Violation,High,emp_989,True,Closed
+2022-05-10,Rig B,Unsafe Condition,Chemical Leak,Medium,emp_990,True,In Progress
+2022-08-22,Platform C,Unsafe Act,Fire Hazard,Low,emp_991,True,In Progress
+2023-12-03,Terminal X,Near Miss,Fire Hazard,Low,emp_992,True,Open
+2022-03-07,Rig B,Near Miss,Slips/Trips,High,emp_993,False,Closed
+2023-09-17,Plant Y,Unsafe Condition,Unauthorized Entry,High,emp_994,True,Closed
+2023-01-30,Rig B,Near Miss,Unauthorized Entry,Medium,emp_995,True,Open
+2022-06-20,Rig A,Unsafe Condition,Unauthorized Entry,High,emp_996,True,Closed
+2022-05-26,Rig A,Unsafe Condition,Chemical Leak,Medium,emp_997,True,Open
+2023-02-06,Terminal X,Unsafe Condition,Unauthorized Entry,High,emp_998,False,Closed
+2022-07-08,Platform C,Unsafe Condition,Fire Hazard,High,emp_999,True,Open

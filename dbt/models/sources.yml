@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: interview
+    database: "{{ var('source_database', target.database) }}"
+    schema: "{{ var('source_schema', 'RAW') }}"
+    tables:
+      - name: sample_table
+        identifier: "{{ var('source_table', 'SAMPLE_TABLE') }}"

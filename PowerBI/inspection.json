@@ -1,0 +1,72 @@
+[
+  {
+    "file": "OilProduction/Oil Production Analysis Report.pbix",
+    "sha256": "5e32e710966ba2bd2754cd98ef44c3003481e3b345dca042e00a8c3e863c2753",
+    "pages": [
+      {
+        "name": "Summary & Insights",
+        "visuals": 19
+      },
+      {
+        "name": "Dashboard",
+        "visuals": 21
+      },
+      {
+        "name": "Trend Analysis",
+        "visuals": 17
+      },
+      {
+        "name": "Forecast",
+        "visuals": 13
+      }
+    ]
+  },
+  {
+    "file": "OperationsSafety/Oil & Gas Data Intelligence Dashboard.pbix",
+    "sha256": "37014cf3076339a1d87ca31c9522514226c66f99ae937aa7de9dea7c443d165f",
+    "pages": [
+      {
+        "name": "Executive Overview",
+        "visuals": 7
+      },
+      {
+        "name": "Safety Observations",
+        "visuals": 11
+      },
+      {
+        "name": "Process Verifications",
+        "visuals": 6
+      },
+      {
+        "name": "Dropped Objects",
+        "visuals": 9
+      },
+      {
+        "name": "Training Assessments",
+        "visuals": 12
+      },
+      {
+        "name": "Change Control & Integration",
+        "visuals": 13
+      }
+    ]
+  },
+  {
+    "file": "SnowflakeTemplate/Tasty Bytes Direct Query Quickstart.pbit",
+    "sha256": "41df8c6fd772e22db76112ecf2f9cdf4b73fd516673bb242bf0d5fbe46e51d52",
+    "pages": [
+      {
+        "name": "Order Summary",
+        "visuals": 9
+      },
+      {
+        "name": "Order Details",
+        "visuals": 4
+      },
+      {
+        "name": "Time Intelligence",
+        "visuals": 7
+      }
+    ]
+  }
+]

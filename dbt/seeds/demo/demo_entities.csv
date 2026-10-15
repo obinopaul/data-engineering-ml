@@ -1,0 +1,3 @@
+entity_id,entity_name,entity_type,status,updated_at
+asset_a,Demo Asset A,equipment,active,2026-01-01 00:00:00
+asset_b,Demo Asset B,equipment,active,2026-01-01 00:00:00

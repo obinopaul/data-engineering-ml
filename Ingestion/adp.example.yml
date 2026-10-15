@@ -1,0 +1,12 @@
+# US ADP Workforce Now: confirm product/region/subscription access first.
+pipeline_name: adp_workers
+dataset: raw
+table: adp_workers
+primary_key: id               # Adapter maps associateOID to id.
+write_disposition: merge
+source:
+  type: adp
+  page_size: 50
+  max_pages: 10000             # Fail rather than silently truncate.
+  # Retained after extraction; the API itself may return more fields.
+  include_fields: [associateOID, workerStatus]

@@ -1,0 +1,3 @@
+event_type,metric_unit,description
+pressure,kPa,Example pressure contract - normalize source units before loading
+temperature,degC,Example temperature contract - normalize source units before loading

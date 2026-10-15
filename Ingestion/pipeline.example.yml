@@ -1,0 +1,25 @@
+# Copy to pipeline.yml, then edit. Paths are relative to main/.
+pipeline_name: interview_files
+dataset: raw
+table: sample_table
+primary_key: id
+write_disposition: merge
+source:
+  type: files
+  location: data
+  glob: '*.csv'
+  format: csv                 # csv, parquet or jsonl
+  # reader_options: {dtype: {id: str}}  # preserve leading zeros in CSV IDs
+
+# For Excel, replace source with:
+# source:
+#   type: excel
+#   path: data/input.xlsx
+#   sheet: Sheet1
+#
+# For a SQL table, replace source with (connection string is kept out of YAML):
+# source:
+#   type: sql
+#   connection_env: SOURCE_DATABASE_URL
+#   schema: dbo
+#   table: source_table
